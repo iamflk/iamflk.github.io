@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+header {
+  padding: 12px;
+  background-color: #31859bff;
+}
+header p{
+  color: #fff3cd;
+  text-align: center;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************
+            *** ALL ***
+**********************************************/
