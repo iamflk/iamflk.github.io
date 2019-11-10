@@ -1,12 +1,17 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
 }
-
+body{
+  height: 100vh;
+  background-color: #fff;
+}
 header {
-  padding: 12px;
+  padding: 7px;
   background-color: #31859bff;
 }
 header p{
@@ -15,23 +20,54 @@ header p{
   font-family: 'Roboto Mono', sans-serif;
   font-size: 16px;
 }
+nav{
+  font-family: 'Lato', sans-serif;
+  background-color: #fff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+}
+.menu{
+  display: flex;
+  padding: 25px;
+  justify-content: flex-end;
+}
+nav ul{
+  list-style: none;
+  display: block;
+}
 
+.menu li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 25px;
+  color: #444;
+}
+.menu li a:link,
+.menu li a:visited{
+  -webkit-transition: background-color rgb(207, 204, 204) 0.8s;
+  -webkit-transition: background-color rgb(207, 204, 204) 1s;
+  transition: background-color rgb(207, 204, 204) 4s;
+}
+.menu li a:hover,
+.menu li a:active{
+  background-color: rgb(207, 204, 204);
+} 
+a:link,
+a:visited {
+  color: #9f9f9f;
+  -webkit-transition: background-color rgb(207, 204, 204) 0.2s, color 0.2s;
+  transition: background-color rgb(207, 204, 204) 4.2s, color 0.2s;
+}
 
+a:hover,
+a:active {
+  background-color: rgb(207, 204, 204);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**********************************************
-            *** ALL ***
-**********************************************/
+.banner{
+  height: 690px;
+  background: url(img/backwaik.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
