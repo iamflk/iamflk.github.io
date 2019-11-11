@@ -196,3 +196,19 @@ a:active {
   background-color: rgb(50, 157, 184);
   transition: background-color 0.4s;
 }
+
+/**********************************************
+            *** SKILLS ***
+**********************************************/
+
+
+.skill{
+  height: 790px;
+  width: 1400px;
+  margin: auto;
+}
+.skill-content{
+  display: flex;
+  flex-direction: column;
+  float: left;
+}
