@@ -26,7 +26,7 @@ header p {
 
 nav {
   font-family: 'Lato', sans-serif;
-  background-color: #fff;
+  background-color: white;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
   -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
 }
@@ -85,84 +85,114 @@ a:active {
             *** ABOUT ***
 **********************************************/
 
-.about{
+.about {
   width: 1400px;
   height: 790px;
   margin: auto;
-  background-color: #f0f4f7;
+  background-color: #fff;
 }
-.content{
+
+.content {
   display: flex;
   flex-direction: column;
   float: right;
   height: 790px;
   width: 800px;
 }
-.content h1{
+
+.content h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   padding: 20px;
-  margin-top: 30px;
-  margin-left: 50px;;
+  margin-top: 15px;
+  margin-left: 50px;
   width: 700px;
-  font-size: 60px;
+  text-align: center;
+  font-size: 50px;
   color: #191c1f;
 }
-.title-color{
+
+.title-color {
   color: #31859bff;
 }
-.border-row{
+
+.border-row {
   border-bottom: 7px solid #31859bff;
 }
-.content p{
+
+.content p {
   width: 800px;
   padding: 5px 20px;
   margin-top: 20px;
   font-family: 'Lato', sans-serif;
-  text-align: justify;
-  font-size: 20px;
+  font-size: 22px;
+  line-height: 1.5;
+  text-align: center;
   font-weight: 400;
   color: #191c1f;
+
 }
-.highlith{
+
+.highlith {
   border-radius: 5px;
   padding: 2px 3px;
   background-color: #b9e4fd;
 }
-.box-social{
+
+.box-social {
   display: flex;
+  justify-content: center;
   width: 800px;
   margin-top: 10px;
-  justify-content: center;
 }
-.box-social img{
+
+.box-social img {
   width: 50px;
   margin: 0 25px;
 }
-.illustration-apropos{
-  position: relative;
-  
-}
-.illustration-apropos img{
-  height: 500px;
-  width: 450px;
-  position: absolute;
-  top: 150px;
-  left: 70px;
-}
-.btn-about{
+
+.box-social span {
   display: flex;
-  margin-top: 10px;
   justify-content: center;
-}
-.btn-about a{
   font-family: 'Lato', sans-serif;
-  border-radius: 5px;
+  position: relative;
+}
+
+.logo-linkedin {
+  position: absolute;
+  bottom: 5px;
+}
+
+.illustration-apropos {
+  position: relative;
+}
+
+.illustration-apropos img {
+  width: 550px;
+  position: absolute;
+  top: 200px;
+  left: 25px;
+}
+
+.btn-about {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn-about a {
+  font-family: 'Lato', sans-serif;
+  border-radius: 25px;
   border: none;
   text-decoration: none;
   padding: 15px;
-  margin: 5px;
+  margin: 10px;
+  text-transform: capitalize;
   color: #fff;
-  
   background-color: #31859bff;
+}
+
+.btn-about a:hover {
+  background-color: rgb(50, 157, 184);
+  transition: background-color 0.4s;
 }
