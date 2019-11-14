@@ -212,7 +212,6 @@ a:active {
   float: left;
   height: 700px;
   width: 800px;
-  background-color :green;
 }
 .content-skill h1{
   text-transform: uppercase;
@@ -223,7 +222,6 @@ a:active {
   width: 700px;
   text-align: center;
   font-size: 50px;
-  background-color: yellow;
   color: #191c1f;
 }
 hr{
@@ -234,7 +232,6 @@ hr{
   flex-direction: column;
   justify-content: center;
   margin: 20px 50px;
-  background-color: red;
 }
 .box-skill h3{
   font-size: 30px;
@@ -256,7 +253,6 @@ hr{
   margin: auto;
   height: 290px;
   padding: 0 50px;
-  background-color: grey;
 }
 .skill-front img{
   display: flex;
@@ -269,7 +265,6 @@ hr{
   margin: auto;
   height: 290px;
   padding: 0 50px;
-  background-color: brown;
 }
 .skill-back img{
   display: flex;
@@ -280,14 +275,11 @@ hr{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-
-  background-color: brown;
 }
 .skill-framework{
   align-items: center;
   height: 290px;
   padding: 0 39px;
-  background-color: yellow;
 }
 .skill-framework img{
   display: flex;
@@ -298,7 +290,6 @@ hr{
   align-items: center;
   height: 290px;
   padding: 0 72.5px;
-  background-color: cyan;
 }
 .skill-tool img{
   display: flex;
