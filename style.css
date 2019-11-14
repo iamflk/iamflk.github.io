@@ -75,7 +75,7 @@ a:active {
 }
 
 .banner {
-  height: 677px;
+  height: 608px;
   background: url(img/backwaik.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,24 +87,25 @@ a:active {
 
 .about {
   width: 1400px;
-  height: 790px;
+  height: 720px;
   margin: auto;
-  background-color: #fff;
+  background-color: rgb(17, 197, 143);
 }
 
 .content {
   display: flex;
   flex-direction: column;
   float: right;
-  height: 790px;
+  height: 720px;
   width: 800px;
+  background-color: yellow;
 }
 
 .content h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  padding: 20px;
-  margin-top: 10px;
+  padding: 5px;
+  margin-bottom: -5px;
   margin-left: 50px;
   width: 700px;
   text-align: center;
@@ -185,7 +186,7 @@ a:active {
   border: none;
   text-decoration: none;
   padding: 15px;
-  margin: 10px;
+  margin: 20px;
   text-transform: capitalize;
   color: #fff;
   background-color: #31859bff;
@@ -201,7 +202,7 @@ a:active {
 **********************************************/
 
 .skill{
-  height: 700px;
+  height: 717px;
   width: 1400px;
   margin: auto;
 }
@@ -209,7 +210,7 @@ a:active {
   display: flex;
   flex-direction: column;
   float: left;
-  height: 700px;
+  height: 717px;
   width: 800px;
 }
 .content-skill h1{
@@ -217,7 +218,7 @@ a:active {
   font-family: 'Lato', sans-serif;
   margin: 5px;
   font-weight: 700;
-  margin: auto;
+  margin: 20px auto;
   width: 700px;
   text-align: center;
   font-size: 50px;
@@ -230,11 +231,12 @@ hr{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 20px 50px;
+  margin: 15px 50px;
 }
 .box-skill h3{
   font-size: 30px;
   color: #191c1f;
+  padding-bottom: 5px;
 }
 .box-skill p{
   display: flex;
@@ -256,6 +258,7 @@ hr{
 .skill-front img{
   display: flex;
   margin: auto;
+  padding-top: 7px;
   width: 50px;
 }
 .skill-back{
@@ -268,11 +271,13 @@ hr{
 .skill-back img{
   display: flex;
   margin: auto;
+  padding-top: 7px;
   width: 50px;
 }
 .row2{
   display: flex;
   flex-direction: row;
+
   justify-content: space-around;
 }
 .skill-framework{
@@ -283,6 +288,7 @@ hr{
 .skill-framework img{
   display: flex;
   margin: auto;
+  padding-top: 7px;
   width: 50px;
 }
 .skill-tool{
@@ -293,14 +299,15 @@ hr{
 .skill-tool img{
   display: flex;
   margin: auto;
+  padding-top: 7px;
   width: 50px;
 }
 .illustration-skill {
 position: relative;
+width: 150px;
 }
 .illustration-skill img{
   width: 600px;
-  float: right;
   position: absolute;
   top: 155px;
 }
