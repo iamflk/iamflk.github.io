@@ -89,7 +89,6 @@ a:active {
   width: 1400px;
   height: 790px;
   margin: auto;
-  background-color: grey;
 }
 
 .content {
@@ -99,7 +98,6 @@ a:active {
   height: 720px;
   width: 800px;
   margin-top: 35px;
-  background-color: green;
 }
 
 .content h1 {
@@ -211,7 +209,6 @@ a:active {
   height: 790px;
   width: 1400px;
   margin: auto;
-  background-color: magenta;
 }
 .content-skill{
   display: flex;
@@ -220,7 +217,6 @@ a:active {
   height: 720px;
   width: 800px;
   margin-top: 35px;
-  background-color: cyan;
 }
 .content-skill h1{
   text-transform: uppercase;
