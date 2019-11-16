@@ -89,7 +89,6 @@ a:active {
   width: 1400px;
   height: 790px;
   margin: auto;
-  background-color: grey;
 }
 
 .content {
@@ -99,7 +98,6 @@ a:active {
   height: 720px;
   width: 800px;
   margin-top: 35px;
-  background-color: green;
 }
 
 .content h1 {
@@ -183,7 +181,6 @@ a:active {
 .btn-about {
   display: flex;
   justify-content: center;
-  background-color: yellow;
 }
 
 .btn-about a {
