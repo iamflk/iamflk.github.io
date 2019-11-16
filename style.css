@@ -89,14 +89,16 @@ a:active {
   width: 1400px;
   height: 765px;
   margin: auto;
+  background-color: grey;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   float: right;
-  height: 765px;
+  height: 740px;
   width: 800px;
+  background-color: green;
 }
 
 .content h1 {
