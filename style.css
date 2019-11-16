@@ -87,7 +87,7 @@ a:active {
 
 .about {
   width: 1400px;
-  height: 761px;
+  height: 763px;
   margin: auto;
 }
 
@@ -95,7 +95,7 @@ a:active {
   display: flex;
   flex-direction: column;
   float: right;
-  height: 761px;
+  height: 763px;
   width: 800px;
 }
 
