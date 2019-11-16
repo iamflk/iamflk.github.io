@@ -180,6 +180,7 @@ a:active {
 .btn-about {
   display: flex;
   justify-content: center;
+  background-color: red;
 }
 
 .btn-about a {
@@ -188,7 +189,7 @@ a:active {
   border: none;
   text-decoration: none;
   padding: 15px;
-  margin: 20px;
+  margin: 10px;
   text-transform: capitalize;
   color: #fff;
   background-color: #31859bff;
