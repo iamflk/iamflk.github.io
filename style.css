@@ -208,7 +208,7 @@ a:active {
 **********************************************/
 
 .skill{
-  height: 717px;
+  height: 790px;
   width: 1400px;
   margin: auto;
   background-color: magenta;
@@ -217,7 +217,7 @@ a:active {
   display: flex;
   flex-direction: column;
   float: left;
-  height: 717px;
+  height: 720px;
   width: 800px;
   background-color: cyan;
 }
