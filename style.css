@@ -210,6 +210,7 @@ a:active {
   height: 717px;
   width: 1400px;
   margin: auto;
+  background-color: magenta;
 }
 .content-skill{
   display: flex;
@@ -217,6 +218,7 @@ a:active {
   float: left;
   height: 717px;
   width: 800px;
+  background-color: cyan;
 }
 .content-skill h1{
   text-transform: uppercase;
