@@ -89,6 +89,7 @@ a:active {
   width: 1400px;
   height: 790px;
   margin: auto;
+  background-color: grey;
 }
 
 .content {
@@ -98,6 +99,7 @@ a:active {
   height: 720px;
   width: 800px;
   margin-top: 35px;
+  background-color: green;
 }
 
 .content h1 {
@@ -190,7 +192,7 @@ a:active {
   border: none;
   text-decoration: none;
   padding: 15px;
-  margin-right: 10px;
+  margin: 10px;
   text-transform: capitalize;
   color: #fff;
   background-color: #31859bff;
