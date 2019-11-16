@@ -89,7 +89,6 @@ a:active {
   width: 1400px;
   height: 720px;
   margin: auto;
-  background-color: rgb(17, 197, 143);
 }
 
 .content {
@@ -98,7 +97,6 @@ a:active {
   float: right;
   height: 720px;
   width: 800px;
-  background-color: yellow;
 }
 
 .content h1 {
@@ -147,6 +145,10 @@ a:active {
   margin-top: 10px;
 }
 
+.box social a{
+  display: none;
+  color: green;
+}
 .box-social img {
   width: 50px;
   margin: 0 25px;
