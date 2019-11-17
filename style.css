@@ -27,8 +27,9 @@ header p {
 nav {
   font-family: 'Lato', sans-serif;
   background-color: white;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
-  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+  width: 1200px;
+  margin: auto;
+  border-bottom: 1px solid rgb(211, 207, 149);
 }
 
 .menu {
@@ -69,10 +70,6 @@ a:visited {
   transition: background-color rgb(207, 204, 204) 4.2s, color 0.2s;
 }
 
-a:hover,
-a:active {
-  background-color: rgb(207, 204, 204);
-}
 
 .banner {
   height: 677px;
@@ -321,11 +318,103 @@ width: 150px;
 **********************************************/
 
 .project{
+  height: 564px;
+  width: 1340px;
+  margin:  auto;
+  padding-top : 30px;
 
+}
+
+.project-portfolio{
+  height: 320px;
+  width: 1295px;
+  margin: 10px auto;
 }
 .content-project{
-
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  float: left;
+  height: 270px;
+  width: 925px;
+  margin-top: 15px;
+  float: right;
 }
-.box-project{
-  
+.contact-project h3, p{
+  font-family: 'Lato', sans-serif;
+}
+.content-project h3{
+  font-size: 35px;
+  font-weight: 400;
+  width: 275px;
+  margin-left: 50px;
+}
+.content-project .desc{
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.box-stack{
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  margin-left: 50px;
+  margin-top: 17px;
+  padding-top: 20px;
+}
+.box-stack p{
+  padding-left: 25px;
+}
+
+.box-link{
+  display: flex;
+  height: 60px;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding-top: 20px;
+}
+.box-link img{
+  position: relative;
+}
+.merge{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.web{
+  position: absolute;
+  bottom: 10px;
+}
+.box-link a{
+  padding: 20px 15px;
+  margin-bottom: 50px;
+}
+.btn-project {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  border-radius: 25px;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  background-color: #31859bff;
+}
+
+
+
+.btn-project a:hover {
+  background-color: rgb(50, 157, 184);
+  transition: background-color 0.4s;
+}
+.box-link img{
+  height: 40px;
+  width: 40px;
+}
+.illustration-project img{
+  height: 245px;
+  width: 370px;
+  margin-top: 15px;
+  float: left;
 }
