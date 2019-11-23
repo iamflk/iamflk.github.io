@@ -29,12 +29,8 @@ nav {
   background-color: white;
   width: 1200px;
   margin: auto;
-<<<<<<< HEAD
-  background-color: red;
-=======
->>>>>>> 313342044eddbcc696cb19fd6943e4a681c6abcd
-  border-bottom: 1px solid rgb(211, 207, 149);
 }
+
 
 .menu {
   display: flex;
@@ -322,15 +318,12 @@ width: 150px;
 **********************************************/
 
 .project{
-  height: 564px;
+  height: 400px;
   width: 1340px;
   margin:  auto;
   padding-top : 30px;
-<<<<<<< HEAD
-  background-color: grey;
+  background-color: green;
 }
-=======
->>>>>>> 313342044eddbcc696cb19fd6943e4a681c6abcd
 
 .project-portfolio{
   height: 320px;
@@ -339,159 +332,106 @@ width: 150px;
   background-color: orange;
 }
 
-.project-portfolio{
-  height: 320px;
-  width: 1295px;
-  margin: 10px auto;
-}
 .content-project{
   display: flex;
   flex-direction: column;
   align-content: space-between;
   float: left;
   height: 270px;
-  width: 925px;
-  margin-top: 15px;
+  width: 935px;
+  margin-top: 25px;
   float: right;
-<<<<<<< HEAD
-  background-color: red;
-=======
->>>>>>> 313342044eddbcc696cb19fd6943e4a681c6abcd
+  background-color: rgb(193, 193, 241);
 }
-.contact-project h3, p{
+.content-project h3, .desc, .box-stack p{
   font-family: 'Lato', sans-serif;
 }
 .content-project h3{
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 400;
   width: 275px;
   margin-left: 50px;
-<<<<<<< HEAD
-  background-color: yellow;
-=======
->>>>>>> 313342044eddbcc696cb19fd6943e4a681c6abcd
+  color: #444;
+  background-color: brown;
 }
 .content-project .desc{
   font-size: 16px;
+  width: 875px;
   margin-top: 20px;
   margin-left: 50px;
-<<<<<<< HEAD
-  background-color: brown;
+  background-color: yellow;
 }
 
 .box-stack{
   display: flex;
   flex-direction: row;
   height: 60px;
+  width: 875px;
   margin-left: 50px;
   margin-top: 17px;
-  padding-top: 20px;
-  background-color: greenyellow;
+  padding: 10px 10px;
+  background-color: red;
 }
 .box-stack p{
-  padding-left: 25px;
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #b9e4fd;;
 }
 
 .box-link{
   display: flex;
+  align-items: center;
   height: 60px;
+  width: 875px;
   margin-top: 20px;
   margin-left: 50px;
-  padding-top: 20px;
-}
-.box-link img{
-  position: relative;
-}
-.merge{
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
-.web{
-  position: absolute;
-  bottom: 10px;
-}
-.box-link a{
-  padding: 20px 15px;
-  margin-bottom: 50px;
-}
-.btn-project {
-  display: flex;
-  justify-content: center;
-  font-family: 'Lato', sans-serif;
-  border-radius: 25px;
-  border: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: #fff;
-  background-color: #31859bff;
+  background-color: yellow;
 }
 
-
-=======
-}
-
-.box-stack{
-  display: flex;
-  flex-direction: row;
-  height: 60px;
-  margin-left: 50px;
-  margin-top: 17px;
-  padding-top: 20px;
-}
-.box-stack p{
-  padding-left: 25px;
-}
-
-.box-link{
-  display: flex;
-  height: 60px;
-  margin-top: 20px;
-  margin-left: 50px;
-  padding-top: 20px;
-}
-.box-link img{
-  position: relative;
-}
-.merge{
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
-.web{
-  position: absolute;
-  bottom: 10px;
-}
-.box-link a{
-  padding: 20px 15px;
-  margin-bottom: 50px;
-}
-.btn-project {
-  display: flex;
-  justify-content: center;
-  font-family: 'Lato', sans-serif;
-  border-radius: 25px;
-  border: none;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: #fff;
-  background-color: #31859bff;
-}
-
-
->>>>>>> 313342044eddbcc696cb19fd6943e4a681c6abcd
-
-.btn-project a:hover {
-  background-color: rgb(50, 157, 184);
-  transition: background-color 0.4s;
-}
 .box-link img{
   height: 40px;
   width: 40px;
+  position: relative;
+}
+.icon-merge{
+  position: absolute;
+  left: 15px;
+}
+.icon-world{
+  position: absolute;
+  left: 10px;
+}
+.box-link a{
+  padding: 10px 15px;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.btn-project {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  border-radius: 25px;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  background-color: #31859bff;
+}
+
+.btn-project:hover {
+  background-color: rgb(68, 174, 201);
+  transition: background-color 0.4s;
+}
+
+.illustration-project{
+  height: 270px;
+  width: 360px;
+  margin-top: 25px;
+  float: left;
+  background-color: red;
 }
 .illustration-project img{
-  height: 245px;
-  width: 370px;
-  margin-top: 15px;
+  height: 270px;
+  width: 360px;
   float: left;
 }
