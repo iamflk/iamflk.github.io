@@ -322,14 +322,12 @@ width: 150px;
   width: 1340px;
   margin:  auto;
   padding-top : 30px;
-  background-color: green;
 }
 
 .project-portfolio{
   height: 320px;
   width: 1295px;
   margin: 10px auto;
-  background-color: orange;
 }
 
 .content-project{
@@ -341,7 +339,6 @@ width: 150px;
   width: 935px;
   margin-top: 25px;
   float: right;
-  background-color: rgb(193, 193, 241);
 }
 .content-project h3, .desc, .box-stack p{
   font-family: 'Lato', sans-serif;
@@ -352,14 +349,12 @@ width: 150px;
   width: 275px;
   margin-left: 50px;
   color: #444;
-  background-color: brown;
 }
 .content-project .desc{
   font-size: 16px;
   width: 875px;
   margin-top: 20px;
   margin-left: 50px;
-  background-color: yellow;
 }
 
 .box-stack{
@@ -370,12 +365,10 @@ width: 150px;
   margin-left: 50px;
   margin-top: 17px;
   padding: 10px 10px;
-  background-color: red;
 }
 .box-stack p{
   padding: 5px 10px;
   margin: 5px;
-  background-color: #b9e4fd;;
 }
 
 .box-link{
@@ -385,7 +378,6 @@ width: 150px;
   width: 875px;
   margin-top: 20px;
   margin-left: 50px;
-  background-color: yellow;
 }
 
 .box-link img{
@@ -428,7 +420,6 @@ width: 150px;
   width: 360px;
   margin-top: 25px;
   float: left;
-  background-color: red;
 }
 .illustration-project img{
   height: 270px;
