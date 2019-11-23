@@ -371,6 +371,12 @@ width: 150px;
   margin: 5px;
 }
 
+.highlith-stack {
+  border-radius: 5px;
+  padding: 2px 3px;
+  background-color: #b9e4fd;
+}
+
 .box-link{
   display: flex;
   align-items: center;
