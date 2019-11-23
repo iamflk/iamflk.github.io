@@ -26,9 +26,10 @@ header p {
 
 nav {
   font-family: 'Lato', sans-serif;
-  background-color: white;
-  width: 1200px;
+  background-color: #fff;
+  width: 1300px;
   margin: auto;
+  border-bottom: 1px solid #ffe3c3;
 }
 
 
@@ -217,12 +218,13 @@ a:visited {
 .content-skill h1{
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
-  margin: 5px;
   font-weight: 700;
-  margin: 20px auto;
-  width: 700px;
-  text-align: center;
   font-size: 50px;
+  text-align: center;
+  margin: 5px;
+  margin: 20px auto;
+  width: 370px;
+  border-bottom: 7px solid #31859bff;
   color: #191c1f;
 }
 hr{
@@ -325,8 +327,8 @@ width: 150px;
 }
 
 .project-portfolio{
-  height: 320px;
-  width: 1295px;
+  width: 100%;
+  max-width: 1295px;
   margin: 10px auto;
 }
 
@@ -351,7 +353,7 @@ width: 150px;
   color: #444;
 }
 .content-project .desc{
-  font-size: 16px;
+  font-size: 20px;
   width: 875px;
   margin-top: 20px;
   margin-left: 50px;
@@ -422,13 +424,11 @@ width: 150px;
 }
 
 .illustration-project{
-  height: 270px;
+  height: 300px;
   width: 360px;
-  margin-top: 25px;
-  float: left;
 }
 .illustration-project img{
-  height: 270px;
+  padding-top: 25px;
+  height: 295px;
   width: 360px;
-  float: left;
 }
