@@ -31,8 +31,16 @@ nav {
   margin: auto;
   border-bottom: 1px solid #ffe3c3;
 }
-
-
+.logo{
+  position: relative;
+  width: 50px;
+  background-color: red;
+}
+.logo img{
+  position: absolute;
+  top: 15px;
+  right: 80px;
+}
 .menu {
   display: flex;
   padding: 25px;
