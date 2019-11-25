@@ -330,7 +330,6 @@ width: 150px;
   width: 1400px;
   margin:  auto;
   padding-top: 30px;
-  background-color: red;
 }
 
 .box-project{
@@ -475,20 +474,17 @@ width: 150px;
   height: 755px;
   width: 1400px;
   margin: auto;
-  background: green;
 }
 .content-contact{
   height: 740px;
   width: 1300px;
   margin: auto;
-  background: brown;
 }
 .contact-title{
   display: flex;
   width: 100%;
   height: auto;
   color: #191c1f;
-  background-color: purple;
 }
 .contact-title h1{
   font-family: 'Lato', sans-serif;
@@ -501,7 +497,6 @@ width: 150px;
   margin: 0 auto;
   text-transform: uppercase;
   border-bottom: 7px solid #31859bff;
-  background-color: orange;
 }
 .contact-box{
   display: flex;
@@ -511,7 +506,6 @@ width: 150px;
   height: 200px;
   width: 900px;
   margin: auto;
-  background-color: grey;
 }
 .box-mail{
   display: flex;
