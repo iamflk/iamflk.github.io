@@ -211,7 +211,7 @@ a:visited {
 **********************************************/
 
 .skill{
-  height: 750px;
+  height: 760px;
   width: 1400px;
   margin: auto;
 }
@@ -229,15 +229,12 @@ a:visited {
   font-weight: 700;
   font-size: 50px;
   text-align: center;
-  margin: 5px;
   margin: 20px auto;
   width: 370px;
   border-bottom: 7px solid #31859bff;
   color: #191c1f;
 }
-hr{
 
-}
 .box-skill{
   display: flex;
   flex-direction: column;
@@ -247,6 +244,7 @@ hr{
 .box-skill h3{
   font-size: 30px;
   color: #191c1f;
+  font-family: "Open Sans", sans-serif;
   padding-bottom: 5px;
 }
 .box-skill p{
@@ -328,16 +326,45 @@ width: 150px;
 **********************************************/
 
 .project{
-  height: 400px;
-  width: 1340px;
+  height: 752px;
+  width: 1400px;
   margin:  auto;
-  padding-top : 30px;
+  padding-top: 30px;
+  background-color: red;
 }
 
+.box-project{
+  height: 700px;
+  width: 1300px;
+  margin: auto;
+}
+
+.project-title{
+  display: flex;
+  width: 820px;
+  height: auto;
+  color: #191c1f;
+}
+
+.project-title h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  height: 60px;
+  width: 360px;
+  text-align: center;
+  padding-bottom: 60px;
+  margin: 5px auto;
+  text-transform: uppercase;
+  border-bottom: 7px solid #31859bff;
+}
 .project-portfolio{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
   width: 100%;
   max-width: 1295px;
-  margin: 10px auto;
+  margin: 145px auto;
 }
 
 .content-project{
@@ -345,10 +372,9 @@ width: 150px;
   flex-direction: column;
   align-content: space-between;
   float: left;
-  height: 270px;
+  height: 290px;
   width: 935px;
-  margin-top: 25px;
-  float: right;
+  margin-top: 0px;
 }
 .content-project h3, .desc, .box-stack p{
   font-family: 'Lato', sans-serif;
@@ -358,7 +384,7 @@ width: 150px;
   font-weight: 400;
   width: 275px;
   margin-left: 50px;
-  color: #444;
+  color: #191c1f;
 }
 .content-project .desc{
   font-size: 20px;
@@ -370,11 +396,12 @@ width: 150px;
 .box-stack{
   display: flex;
   flex-direction: row;
+  justify-content: start;
   height: 60px;
   width: 875px;
   margin-left: 50px;
   margin-top: 17px;
-  padding: 10px 10px;
+  padding: 10px 0;
 }
 .box-stack p{
   padding: 5px 10px;
@@ -403,7 +430,7 @@ width: 150px;
 }
 .icon-merge{
   position: absolute;
-  left: 15px;
+  left: 10px;
 }
 .icon-world{
   position: absolute;
@@ -432,11 +459,94 @@ width: 150px;
 }
 
 .illustration-project{
-  height: 300px;
+  height: 290px;
   width: 360px;
 }
 .illustration-project img{
-  padding-top: 25px;
-  height: 295px;
+  height: 290px;
   width: 360px;
+}
+
+/**********************************************
+            *** CONTACT ***
+**********************************************/
+
+.contact{
+  height: 755px;
+  width: 1400px;
+  margin: auto;
+  background: green;
+}
+.content-contact{
+  height: 740px;
+  width: 1300px;
+  margin: auto;
+  background: brown;
+}
+.contact-title{
+  display: flex;
+  width: 100%;
+  height: auto;
+  color: #191c1f;
+  background-color: purple;
+}
+.contact-title h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+  height: 60px;
+  width: 360px;
+  text-align: center;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  border-bottom: 7px solid #31859bff;
+  background-color: orange;
+}
+.contact-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 900px;
+  margin: auto;
+  background-color: grey;
+}
+.box-mail{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  width: 300px;
+  margin-right: 45px;
+  border: 1px solid #444;
+}
+.box-mail img{
+  height: 40px;
+}
+.box-mail p{
+  text-align: center;
+}
+.box-location{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 125px;
+  width: 300px;
+  border: 1px solid #444;
+}
+.box-location img{
+  height: 40px;
+}
+.box-location p{
+  
+  
+}
+.box-mail p, .box-location p{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  padding-top: 10px;
 }
