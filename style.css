@@ -485,18 +485,53 @@ width: 150px;
   width: 100%;
   height: auto;
   color: #191c1f;
+  padding-bottom: 40px;
 }
 .contact-title h1{
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 50px;
   height: 60px;
-  width: 360px;
+  width: 413px;
   text-align: center;
   padding-bottom: 60px;
   margin: 0 auto;
   text-transform: uppercase;
   border-bottom: 7px solid #31859bff;
+}
+.contact-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  width: 500px;
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(150, 230, 150);
+}
+.contact-header-title{
+  font-size: 35px;
+  height: 50px;
+  width: 295px;
+  margin-top: 10px;
+  background-color: rgb(228, 124, 55);
+}
+
+.contact-header-title h3{
+  
+}
+.contact-header-intro{
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 25px;
+  width: 385px;
+  background-color: rgb(228, 124, 55);
+}
+
+.contact-button{
+
+}
+.contact-button a{
+
 }
 .contact-box{
   display: flex;
@@ -506,6 +541,7 @@ width: 150px;
   height: 200px;
   width: 900px;
   margin: auto;
+  background-color : grey;
 }
 .box-mail{
   display: flex;
@@ -535,12 +571,59 @@ width: 150px;
 .box-location img{
   height: 40px;
 }
-.box-location p{
-  
-  
-}
+
 .box-mail p, .box-location p{
   font-family: 'Lato', sans-serif;
   text-align: center;
   padding-top: 10px;
+}
+
+.contact-social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  height: 100px;
+  width: 300px;
+  margin-top: 5px;
+  background-color: green;
+}
+.contact-social img{
+  margin: 5px;
+}
+.contact-github{
+  width: 30px;
+}
+.contact-linkedin{
+  width: 30px;
+}
+.contact-infos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 300px;
+  margin: auto;
+  margin-top: 5px;
+  background-color: red;
+}
+.contact-infos h3, .contact-infos p{
+  font-family: 'Lato', sans-serif;
+}
+.contact-infos h3{
+  height: 50px;
+  width: 50%;
+  text-align: center;
+  padding-top: 15px;
+  text-transform: uppercase;
+  background-color: green;
+}
+.contact-infos p{
+  height: 50px;
+  width: 85%;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 15px;
+  background-color: grey;
 }
