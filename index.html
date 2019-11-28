@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
@@ -13,25 +14,41 @@
 </head>
 
 <body>
-    <header>
-        <p>Site en cours d'élaboration</p>
-    </header>
+
     <section class="home">
         <nav role="navigation">
+            <div class="menu-icon">
+                <i class="fa fa-bars fa-2x"></i>
+            </div>
             <div class="logo">
                 <a href="index.html"><img src="img/capi.svg" alt="logo"></a>
             </div>
-            <ul class="menu" id="menu">
-                <li id="link-about"><a href="#about">À propos</a></li>
-                <li id="link-skill"><a href="#skill">Compétences</a></li>
-                <li id="link-project"><a href="#project">Réalisations</a></li>
-                <li id="link-contact"><a href="#contact">Contactez-moi</a></li>
-            </ul>
+             <div class="menu" id="menu">
+                <ul>
+                    <li id="link-about"><a href="#about">À propos</a></li>
+                    <li id="link-skill"><a href="#skill">Compétences</a></li>
+                    <li id="link-project"><a href="#project">Réalisations</a></li>
+                    <li id="link-contact"><a href="#contact">Contactez-moi</a></li>
+                </ul>
+            </div> 
         </nav>
-        <div class="banner"></div>
+        <div class="banner">
+                <ul class="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                </ul>
+        </div>
     </section>
     <button id="btn-top">
-        <img src="img/arrow.png" class="fas fa-angle-double-up"></img>
+        <img src="img/arrow.png" class="fas fa-angle-double-up logo-animated"></img>
     </button>
     <section class="about" id="about">
         <div class="content">
@@ -60,12 +77,12 @@
             <div class="box-social">
                 <div>
                     <a href="https://github.com/CapiCode" target="_blank">
-                        <img src="img/github.svg" alt=""></a>
+                        <img src="img/github.svg" alt="" class="logo-animated "></a>
                     <span class="logo-github">Github</span>
                 </div>
                 <div>
                     <a href="https://www.linkedin.com/in/giovanni-charles-edouard-a15337179" target="_blank">
-                        <img src="img/linkedin.svg" alt=""></a>
+                        <img src="img/linkedin.svg" alt="" class="logo-animated "></a>
                     <span class="logo-linkedin">LinkedIn</span>
                 </div>
             </div>
@@ -161,6 +178,7 @@
                     <p class="desc">Ce premier projet est un portfolio réalisé pour mettre en
                         valeur mes
                         compétences ainsi que l'étendu de mes travaux.
+                        Celui-ci sera en constante évolution.
                         L'interface utilisateur exploite principalement le standard CSS3 (Flexbox), les îcones (Icon8)
                         et la librairie (JQuery).
                     </p>
@@ -170,10 +188,10 @@
                         <p class="highlith-stack">Javascript</p>
                     </div>
                     <div class="box-link">
-                        <img src="img/project/merge.png" class="icon-merge" alt="Source">
+                        <img src="img/project/merge.png" class="icon-merge logo-animated " alt="Source">
                         <a href="https://github.com/CapiCode/capicode.github.io" class="btn-project"
                             target="_blank">Voir la Source ⇢</a>
-                        <img src="img/project/world.png" class="icon-world" alt="Website">
+                        <img src="img/project/world.png" class="icon-world logo-animated " alt="Website">
                         <a href="https://capicode.github.io/" class="btn-project">Visiter ⇢</a>
                     </div>
                 </div>
