@@ -19,22 +19,25 @@
     <section class="home">
         <nav role="navigation">
             <div class="logo">
-                <img src="img/capi.svg" alt="logo">
+                <a href="index.html"><img src="img/capi.svg" alt="logo"></a>
             </div>
             <ul class="menu" id="menu">
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#skill">Compétences</a></li>
-                <li><a href="#project">Réalisations</a></li>
-                <li><a href="#contact">Contactez-moi</a></li>
+                <li id="link-about"><a href="#about">À propos</a></li>
+                <li id="link-skill"><a href="#skill">Compétences</a></li>
+                <li id="link-project"><a href="#project">Réalisations</a></li>
+                <li id="link-contact"><a href="#contact">Contactez-moi</a></li>
             </ul>
         </nav>
         <div class="banner"></div>
     </section>
+    <button id="btn-top">
+        <img src="img/arrow.png" class="fas fa-angle-double-up"></img>
+    </button>
     <section class="about" id="about">
         <div class="content">
             <div>
-                <h1>Salut! Je suis <span class="title-color">CapiCode</span>👻 Autodidacte en développement <span
-                        class="border-row" id="row"></span></h1>
+                <h1>Salut! Je suis <span class="title-color">CapiCode</span>👻 Autodidacte en développement
+                    <span class="border-row" id="row"></span></h1>
             </div>
             <div>
                 <p>
@@ -55,19 +58,19 @@
                 </p>
             </div>
             <div class="box-social">
-                    <div>
-                        <a href="https://github.com/CapiCode" target="_blank">
+                <div>
+                    <a href="https://github.com/CapiCode" target="_blank">
                         <img src="img/github.svg" alt=""></a>
-                        <span class="logo-github">Github</span>
-                    </div>
+                    <span class="logo-github">Github</span>
+                </div>
                 <div>
                     <a href="https://www.linkedin.com/in/giovanni-charles-edouard-a15337179" target="_blank">
                         <img src="img/linkedin.svg" alt=""></a>
-                        <span class="logo-linkedin">LinkedIn</span>
-                    </div>
+                    <span class="logo-linkedin">LinkedIn</span>
+                </div>
             </div>
             <div class="btn-about">
-                <a href="CV/CV _Giovanni_CHARLES-EDOUARD.pdf" target="_blank">Voir mon CV ⇢</a>
+                <a href="cv/CV _Giovanni_CHARLES-EDOUARD.pdf" target="_blank">Voir mon CV ⇢</a>
                 <a href="#project">Consultez mes projets ⇢</a>
             </div>
         </div>
@@ -155,11 +158,11 @@
             <div class="project-portfolio">
                 <div class="content-project">
                     <h3>Portfolio personnel</h3>
-                    <p class="desc">Ce premier projet est un portfolio que j'ai réalisé un portfolio pour mettre en
+                    <p class="desc">Ce premier projet est un portfolio réalisé pour mettre en
                         valeur mes
                         compétences ainsi que l'étendu de mes travaux.
                         L'interface utilisateur exploite principalement le standard CSS3 (Flexbox), les îcones (Icon8)
-                        et la librairie (ScrollReveal).
+                        et la librairie (JQuery).
                     </p>
                     <div class="box-stack">
                         <p class="highlith-stack">HTML</p>
@@ -220,22 +223,22 @@
             <div class="contact-social">
                 <div>
                     <a href="https://github.com/CapiCode" target="_blank">
-                    <img src="img/contact/github.svg" alt="Github" class="contact-github"></a>
+                        <img src="img/contact/github.svg" alt="Github" class="contact-github"></a>
                 </div>
                 <div>
                     <a href="https://www.linkedin.com/in/giovanni-charles-edouard-a15337179" target="_blank">
-                    <img src="img/contact/linkedin.svg" alt="LinkedIn" class="contact-linkedin"></a>
+                        <img src="img/contact/linkedin.svg" alt="LinkedIn" class="contact-linkedin"></a>
                 </div>
             </div>
         </div>
     </section>
     <footer>
-            <p>© 2019 | CapiCode 👻 | Tous droits réservés.</p>
-        </footer>
+        <p>© 2019 | CapiCode 👻 | Tous droits réservés.</p>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
-    <script src="libs/jquery/dist/jquery.js"></script>
-    <script src="libs/scrollreveal/dist/scrollreveal.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="app.js"></script>
+
 </body>
 
 </html>

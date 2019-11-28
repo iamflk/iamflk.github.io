@@ -1,28 +1,74 @@
-var sr = ScrollReveal({
-  duration: 1000,
-  reset: true,
-  mobile: false,
-  useDelay: 'once'
+$(function () {
+  $("#link-about").click(function () {
+    $("html, body").animate({
+      scrollTop: $("section.about").offset().top
+    }, 1000);
+  });
+  $("#link-skill").click(function () {
+    $("html, body").animate({
+      scrollTop: $("section.skill").offset().top
+    }, 1000);
+  });
+  $("#link-project").click(function () {
+    $("html, body").animate({
+      scrollTop: $("section.project").offset().top
+    }, 1000);
+  });
+  $("#link-contact").click(function () {
+    $("html, body").animate({
+      scrollTop: $("section.contact").offset().top
+    }, 1000);
+  });
+
 });
 
-// section home
-sr.reveal('.logo img');
+const backToTopButton = document.querySelector("#btn-top");
 
-sr.reveal('.hero-content p', {delay: 500});
-sr.reveal('.hero-content a', {delay: 1000});
-sr.reveal('.hero-img', {delay: 1500});
+window.addEventListener("scroll", scrollFunction);
 
-// section intro
+function scrollFunction() {
+  if (window.pageYOffset > 300) {
+    if (!backToTopButton.classList.contains("btnEntrance")) {
+      backToTopButton.classList.remove("btnExit");
+      backToTopButton.classList.add("btnEntrance");
+      backToTopButton.style.display = "block";
+    }
+  } else {
+    if (backToTopButton.classList.contains("btnEntrance")) {
+      backToTopButton.classList.remove("btnEntrance");
+      backToTopButton.classList.add("btnExit");
+      setTimeout(function () {
+        backToTopButton.style.display = "none";
+      }, 250);
+    }
+  }
+}
 
-sr.reveal('.intro-feature', 500);
+backToTopButton.addEventListener("click", smoothScrollBackToTop);
 
-//section sign-up
+function smoothScrollBackToTop() {
+  const targetPosition = 0;
+  const startPosition = window.pageYOffset;
+  const distance = targetPosition - startPosition;
+  const duration = 750;
+  let start = null;
 
-sr.reveal('.sign-up h3');
-sr.reveal('.sign-up .name', {delay: 500, origin: 'right', distance: '50px'});
-sr.reveal('.sign-up .password', {delay: 1000, origin: 'left', distance: '50px'});
-sr.reveal('.sign-up button', {delay: 1500});
+  window.requestAnimationFrame(step);
 
+  function step(timestamp) {
+    if (!start) start = timestamp;
+    const progress = timestamp - start;
+    window.scrollTo(0, easeInOutCubic(progress, startPosition, distance, duration));
+    if (progress < duration) window.requestAnimationFrame(step);
+  }
+}
+
+function easeInOutCubic(t, b, c, d) {
+  t /= d / 2;
+  if (t < 1) return c / 2 * t * t * t + b;
+  t -= 2;
+  return c / 2 * (t * t * t + 2) + b;
+};
 
 var options = {
   strings: ["web"],
@@ -32,4 +78,3 @@ var options = {
   loop: true
 };
 var Typed = new Typed("#row", options);
-
