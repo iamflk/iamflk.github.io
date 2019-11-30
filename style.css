@@ -874,7 +874,7 @@ footer p {
     width: 32px;
     height: 32px;
     bottom: 6px;
-    right: 6px;
+    right: 60px;
   }
 }
 
@@ -948,7 +948,7 @@ footer p {
   }
 
   nav {
-    max-width: 100%;
+    max-width: 25%;
     background: green;
   }
 
@@ -981,11 +981,17 @@ footer p {
   }
 
   .about{
-    max-width: 121.9%;
+    max-width: 25%;
     background-color: red;
   }
-  .content{
-
+  .skill{
+    max-width: 25%;
+  }
+  .project{
+    max-width: 25%;
+  }
+  .contact{
+    max-width: 25%;
   }
 }
 
