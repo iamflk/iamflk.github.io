@@ -378,11 +378,11 @@ a:visited {
   transform: scale(1.2);
 }
 
-.illustration-about {
+.about-illustration {
   position: relative;
 }
 
-.illustration-about img {
+.about-illustration img {
   width: 550px;
   position: absolute;
   top: 200px;
@@ -492,7 +492,6 @@ a:visited {
 .row2 {
   display: flex;
   flex-direction: row;
-
   justify-content: space-around;
 }
 
@@ -522,12 +521,12 @@ a:visited {
   width: 50px;
 }
 
-.illustration-skill {
+.skill-illustration {
   position: relative;
   width: 150px;
 }
 
-.illustration-skill img {
+.skill-illustration img {
   width: 600px;
   position: absolute;
   top: 155px;
@@ -872,7 +871,48 @@ footer p {
   }
 }
 
-/* Animations */
+/**********************************************
+            *** ANIMATES ***
+**********************************************/
+
+.viber{
+  color: #474E51;
+}
+
+.viber:hover
+{
+  animation: viber 1s ease;
+  animation-iteration-count: 1;
+}
+
+@keyframes viber
+{
+  15%
+  {
+      transform: translateX(5px);
+  }
+  30%
+  {
+      transform: translateX(-5px);
+  }
+  50%
+  {
+      transform: translateX(3px);
+  }
+  65%
+  {
+      transform: translateX(-3px);
+  }
+  80%
+  {
+      transform: translateX(2px);
+  }
+  100%
+  {
+      transform: translateX(0);
+  }
+}
+
 .btnEntrance {
   animation-duration: 0.5s;
   animation-fill-mode: both;

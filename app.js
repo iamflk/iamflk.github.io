@@ -89,6 +89,37 @@ function easeInOutCubic(t, b, c, d) {
   return c / 2 * (t * t * t + 2) + b;
 };
 
+var sr = ScrollReveal({
+  duration: 1500,
+  reset: true
+});
+
+// section hero
+sr.reveal('nav', {afterReveal: function(domEl){
+  domEl.style.letterSpacing = '1px';
+}});
+sr.reveal('.hero-text h1', {delay: 500});
+sr.reveal('.hero-text h2', {delay: 1000});
+sr.reveal('.hero-text img', {delay: 1500});
+
+// section about
+
+sr.reveal('.about-content', {delay: 500});
+sr.reveal('.about-illustration img', 2000);
+sr.reveal('.intro-feature', 500);
+
+//section skill
+sr.reveal('.skill-illustration img', 500);
+sr.reveal('.skill-front', {delay: 1500, origin: 'left', distance: '50px'});
+sr.reveal('.skill-back', {delay: 2000, origin: 'right', distance: '50px'});
+sr.reveal('.skill-framework', {delay: 2500, origin: 'left', distance: '50px'});
+sr.reveal('.skill-tool', {delay: 3000, origin: 'right', distance: '50px'});
+
+
+// section project
+sr.reveal('.project-portfolio', {delay: 500, origin: 'top', distance: '50px', easing: 'ease-in' });
+
+
 var options = {
   strings: ["web"],
   typeSpeed: 100,
