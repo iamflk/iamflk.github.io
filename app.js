@@ -1,22 +1,3 @@
-$(document).ready(function() {
-  $(".menu-icon").on("click", function() {
-        $("nav ul").toggleClass("color");
-  });
-});
-
-// Scrolling Effect
-
-$(window).on("scroll", function() {
-  if($(window).scrollTop()) {
-        $('nav').addClass('color');
-  }
-
-  else {
-        $('nav').removeClass('color');
-  }
-})
-
-
 $(function () {
   $("#link-about").click(function () {
     $("html, body").animate({
@@ -94,6 +75,7 @@ var sr = ScrollReveal({
   reset: true
 });
 
+
 // section hero
 sr.reveal('nav', {afterReveal: function(domEl){
   domEl.style.letterSpacing = '1px';
@@ -104,20 +86,20 @@ sr.reveal('.hero-text img', {delay: 1500});
 
 // section about
 
-sr.reveal('.about-content', {delay: 500});
-sr.reveal('.about-illustration img', 2000);
-sr.reveal('.intro-feature', 500);
+// sr.reveal('.about-content', {delay: 500});
+// sr.reveal('.about-illustration img', 2000);
+// sr.reveal('.intro-feature', 500);
 
 //section skill
-sr.reveal('.skill-illustration img', 500);
-sr.reveal('.skill-front', {delay: 1500, origin: 'left', distance: '50px'});
-sr.reveal('.skill-back', {delay: 2000, origin: 'right', distance: '50px'});
-sr.reveal('.skill-framework', {delay: 2500, origin: 'left', distance: '50px'});
-sr.reveal('.skill-tool', {delay: 3000, origin: 'right', distance: '50px'});
+// sr.reveal('.skill-illustration img', 500);
+// sr.reveal('.skill-front', {delay: 1500, origin: 'left', distance: '50px'});
+// sr.reveal('.skill-back', {delay: 2000, origin: 'right', distance: '50px'});
+// sr.reveal('.skill-framework', {delay: 2500, origin: 'left', distance: '50px'});
+// sr.reveal('.skill-tool', {delay: 3000, origin: 'right', distance: '50px'});
 
 
 // section project
-sr.reveal('.project-portfolio', {delay: 500, origin: 'top', distance: '50px', easing: 'ease-in' });
+// sr.reveal('.project-portfolio', {delay: 500, origin: 'top', distance: '50px', easing: 'ease-in' });
 
 
 var options = {
