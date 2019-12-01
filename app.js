@@ -1,3 +1,11 @@
+$(document).ready(function() {
+  $(".menu-icon").on("click", function() {
+        $("nav ul").toggleClass("color");
+  });
+});
+
+// Scrolling Effect
+
 $(window).on("scroll", function() {
   if($(window).scrollTop()) {
         $('nav').addClass('color');
@@ -7,12 +15,6 @@ $(window).on("scroll", function() {
         $('nav').removeClass('color');
   }
 })
-
-$(document).ready(function() {
-  $(".menu-icon").on("click", function() {
-        $("nav ul").toggleClass("showing");
-  });
-});
 
 
 $(function () {

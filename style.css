@@ -36,7 +36,7 @@ nav.color ul {
 
 nav ul li {
   display: inline-block;
-  padding: 1px 40px;
+  padding: 15px 40px;
 }
 
 .menu li a {
@@ -44,6 +44,7 @@ nav ul li {
   text-transform: uppercase;
   font-size: 25px;
   color: black;
+  position: relative;
 }
 
 .menu li a:link,
@@ -52,12 +53,29 @@ nav ul li {
   text-decoration: none;
 }
 
-.menu li a:hover,
-.menu li a:active {
-  color: black;
-  border-bottom: 2px solid black;
-  
+.menu li a::after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -3px;
+  width: 60%;
+  height: 1.5px;
+  opacity: 0;
+  background-color: #fff;
+  transform: translate(-50%, 0);
+  transition: all 0.3s ease-in-out;
 }
+
+.menu li a:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+
+.borderCenter {
+  position: relative;
+}
+
+
 
 a:link,
 a:visited {
@@ -92,7 +110,8 @@ a:visited {
 .logo img {
   position: absolute;
   top: 5px;
-  left: 35px;
+  left: 45px;
+  width: 80px;
 }
 
 .banner {
@@ -102,21 +121,36 @@ a:visited {
   height: 100vh;
 }
 
-.hero-text{
+.hero-text {
   display: flex;
-  align-items: center;
-  text-transform: uppercase;
+  align-items: flex-start;
+  flex-direction: column;
   z-index: 98;
-  height: 100px;
-  width: 600px;
+  width: 895px;
   position: absolute;
   top: 40%;
   left: 10%;
-  font-size: 24px;
-  text-align: center;
+}
+
+.hero-text h1 {
   font-family: 'Lato', sans-serif;
-  line-height: 60px;
+  font-weight: 300;
+  font-size: 65px;
+  text-align: center;
+  line-height: 80px;
   color: #fff;
+}
+
+.hero-text h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 65px;
+  
+  line-height: 80px;
+  color: #fff;
+}
+.hero-text img{
+  width: 50px;
 }
 
 .circles {
@@ -234,13 +268,19 @@ a:visited {
 
 }
 
+.index img{
+  width: 40px;
+}
+
+
 
 /**********************************************
             *** ABOUT ***
 **********************************************/
 
 .about {
-  width: 1522px;
+  width: 100%;
+  max-width: 1522px;
   height: 790px;
   margin: auto;
 }
@@ -258,11 +298,11 @@ a:visited {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   padding: 5px;
-  margin-bottom: -5px;
+  margin-top: 60px;
   margin-left: 50px;
   width: 700px;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   color: #191c1f;
 }
 
@@ -277,7 +317,7 @@ a:visited {
 .about-content p {
   width: 800px;
   padding: 5px 20px;
-  margin-top: 10px;
+  margin-top: 20px;
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   line-height: 1.5;
@@ -352,6 +392,7 @@ a:visited {
 .btn-about {
   display: flex;
   justify-content: center;
+  margin-top: 5px;
 }
 
 .btn-about a {
@@ -391,23 +432,12 @@ a:visited {
   margin-top: 15px;
 }
 
-.content-skill h1 {
-  text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: 50px;
-  text-align: center;
-  margin: 20px auto;
-  width: 370px;
-  border-bottom: 7px solid #31859bff;
-  color: #191c1f;
-}
 
 .box-skill {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 15px 50px;
+  margin: 105px 50px;
 }
 
 .box-skill h3 {
@@ -520,25 +550,6 @@ a:visited {
   margin: auto;
 }
 
-.project-title {
-  display: flex;
-  width: 820px;
-  height: auto;
-  color: #191c1f;
-}
-
-.project-title h1 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
-  font-size: 50px;
-  height: 60px;
-  width: 360px;
-  text-align: center;
-  padding-bottom: 60px;
-  margin: 5px auto;
-  text-transform: uppercase;
-  border-bottom: 7px solid #31859bff;
-}
 
 .project-portfolio {
   display: flex;
@@ -546,7 +557,7 @@ a:visited {
   flex-direction: row-reverse;
   width: 100%;
   max-width: 1295px;
-  margin: 145px auto;
+  margin: 160px auto;
 }
 
 .content-project {
@@ -671,24 +682,6 @@ a:visited {
   background-color: #ffe4e1;
 }
 
-.contact-title {
-  width: 100%;
-  color: #191c1f;
-  padding-top: 25px;
-}
-
-.contact-title h1 {
-  font-weight: 700;
-  font-size: 50px;
-  height: 60px;
-  width: 425px;
-  text-align: center;
-  padding-bottom: 60px;
-  margin: 0 auto;
-  text-transform: uppercase;
-  border-bottom: 7px solid #31859bff;
-}
-
 .content-contact {
   display: flex;
   justify-content: space-around;
@@ -704,6 +697,7 @@ a:visited {
   align-items: center;
   height: 300px;
   width: 500px;
+  margin-top: 320px;
 }
 
 .contact-header-title {
@@ -711,7 +705,6 @@ a:visited {
   font-size: 27px;
   height: 50px;
   width: 100%;
-  margin-top: 50px;
 }
 
 .contact-header-intro {
@@ -753,6 +746,7 @@ a:visited {
 .contact-illustration img {
   width: 400px;
   height: 300px;
+  margin-top: 250px;
 }
 
 .contact-box {
@@ -761,7 +755,7 @@ a:visited {
   justify-content: space-evenly;
   height: 240px;
   width: 300px;
-  margin: 30px auto;
+  margin: 100px auto;
 }
 
 .contact-coordinates {
@@ -885,17 +879,6 @@ footer p {
   animation-name: btnEntrance;
 }
 
-/* zoomIn */
-/* @keyframes btnEntrance { 
-  from {
-    opacity: 0;
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-  to {
-    opacity: 1;
-  }    
-} */
-
 /* fadeInUp */
 @keyframes btnEntrance {
   from {
@@ -915,16 +898,6 @@ footer p {
   animation-name: btnExit;
 }
 
-/* zoomOut */
-/* @keyframes btnExit {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-    transform: scale3d(0.3, 0.3, 0.3);
-  }
-} */
 
 /* fadeOutDown */
 @keyframes btnExit {
@@ -938,61 +911,3 @@ footer p {
   }
 }
 
-/* Tablet Styles */
-@media only screen and (max-width: 960px) {
-  .logo {
-    position: fixed;
-    top: 0;
-    width: 30px;
-    margin-top: 20px;
-  }
-
-  nav {
-    max-width: 25%;
-    background: green;
-  }
-
-  nav ul {
-    max-height: 0px;
-    background: #fff;
-  }
-
-  /* nav.black ul {
-    background-color: red;
-  } */
-
-  .showing {
-    max-height: 34em;
-  }
-
-  nav ul li {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 24px;
-    text-align: center;
-  }
-
-  .menu-icon {
-    display: block;
-  }
-  .banner{
-    max-width: 49.61%;
-    width: 121.9%;
-  }
-
-  .about{
-    max-width: 25%;
-    background-color: red;
-  }
-  .skill{
-    max-width: 25%;
-  }
-  .project{
-    max-width: 25%;
-  }
-  .contact{
-    max-width: 25%;
-  }
-}
-
-/*@media(max-width: 786px) */
