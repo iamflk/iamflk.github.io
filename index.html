@@ -5,14 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    
+    <link rel="stylesheet" href="style.css">
     <title>CapiCode</title>
 </head>
 
@@ -20,24 +16,26 @@
 
     <section class="home">
         <nav role="navigation">
-            <div class="menu-icon">
-                  <i class="fa fa-bars fa-2x icon"></i>
-            </div>
-
             <div class="logo">
                 <a><img src="img/capi.svg" alt="logo"></a>
             </div>
+            <div id="menuToggle">
 
-            <div class="menu" id="menu">
-                <ul class="border">
+                <input type="checkbox" class="checked" />
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+                <ul id="menu" class="border">
                     <li id="link-about"><a href="#about">À Propos</a></li>
                     <li id="link-skill"><a href="#skill">Compétences</a></li>
                     <li id="link-project"><a href="#project">Réalisations</a></li>
                     <li id="link-contact"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
-      </nav>
-        
+        </nav>
+
         <div class="hero-text">
             <h1>Salut! <img src="img/hand.png" class="viber" alt="Hand"></h1>
             <h2>Bienvenue sur mon site web personnel <img src="img/globe.png" alt="Globe"></h2>
@@ -80,8 +78,8 @@
                     apprentissage pour 2 ans.
                     Ce parcours m'attire particulièrement car il offre des cours axés sur la <span
                         class="highlith">conception web</Salut> et <span class="highlith">mobile</span>.
-                    J'adore apprendre de mon côté de façon à rester en veille permanente, chose particulièrement
-                    importante dans le monde de l'informatique car tout évolue très rapidement !
+                        J'adore apprendre de mon côté de façon à rester en veille permanente, chose particulièrement
+                        importante dans le monde de l'informatique car tout évolue très rapidement !
                 </p>
             </div>
             <div class="box-social">
@@ -96,7 +94,7 @@
                     <span class="logo-linkedin">LinkedIn</span>
                 </div>
             </div>
-            <div class="btn-about">
+            <div class="about-btn">
                 <a href="cv/CV_Giovanni_CHARLES-EDOUARD.pdf" target="_blank">Voir mon CV ⇢</a>
                 <a href="#project">Consultez mes projets ⇢</a>
             </div>
@@ -106,8 +104,8 @@
         </div>
     </section>
     <section class="skill" id="skill">
-        <div class="content-skill">
-            <div class="box-skill">
+        <div class="skill-content">
+            <div class="skill-box">
                 <div class="row">
                     <div class="skill-front">
                         <div>
@@ -175,9 +173,9 @@
         </div>
     </section>
     <section class="project" id="project">
-        <div class="box-project">
+        <div class="project-box">
             <div class="project-portfolio">
-                <div class="content-project">
+                <div class="project-content">
                     <h3>Portfolio personnel</h3>
                     <p class="desc">Ce premier projet est un portfolio réalisé pour mettre en
                         valeur mes
@@ -199,7 +197,7 @@
                         <a href="https://capicode.github.io/" class="btn-project">Visiter ⇢</a>
                     </div>
                 </div>
-                <div class="illustration-project">
+                <div class="project-illustration">
                     <img src="img/project/portfolio.png" alt="">
                 </div>
             </div>
@@ -244,32 +242,7 @@
     <footer>
         <p>© 2019 | capicode.github.io 👻</p>
     </footer>
-    <script type="text/javascript">
-
-        // Menu-toggle button
-  
-        $(document).ready(function() {
-              $(".menu-icon").on("click", function() {
-                    $("nav ul").toggleClass("showing");
-              });
-        });
-  
-        // Scrolling Effect
-  
-        $(window).on("scroll", function() {
-              if($(window).scrollTop()) {
-                    $('nav').addClass('color');
-              }
-  
-              else {
-                    $('nav').removeClass('color');
-              }
-        })
-  
-  
-        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
-    
     <script src="libs/scrollreveal/dist/scrollreveal.js"></script>
     <script src="app.js"></script>
 </body>
