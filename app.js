@@ -104,20 +104,53 @@ sr.reveal('.hero-text img', {
 
 // section about
 
-// sr.reveal('.about-content', {delay: 500});
-// sr.reveal('.about-illustration img', 2000);
-// sr.reveal('.intro-feature', 500);
+sr.reveal('.about-content', {
+  delay: 500
+});
+sr.reveal('.about-illustration img', 2000);
+sr.reveal('.intro-feature', 500);
 
 //section skill
-// sr.reveal('.skill-illustration img', 500);
-// sr.reveal('.skill-front', {delay: 1500, origin: 'left', distance: '50px'});
-// sr.reveal('.skill-back', {delay: 2000, origin: 'right', distance: '50px'});
-// sr.reveal('.skill-framework', {delay: 2500, origin: 'left', distance: '50px'});
-// sr.reveal('.skill-tool', {delay: 3000, origin: 'right', distance: '50px'});
+sr.reveal('.skill-illustration img', 500);
+sr.reveal('.skill-front', {
+  delay: 1500,
+  origin: 'left',
+  distance: '50px'
+});
+sr.reveal('.skill-back', {
+  delay: 2000,
+  origin: 'right',
+  distance: '50px'
+});
+sr.reveal('.skill-framework', {
+  delay: 2500,
+  origin: 'left',
+  distance: '50px'
+});
+sr.reveal('.skill-tool', {
+  delay: 3000,
+  origin: 'right',
+  distance: '50px'
+});
 
 
 // section project
-// sr.reveal('.project-portfolio', {delay: 500, origin: 'top', distance: '50px', easing: 'ease-in' });
+sr.reveal('.project-portfolio', {
+  delay: 500,
+  origin: 'top',
+  distance: '50px',
+  easing: 'ease-in'
+});
+
+// section contact
+
+sr.reveal('.contact-header-title h3', {
+  delay: 500
+});
+sr.reveal('.contact-header-intro p', 1000);
+sr.reveal('.contact-button a', 1500);
+sr.reveal('.contact-illustration', 2000)
+sr.reveal('.contact-box', 2500);
 
 
 var options = {
