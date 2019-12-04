@@ -573,7 +573,7 @@ a:visited {
 .project-content h3 {
   font-size: 30px;
   font-weight: 400;
-  max-width: 28%;
+  max-width: 230%;
   margin-left: 50px;
   color: #191c1f;
 }
@@ -652,14 +652,15 @@ a:visited {
 }
 
 .project-illustration {
-  height: 290px;
-  max-width: 100%;
+  height: 300px;
+  width: 450px;
   flex-wrap: wrap;
+  background: red;
 }
 
 .project-illustration img {
-
-  max-width: 140%;
+  height: 100%;
+  width: auto;
   background :red;
 }
 
@@ -669,28 +670,31 @@ a:visited {
 
 .contact {
   height: 705px;
-  width: 1522px;
+  max-width: 100%;
   margin: auto;
   font-family: 'Lato', sans-serif;
   background-color: #ffe4e1;
+
 }
 
-.content-contact {
+.contact-content {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  height: 300px;
-  width: 1300px;
-  margin: 35px auto;
+  padding-top: 50px;
+  max-height: 100%;
+  max-width: 85.5%;
+  margin: 0 auto;
 }
 
 .contact-header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 300px;
+  height: 750px;
   width: 500px;
-  margin-top: 320px;
+  margin-top: 95px;
 }
 
 .contact-header-title {
@@ -733,13 +737,14 @@ a:visited {
 
 .contact-illustration {
   width: 400px;
-  height: 300px;
+  height: 900px;
+  margin-bottom: 100px;
+  margin-left: 900px;
 }
 
 .contact-illustration img {
   width: 400px;
-  height: 300px;
-  margin-top: 250px;
+  height: 300px;;
 }
 
 .contact-box {
@@ -747,13 +752,13 @@ a:visited {
   flex-direction: column;
   justify-content: space-evenly;
   height: 240px;
-  max-width: 20%;
-  margin: 100px auto;
+  width: 300px;
+  margin-top: -200px;
 }
 
 .contact-coordinates {
   height: 50px;
-  max-width: 60%;
+  max-width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -943,7 +948,7 @@ footer p {
   }
 }
 
-@media(max-width: 786px) {
+@media (max-width: 425px) {
 
   #menuToggle {
     display: block;
