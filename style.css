@@ -669,51 +669,51 @@ a:visited {
 **********************************************/
 
 .contact {
+  display: flex;
   height: 705px;
   max-width: 100%;
   margin: auto;
+  flex-wrap: wrap;
   font-family: 'Lato', sans-serif;
   background-color: #ffe4e1;
-
 }
 
 .contact-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
-  padding-top: 50px;
-  max-height: 100%;
-  max-width: 85.5%;
-  margin: 0 auto;
+  height: 705px;
+  max-width: 55%;
 }
 
 .contact-header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 750px;
-  width: 500px;
-  margin-top: 95px;
+  height: 200px;
+  max-width: 70%;
+  margin-top: 100px;
 }
 
 .contact-header-title {
   text-align: center;
   font-size: 27px;
-  height: 50px;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .contact-header-intro {
   font-size: 18px;
-  margin-top: 25px;
   line-height: 25px;
-  width: 465px;
-  text-align: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .contact-button {
-  margin-top: 45px;
+  width: 140px;
+  height: 40px;
 }
 
 .contact-button a {
@@ -735,25 +735,12 @@ a:visited {
   -o-transition: background-color 0.4s, color 0.4s;
 }
 
-.contact-illustration {
-  width: 400px;
-  height: 900px;
-  margin-bottom: 100px;
-  margin-left: 900px;
-}
-
-.contact-illustration img {
-  width: 400px;
-  height: 300px;;
-}
-
 .contact-box {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   height: 240px;
   width: 300px;
-  margin-top: -200px;
 }
 
 .contact-coordinates {
@@ -806,6 +793,20 @@ a:visited {
 
 .box-location p {
   width: 160px;
+}
+
+.contact-illustration {
+  position: relative;
+  height: 705.1px;
+  width: 685px;
+  float: right;
+}
+
+.contact-illustration img {
+  position: absolute;
+  width: 500px;
+  top: 185px;
+  left: 100px;
 }
 
 /**********************************************
