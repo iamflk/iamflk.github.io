@@ -33,7 +33,7 @@ $(function () {
       scrollTop: $("section.contact").offset().top
     }, 1000);
   });
-
+  
 });
 
 // Scroll Top
