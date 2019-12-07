@@ -8,6 +8,11 @@ $(window).on("scroll", function () {
 })
 
 $(function () {
+  $("#home").click(function () {
+    $("html, body").animate({
+      scrollTop: $("section.home").offset().top
+    }, 1000);
+  });
   $("#link-about").click(function () {
     $("html, body").animate({
       scrollTop: $("section.about").offset().top
