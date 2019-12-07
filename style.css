@@ -521,6 +521,10 @@ a:visited {
   padding-top: 0.7rem;
   width: 5rem;
 }
+.skill-framework .icon-bulma{
+  height: 4rem;
+  width: 10rem;
+}
 
 .skill-tool {
   align-items: center;
