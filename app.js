@@ -33,7 +33,11 @@ $(function () {
       scrollTop: $("section.contact").offset().top
     }, 1000);
   });
-  
+  $("#see-project").click(function () {
+    $("html, body").animate({
+      scrollTop: $("section.project").offset().top
+    }, 1000);
+  });
 });
 
 // Scroll Top
