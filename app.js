@@ -121,25 +121,25 @@ function easeInOutCubic(t, b, c, d) {
 
 var sr = ScrollReveal({
   duration: 1500,
-  reset: true
+  reset: false
 });
 
 
 // section hero
-sr.reveal('nav', {
-  afterReveal: function (domEl) {
-    domEl.style.letterSpacing = '1px';
-  }
-});
-sr.reveal('.hero-text h1', {
-  delay: 500
-});
-sr.reveal('.hero-text h2', {
-  delay: 1000
-});
-sr.reveal('.hero-text img', {
-  delay: 1500
-});
+// sr.reveal('nav', {
+//   afterReveal: function (domEl) {
+//     domEl.style.letterSpacing = '1px';
+//   }
+// });
+// sr.reveal('.hero-text h1', {
+//   delay: 500
+// });
+// sr.reveal('.hero-text h2', {
+//   delay: 1000
+// });
+// sr.reveal('.hero-text img', {
+//   delay: 1500
+// });
 
 // section about
 
