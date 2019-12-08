@@ -119,9 +119,9 @@ a:visited {
   align-items: flex-start;
   flex-direction: column;
   z-index: 98;
-  max-width: 51%;
+  max-width: 40%;
   position: absolute;
-  top: 40%;
+  top: 31%;
   left: 10%;
 }
 
@@ -145,8 +145,39 @@ a:visited {
 
 .hero-text img {
   width: 5rem;
+  cursor: pointer;
 }
 
+#icon{
+  color: black;
+    height: 7rem;
+    width: 7rem;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    line-height: 8rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 0 0 0 #fff;
+    z-index: 96;
+    animation: pulse 1.9s infinite;
+}
+.icon-arrow{
+  width: 4rem;
+  height: 4rem;
+}
+
+@keyframes pulse {
+  to
+  {
+      box-shadow: 0 0 0 1rem rgba(255, 255, 255, 0.01);
+  }
+}
 .circles {
   position: absolute;
   top: 0;
@@ -305,10 +336,10 @@ a:visited {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   padding: 0.5rem;
-  margin: 6rem auto 0;
+  margin: 7rem auto 0;
   max-width: 77%;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #191c1f;
 }
 
@@ -736,30 +767,24 @@ a:visited {
 }
 
 .contact-button {
-  width: 14rem;
-  height: 4rem;
-}
-
-.contact-button a {
-  padding: 2rem;
-  text-transform: uppercase;
-  text-decoration: none;
+  padding: 18px 36px;
+  border-radius: 61px;
+  box-shadow: inset 0 0 0 2px #31859bff;
+  transition: 300ms box-shadow cubic-bezier(0.4, 0, 0.6, 1), 300ms background-color cubic-bezier(0.4, 0, 0.6, 1), 300ms color cubic-bezier(0.4, 0, 0.6, 1);;
   color: #31859bff;
-  background-color: white;
-  border: 0.2rem solid #31859bff;
-  border-radius: 3rem;
-  font-size: 1.5rem;
 }
 
-.contact-button a:hover {
-  color: #fff;
-  background-color: #31859bff;
-  transition: background-color 0.4s, color 0.4s;
-  -webkit-transition: background-color 0.4s, color 0.4s;
-  -moz-transition: background-color 0.4s, color 0.4s;
-  -ms-transition: background-color 0.4s, color 0.4s;
-  -o-transition: background-color 0.4s, color 0.4s;
+.contact-button:hover {
+  box-shadow: inset 0 0 0 4px #31859bff;
+  color: #5778F3;
 }
+.contact-button a{
+  text-decoration: none;
+  font-size: 2rem;
+  background: none;
+  color: #000;
+}
+
 
 .contact-box {
   display: flex;
