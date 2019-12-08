@@ -100,7 +100,7 @@
   }
 
   #navigation.responsive {
-    height: 40rem;
+    height: 68rem;
     z-index: 99;
   }
 
@@ -108,7 +108,7 @@
     display: block;
     text-align: center;
     background: #31859bff;
-    margin: 0;
+    margin: 2rem auto;
     position: relative;
     top: 4rem;
     color: #000;
@@ -148,7 +148,6 @@
     width: 80rem;
     top: 20rem;
     left: 44rem;
-    background: orange;
   }
 
   .hero-text h1 {
@@ -187,7 +186,6 @@
     width: 75rem;
     top: 25rem;
     left: 10rem;
-    background: rgb(0, 255, 106);
   }
 
   .hero-text h1 {
@@ -296,38 +294,37 @@
 
   @media (max-width: 425px) {
     .banner{
-      height: 60vh;
+      height: 100vh;
       width: 100%;
     }
     .hero-text {
-      height: 20rem;
+      height: 30rem;
       width: 40rem;
-      top: 10rem;
+      top: 17rem;
       left: 0;
     }
-
     .hero-text h1 {
       font-size: 6rem;
       font-weight: 700;
-      line-height: 9rem;
+      line-height: 15rem;
     }
 
     .hero-text h2 {
       text-align: center;
-      font-size: 2rem;
-      width: 20rem;
-      line-height: 3rem;
+      font-size: 2.5rem;
+      width: 24rem;
+      line-height: 3.5rem;
     }
 
     .hero-text img {
-      width: 3.5rem;
+      width: 4.5rem;
       cursor: pointer;
     }
 
     #icon-arrow {
       height: 4.5rem;
       width: 4.5rem;
-      top: 52%;
+      top: 90%;
       left: 50.5%;
       font-size: 6rem;
       line-height: 5rem;
