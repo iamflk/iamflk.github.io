@@ -1,3 +1,24 @@
+let nav = document.getElementById('navigation');
+let icon = document.getElementById('icon');
+
+function toggleNav (){
+  if (nav.className === "") {
+      nav.className += "responsive";
+  } else {
+      nav.className = "";
+  }
+}
+
+$('html').click(function (){
+  if(nav.className += "responsive") {
+      nav.className = "";
+  }
+})
+
+$('#icon').click(function (event) {
+  event.stopPropagation();
+});
+
 // Scroll
 $(window).on("scroll", function () {
   if ($(window).scrollTop()) {
@@ -8,7 +29,7 @@ $(window).on("scroll", function () {
 })
 
 $(function () {
-  $("#home").click(function () {
+  $("#logo-home").click(function () {
     $("html, body").animate({
       scrollTop: $("section.home").offset().top
     }, 1000);
@@ -33,7 +54,7 @@ $(function () {
       scrollTop: $("section.contact").offset().top
     }, 1000);
   });
-  $("#icon").click(function () {
+  $("#icon-arrow").click(function () {
     $("html, body").animate({
       scrollTop: $("section.about").offset().top
     }, 1000);
@@ -93,6 +114,10 @@ function easeInOutCubic(t, b, c, d) {
   t -= 2;
   return c / 2 * (t * t * t + 2) + b;
 };
+
+
+
+
 
 var sr = ScrollReveal({
   duration: 1500,

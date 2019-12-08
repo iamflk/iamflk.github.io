@@ -8,32 +8,23 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mq.css">
     <title>CapiCode</title>
 </head>
 
 <body>
 
     <section class="home">
-        <nav role="navigation">
-            <div class="logo">
-                <a href="#"><img src="img/capi.svg" alt="logo" id="home"></img>
-            </div>
-            <div id="menuToggle">
-
-                <input type="checkbox" class="checked" />
-
-                <span></span>
-                <span></span>
-                <span></span>
-
-                <ul id="menu" class="border">
-                    <li id="link-about"><a href="#about">A Propos</a></li>
-                    <li id="link-skill"><a href="#skill">Compétences</a></li>
-                    <li id="link-project"><a href="#project">Réalisations</a></li>
-                    <li id="link-contact"><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
+            <!-- <div class="logo">
+                    <a href="#"><img src="img/capi.svg" alt="logo" id="logo-home"></img>
+                </div> -->
+        <nav id="navigation" class="border">
+            <a href="#about" id="link-about" onclick="toggleNav()">A Propos</a>
+            <a href="#skill" id="link-skill" onclick="toggleNav()">Compétences</a>
+            <a href="#project" id="link-project" onclick="toggleNav()">Réalisations</a>
+            <a href="#contact" id="link-contact" onclick="toggleNav()">Contact</a>
+            <a class="icon" id="icon" onclick="toggleNav()"><img src="img/bar.svg" alt="" class="bar"></a>
         </nav>
 
         <div class="hero-text">
@@ -41,9 +32,9 @@
             <h2>Bienvenue sur mon site web personnel <img src="img/globe.png" alt="Globe"></h2>
         </div>
         <div class="hero-icon">
-                <a href="#" id="icon">
-                        <img src="img/arrow_bottom.svg" alt="Bottom" class="icon-arrow" >
-                    </a>
+            <a href="#" id="icon-arrow">
+                <img src="img/arrow_bottom.svg" alt="Bottom" class="arrow">
+            </a>
         </div>
         <div class="banner">
             <ul class="circles">
@@ -83,8 +74,9 @@
                     apprentissage pour 2 ans.
                     Ce parcours m'attire particulièrement car il offre des cours axés sur la <span
                         class="highlith">conception web</span> et <span class="highlith">mobile</span>.
-                        J'adore <span class="highlith">apprendre</span> de mon côté de façon à rester en <span class="highlith">veille permanente</span>, chose particulièrement
-                        importante dans le monde de l'informatique car tout évolue très rapidement !
+                    J'adore <span class="highlith">apprendre</span> de mon côté de façon à rester en <span
+                        class="highlith">veille permanente</span>, chose particulièrement
+                    importante dans le monde de l'informatique car tout évolue très rapidement !
                 </p>
             </div>
             <div class="box-social">
@@ -241,7 +233,7 @@
             </div>
         </div>
         <div class="contact-illustration">
-               <img src="img/contact/as.svg" alt="">
+            <img src="img/contact/as.svg" alt="">
         </div>
     </section>
     <button id="btn-top">
