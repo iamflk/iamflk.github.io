@@ -76,7 +76,7 @@
 }
 
 @media (max-width: 497px) {
-  
+
 }
 
 @media (max-width: 425px) {
@@ -219,7 +219,6 @@
       width: 80rem;
       top: 15rem;
       left: 55rem;
-      background: rgb(255, 72, 0);
     }
 
     .hero-text h1 {
