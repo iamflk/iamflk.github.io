@@ -22,7 +22,7 @@ body {
 }
 .logo img {
   position: absolute;
-  bottom: -3.3rem;
+  bottom: -2.8rem;
   right: 44rem;
   width: 9rem;
 } 
@@ -33,7 +33,7 @@ nav {
   position: fixed;
   z-index: 100;
   margin: auto;
-  padding: 2.5rem;
+  padding: 4rem;
   width: 100%;
   background: #31859bff;
   font-family: 'Cabin', sans-serif;

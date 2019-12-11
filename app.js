@@ -1,4 +1,6 @@
 // Scroll
+
+
 $(function () {
   $("#logo-home").click(function () {
     $("html, body").animate({
@@ -86,6 +88,7 @@ function easeInOutCubic(t, b, c, d) {
   return c / 2 * (t * t * t + 2) + b;
 };
 
+// Scroll
 
 
 
