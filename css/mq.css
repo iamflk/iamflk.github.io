@@ -23,7 +23,7 @@
     padding: 0;
 }
 
-.nav-wrapper {
+.nav-menu {
     position: fixed;
     top: 0;
     left: 0px;
@@ -35,7 +35,7 @@
     transition: all 0.2s ease;
 }
 
-.nav-wrapper ul {
+.nav-menu ul {
     position: absolute;
     top: 45%;
     right: 5%;
@@ -43,7 +43,7 @@
     width: 100%;
 }
 
-.nav-wrapper ul li {
+.nav-menu ul li {
     display: block;
     float: none;
     width: 100%;
@@ -51,27 +51,27 @@
     margin-bottom: 20px;
 }
 
-.nav-wrapper ul li:nth-child(1) a {
+.nav-menu ul li:nth-child(1) a {
     transition-delay: 0.2s;
 }
 
-.nav-wrapper ul li:nth-child(2) a {
+.nav-menu ul li:nth-child(2) a {
     transition-delay: 0.3s;
 }
 
-.nav-wrapper ul li:nth-child(3) a {
+.nav-menu ul li:nth-child(3) a {
     transition-delay: 0.4s;
 }
 
-.nav-wrapper ul li:nth-child(4) a {
+.nav-menu ul li:nth-child(4) a {
     transition-delay: 0.5s;
 }
 
-.nav-wrapper ul li:not(:first-child) {
+.nav-menu ul li:not(:first-child) {
     margin-left: 0;
 }
 
-.nav-wrapper ul li a {
+.nav-menu ul li a {
     padding: 10px 24px;
     opacity: 0;
     color: #000;
@@ -138,12 +138,12 @@ opacity: 0;
 transform: translateY(-6px) rotate(90deg);
 }
 
-#nav:checked ~ .nav-wrapper {
+#nav:checked ~ .nav-menu {
 z-index: 9990;
 opacity: 1;
 }
 
-#nav:checked ~ .nav-wrapper ul li a {
+#nav:checked ~ .nav-menu ul li a {
 opacity: 1;
 transform: translateX(0);
 }
@@ -162,7 +162,7 @@ transform: translateX(0);
     padding: 0;
 }
 
-.nav-wrapper {
+.nav-menu {
     position: fixed;
     top: 0;
     left: 0px;
@@ -174,7 +174,7 @@ transform: translateX(0);
     transition: all 0.2s ease;
 }
 
-.nav-wrapper ul {
+.nav-menu ul {
     position: absolute;
     top: 45%;
     right: 0;
@@ -183,34 +183,34 @@ transform: translateX(0);
     background: red;
 }
 
-.nav-wrapper ul li {
+.nav-menu ul li {
     display: block;
     width: 100%;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.nav-wrapper ul li:nth-child(1) a {
+.nav-menu ul li:nth-child(1) a {
     transition-delay: 0.2s;
 }
 
-.nav-wrapper ul li:nth-child(2) a {
+.nav-menu ul li:nth-child(2) a {
     transition-delay: 0.3s;
 }
 
-.nav-wrapper ul li:nth-child(3) a {
+.nav-menu ul li:nth-child(3) a {
     transition-delay: 0.4s;
 }
 
-.nav-wrapper ul li:nth-child(4) a {
+.nav-menu ul li:nth-child(4) a {
     transition-delay: 0.5s;
 }
 
-.nav-wrapper ul li:not(:first-child) {
+.nav-menu ul li:not(:first-child) {
     margin: 5rem auto;
 }
 
-.nav-wrapper ul li a {
+.nav-menu ul li a {
     padding: 10px 24px;
     opacity: 0;
     color: #000;
@@ -278,12 +278,12 @@ opacity: 0;
 transform: translateY(-6px) rotate(90deg);
 }
 
-#nav:checked ~ .nav-wrapper {
+#nav:checked ~ .nav-menu {
 z-index: 9990;
 opacity: 1;
 }
 
-#nav:checked ~ .nav-wrapper ul li a {
+#nav:checked ~ .nav-menu ul li a {
 opacity: 1;
 transform: translateX(0);
 }
