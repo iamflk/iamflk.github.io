@@ -17,16 +17,26 @@
 <body>
 
     <section class="home">
-             <div class="logo">
-                    <a href="#"><img src="img/capi.svg" alt="logo" id="logo-home"></img>
-                </div> 
-        <nav id="navigation" class="border">
-            <a href="#about" id="link-about" onclick="toggleNav()">A Propos</a>
-            <a href="#skill" id="link-skill" onclick="toggleNav()">Compétences</a>
-            <a href="#project" id="link-project" onclick="toggleNav()">Réalisations</a>
-            <a href="#contact" id="link-contact" onclick="toggleNav()">Contact</a>
-            <a class="icon" id="icon" onclick="toggleNav()"><img src="img/bar.svg" alt="" class="bar"></a>
-        </nav>
+
+                <nav>
+                    <input type="checkbox" id="nav" class="hidden">
+                    <label for="nav" class="nav-btn">
+                          <i></i>
+                          <i></i>
+                          <i></i>
+                    </label>
+                    <div class="logo">
+                        <a href="#"><img src="img/capi.svg" alt="logo" id="logo-home"></img>
+                    </div>
+                    <div class="nav-wrapper">
+                          <ul>
+                                <li><a href="#about" id="link-about">A Propos</a></li>
+                                <li><a href="#skill" id="link-skill">Compétences</a></li>
+                                <li><a href="#project" id="link-project">Réalisations</a></li>
+                                <li><a href="#contact" id="link-contact">Contact</a></li>
+                          </ul>
+                    </div>
+              </nav>
 
         <div class="hero-text">
             <h1>Salut! <img src="img/hand.png" class="viber" alt="Hand"></h1>
@@ -75,7 +85,7 @@
                     apprentissage pour 2 ans.
                     Ce parcours m'attire particulièrement car il offre des cours axés sur la <span
                         class="highlith">conception web</span> et <span class="highlith">mobile</span>.
-                    J'adore <span class="highlith">apprendre</span> de mon côté de façon à rester en <span
+                    J'adore <span class="highlith">apprendre</span> de mon côté, de façon à rester en <span
                         class="highlith">veille permanente</span>, chose particulièrement
                     importante dans le monde de l'informatique car tout évolue très rapidement !
                 </p>

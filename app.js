@@ -1,33 +1,4 @@
-let nav = document.getElementById('navigation');
-let icon = document.getElementById('icon');
-
-function toggleNav (){
-  if (nav.className === "") {
-      nav.className += "responsive";
-  } else {
-      nav.className = "";
-  }
-}
-
-$('html').click(function (){
-  if(nav.className += "responsive") {
-      nav.className = "";
-  }
-})
-
-$('#icon').click(function (event) {
-  event.stopPropagation();
-});
-
 // Scroll
-$(window).on("scroll", function () {
-  if ($(window).scrollTop()) {
-    $('nav').addClass('color');
-  } else {
-    $('nav').removeClass('color');
-  }
-})
-
 $(function () {
   $("#logo-home").click(function () {
     $("html, body").animate({
