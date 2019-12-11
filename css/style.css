@@ -33,7 +33,7 @@ nav {
   position: fixed;
   z-index: 100;
   margin: auto;
-  padding: 4rem;
+  padding: 3.3rem;
   width: 100%;
   background: #31859bff;
   font-family: 'Cabin', sans-serif;
@@ -669,9 +669,10 @@ nav ul li a {
 }
 
 .project-illustration {
-  height: 30rem;
-  width: 45rem;
+  height: 25rem;
+  width: 50rem;
   flex-wrap: wrap;
+  background: red;
 }
 
 .project-illustration img {
