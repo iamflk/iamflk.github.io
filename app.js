@@ -1,5 +1,17 @@
-// Scroll
+$(function() {
 
+  var PreviousScrollPosition = 0;
+  $(window).scroll(function() {
+      CurrentScrollPosition = $(window).scrollTop();
+      if(PreviousScrollPosition > CurrentScrollPosition) {
+          $('nav').removeClass('hide');
+      } else {
+          $('nav').addClass('hide');
+      }
+      PreviousScrollPosition = CurrentScrollPosition;
+  });
+
+});
 
 $(function () {
   $("#logo-home").click(function () {
@@ -39,7 +51,7 @@ $(function () {
   });
 });
 
-// Scroll Top
+
 const backToTopButton = document.querySelector("#btn-top");
 
 window.addEventListener("scroll", scrollFunction);
@@ -87,11 +99,6 @@ function easeInOutCubic(t, b, c, d) {
   t -= 2;
   return c / 2 * (t * t * t + 2) + b;
 };
-
-// Scroll
-
-
-
 
 var sr = ScrollReveal({
   duration: 1500,

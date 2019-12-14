@@ -29,7 +29,7 @@
     left: 0px;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 0;
     background: #fff;
     opacity: 0;
     transition: all 0.2s ease;
@@ -90,7 +90,7 @@
     width: 48px;
     height: 48px;
     cursor: pointer;
-    z-index: 9999;
+    z-index: 0; 
     border-radius: 50%;
 }
 
@@ -139,7 +139,7 @@ transform: translateY(-6px) rotate(90deg);
 }
 
 #nav:checked ~ .nav-wrapper {
-z-index: 9990;
+z-index: 0;
 opacity: 1;
 }
 
@@ -168,7 +168,7 @@ transform: translateX(0);
     left: 0px;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 0; 
     background: #fff;
     opacity: 0;
     transition: all 0.2s ease;
@@ -230,7 +230,7 @@ transform: translateX(0);
     width: 48px;
     height: 48px;
     cursor: pointer;
-    z-index: 9999;
+     z-index: 0; 
     border-radius: 50%;
 }
 
@@ -279,7 +279,7 @@ transform: translateY(-6px) rotate(90deg);
 }
 
 #nav:checked ~ .nav-wrapper {
-z-index: 9990;
+z-index: 0;
 opacity: 1;
 }
 
@@ -288,7 +288,7 @@ opacity: 1;
 transform: translateX(0);
 }
 #icon-arrow{
-  z-index: 1;
+  z-index: 0;
   cursor: pointer;
 }
 .arrow{
@@ -309,6 +309,7 @@ transform: translateX(0);
     width: 80rem;
     top: 20rem;
     left: 44rem;
+    z-index: 2;
   }
 
   .hero-text h1 {
@@ -321,8 +322,9 @@ transform: translateX(0);
     font-size: 4rem;
   }
 .hero-icon{
-  z-index: 999999;
+  z-index: 0;
 }
+
   #icon-arrow {
     position: absolute;
     top: 75%;
@@ -365,7 +367,7 @@ transform: translateX(0);
     left: 84%;
     cursor: pointer;
     background: white;
-    z-index: 96;
+    z-index: 0;
     animation: pulse 1.5s infinite;
   }
 
@@ -396,7 +398,7 @@ transform: translateX(0);
       left: 135%;
       cursor: pointer;
       background: white;
-      z-index: 96;
+      z-index: 0;
       animation: pulse 1.5s infinite;
     }
   }
@@ -449,7 +451,7 @@ transform: translateX(0);
       font-size: 6rem;
       line-height: 5rem;
       background: white;
-      z-index: 96;
+      z-index: 0;
       animation: pulse 1.5s infinite;
     }
   }
@@ -491,7 +493,7 @@ transform: translateX(0);
       font-size: 6rem;
       line-height: 5rem;
       background: white;
-      z-index: 96;
+      z-index: 0;
       animation: pulse 1.5s infinite;
     }
 
@@ -674,7 +676,7 @@ transform: translateX(0);
       height: 55px;
       bottom: 10px;
       right: 10px;
-      z-index: 103;
+      z-index: 0;
     }
   }
   /*
