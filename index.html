@@ -9,62 +9,57 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,600,700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mq.css">
     <title>CapiCode</title>
 </head>
 
 <body>
-
+    <div class="banner">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
     <section class="home">
-                <nav>
-                    <input type="checkbox" id="nav" class="hidden">
-                    <label for="nav" class="nav-btn">
-                          <i></i>
-                          <i></i>
-                          <i></i>
-                    </label>
-                    <div class="logo">
-                        <a href="#"><img src="img/capi.svg" alt="logo" id="logo-home"></img>
-                    </div>
-                    <div class="nav-wrapper">
-                          <ul>
-                                <li><a href="#about" id="link-about">A Propos</a></li>
-                                <li><a href="#skill" id="link-skill">Compétences</a></li>
-                                <li><a href="#project" id="link-project">Réalisations</a></li>
-                                <li><a href="#contact" id="link-contact">Contact</a></li>
-                          </ul>
-                    </div>
-              </nav>
+        <nav>
+            <header>
+                <div class="logo">
+                    <img src="img/capi.svg" alt="logo" id="logo-home"></img>
+                </div>
+                <ul class="nav-wrapper">
+                    <li><a href="#about" id="link-about">A Propos</a></li>
+                    <li><a href="#skill" id="link-skill">Compétences</a></li>
+                    <li><a href="#project" id="link-project">Réalisations</a></li>
+                    <li><a href="#contact" id="link-contact">Contact</a></li>
+                </ul>
+            </header>
+        </nav>
 
         <div class="hero-text">
             <h1>Salut! <img src="img/hand.png" class="viber" alt="Hand"></h1>
             <h2>Bienvenue sur mon site web personnel <img src="img/globe.png" alt="Globe"></h2>
         </div>
-        <div class="hero-icon">
-            <a href="#" id="icon-arrow">
-                <img src="img/arrow_bottom.svg" alt="Bottom" class="arrow">
-            </a>
-        </div>
-        <div class="banner">
-            <ul class="circles">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
+        <a href="#" id="icon-arrow">
+            <img src="img/arrow_bottom.svg" alt="Bottom" class="arrow">
+        </a>
     </section>
     <section class="about" id="about">
+        <div class="about-illustration">
+            <img src="img/online.svg" alt="illustration">
+        </div>
         <div class="about-content">
             <div>
                 <h1>Je suis <span class="title-color">CapiCode</span>👻 Autodidacte en développement
@@ -106,11 +101,8 @@
                 <a href="#" id="see-project">Consultez mes projets ⇢</a>
             </div>
         </div>
-        <div class="about-illustration">
-            <img src="img/online.svg" alt="illustration">
-        </div>
     </section>
-    <section class="skill" id="skill">
+   <section class="skill" id="skill">
         <div class="skill-content">
             <div class="skill-box">
                 <div class="row">
@@ -182,6 +174,9 @@
     <section class="project" id="project">
         <div class="project-box">
             <div class="project-portfolio">
+                <div class="project-illustration">
+                    <img src="img/project/portfolio.png" alt="">
+                </div>
                 <div class="project-content">
                     <h3>Portfolio personnel</h3>
                     <p class="desc">Ce premier projet est un portfolio réalisé pour mettre en
@@ -204,13 +199,11 @@
                         <a href="https://capicode.github.io/" class="btn-project">Visiter ⇢</a>
                     </div>
                 </div>
-                <div class="project-illustration">
-                    <img src="img/project/portfolio.png" alt="">
-                </div>
+
             </div>
         </div>
     </section>
-    <section class="contact" id="contact">
+     <section class="contact" id="contact">
         <div class="contact-content">
             <div class="contact-header">
                 <div class="contact-header-title">

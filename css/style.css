@@ -19,73 +19,89 @@ body {
             *** NAVIGATION ***
 **********************************************/
 
-.logo {
-  position: relative;
-}
-
-.logo img {
-  position: absolute;
-  bottom: -2.2rem;
-  right: 44rem;
-  width: 7rem;
-}
-
 nav {
-  display: flex;
-  justify-content: flex-end;
   position: fixed;
-  padding: 1rem;
-  width: 100%;
+  width: 100vw;
   top: 0;
   left: 0;
+  z-index: 1;
   background: #31859bff;
-  font-family: 'Cabin', sans-serif;
   transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
 }
 
 nav.hide {
-  top: -50px;
+  top: -70px;
 }
 
-nav ul li {
-  display: inline-block;
+header {
+  display: flex;
+}
+header .logo {
+  width: 50px;
+  height: 50px;
+  margin: 1rem 4rem;
+  position: absolute;
+  border: none;
 }
 
-nav ul li:not(:first-child) {
-  margin-left: 48px;
+header .logo img{
+  position: absolute;
+  width: 80px;
+  height: auto;
+  top: -1rem;
+  left: -1rem;
+  border: none;
+  cursor: pointer;
 }
 
-nav ul li:last-child {
-  margin-right: 24px;
-}
-
-nav ul li a {
-  display: inline-block;
-  outline: none;
-  color: #000;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 2.5rem;
-  letter-spacing: 1.2px;
-  font-weight: 600;
-}
-
-.hidden {
+header .logo:focus, header .logo a:focus, header img:focus{
   display: none;
 }
 
-.hero-text {
+.nav-wrapper {
+  flex-grow: 1;
+  max-width: 90%;
+  margin: 2rem auto;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  z-index: 98;
-  max-width: 100%;
-  width: 100%;
-  position: absolute;
-  top: 38%;
-  margin: auto;
+}
+
+.nav-wrapper > * {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+.nav-wrapper a{
+  text-decoration: none;
+  margin: auto 4rem;
   font-family: 'Cabin', sans-serif;
+  font-size: 3rem;
+  color: #000;
+}
+
+/**********************************************
+            *** HOME SECTION *** - START
+**********************************************/
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.hero-text {
+  flex-grow: 1;
+  font-family: 'Cabin', sans-serif;
+  position: relative;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-text h1 {
@@ -102,6 +118,7 @@ nav ul li a {
   line-height: 10rem;
   font-weight: 700;
   color: #fff;
+  text-align: center;
 }
 
 .hero-text img {
@@ -111,12 +128,13 @@ nav ul li a {
 
 #icon-arrow {
   color: black;
-  height: 7rem;
-  width: 7rem;
+  height: 90px;
+  width: 90px;
   position: absolute;
-  top: 90%;
-  left: 51%;
-  transform: translate(-50%, -50%);
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 25px;
   font-size: 5rem;
   line-height: 8rem;
   cursor: pointer;
@@ -127,11 +145,15 @@ nav ul li a {
   box-shadow: 0 0 0 0 #fff;
   z-index: 9;
   animation: pulse 1.9s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .arrow {
   width: 4rem;
   height: 4rem;
+  margin-top: 5px; 
 }
 
 @keyframes pulse {
@@ -140,12 +162,18 @@ nav ul li a {
   }
 }
 
+/**********************************************
+            *** HOME SECTION *** - END
+**********************************************/
 
 .banner {
   background: #31859bff;
   background: -webkit-linear-gradient(to left, #31859bff, #31859bff);
   width: 100%;
   height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .circles {
@@ -265,7 +293,6 @@ nav ul li a {
   width: 2rem;
   height: 2rem;
   animation-delay: 4s;
-
 }
 
 @keyframes animate {
@@ -289,11 +316,12 @@ nav ul li a {
 **********************************************/
 
 .about {
-  width: 100%;
-  max-width: 100%;
-  height: 79rem;
-  margin: auto;
-  flex-wrap: wrap;
+  min-height: calc(100vh - 20px);
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 
 .about-content {
@@ -301,18 +329,14 @@ nav ul li a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  float: right;
-  height: 72rem;
-  max-width: 55%;
-  margin-top: 3.5rem;
+  flex-grow: 1;
 }
 
 .about-content h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  padding: 0.5rem;
-  margin: 7rem auto 0;
   max-width: 77%;
+  margin: 0 auto;
   text-align: center;
   font-size: 3.5rem;
   color: #191c1f;
@@ -328,14 +352,14 @@ nav ul li a {
 
 .about-content p {
   max-width: 90%;
-  padding: 0.5rem 2rem;
-  margin: 1rem auto;
   font-family: 'Lato', sans-serif;
   font-size: 2.2rem;
   line-height: 3.5rem;
   text-align: center;
   font-weight: 400;
   color: #191c1f;
+  margin: 0 auto;
+  margin-top: 15px;
 }
 
 .highlith {
@@ -401,13 +425,16 @@ nav ul li a {
 
 .about-illustration {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+
+
 .about-illustration img {
-  max-width: 40%;
-  position: absolute;
-  top: 20rem;
-  left: 2.5rem;
+  width: 40vw;
+  height: auto;
 }
 
 .about-btn {
@@ -438,19 +465,19 @@ nav ul li a {
 **********************************************/
 
 .skill {
-  height: 76rem;
   max-width: 100%;
   margin: auto;
   background-color: #ffe4e1;
+  min-height: 100vh;
+  display: flex;
 }
 
 .skill-content {
   display: flex;
   flex-direction: column;
-  float: left;
-  height: 72rem;
   max-width: 100%;
   margin-top: 1.5rem;
+  overflow-x: hidden;
 }
 
 
@@ -484,11 +511,13 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   margin: auto;
-  height: 29rem;
+  min-height: 20vh;
   padding: 0 5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-.skill-front img {
+.skill-front img, .skill-back img {
   display: flex;
   margin: auto;
   padding-top: 0.7rem;
@@ -503,13 +532,6 @@ nav ul li a {
   padding: 0 5rem;
 }
 
-.skill-back img {
-  display: flex;
-  margin: auto;
-  padding-top: 0.7rem;
-  width: 5rem;
-}
-
 .row2 {
   display: flex;
   flex-direction: row;
@@ -522,7 +544,7 @@ nav ul li a {
   padding: 0 3.9rem;
 }
 
-.skill-framework img {
+.skill-framework img, .skill-tool img {
   display: flex;
   margin: auto;
   padding-top: 0.7rem;
@@ -531,7 +553,7 @@ nav ul li a {
 
 .skill-framework .icon-bulma {
   height: 4rem;
-  width: 10rem;
+  width: 8rem;
 }
 
 .skill-tool {
@@ -540,23 +562,18 @@ nav ul li a {
   padding: 0 7.25rem;
 }
 
-.skill-tool img {
-  display: flex;
-  margin: auto;
-  padding-top: 0.7rem;
-  width: 5rem;
-}
-
 .skill-illustration {
   position: relative;
-  width: 15rem;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skill-illustration img {
-  max-width: 65rem;
-  position: absolute;
-  top: 20rem;
-  left: 80rem;
+  width: 100%;
+  max-width: 600px;
+  min-width: 300px;
 }
 
 /**********************************************
@@ -564,35 +581,34 @@ nav ul li a {
 **********************************************/
 
 .project {
-  height: 75.2rem;
+  min-height: 100vh;
   max-width: 100%;
   margin: auto;
   padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-box {
-  max-height: 70rem;
-  max-width: 89%;
-  margin: auto;
+  margin: 0 auto;
+  max-width: 95%;
 }
 
 
 .project-portfolio {
   display: flex;
   align-items: center;
-  flex-direction: row-reverse;
   max-width: 94.5%;
   max-height: 95%;
-  margin: 25rem auto;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .project-content {
   display: flex;
   flex-direction: column;
   align-content: space-between;
-  float: left;
-  max-height: 100%;
-  max-width: 100%;
 }
 
 .project-content h3,
@@ -685,16 +701,11 @@ nav ul li a {
   transition: background-color 0.4s;
 }
 
-.project-illustration {
-  height: 25rem;
-  width: 50rem;
-  flex-wrap: wrap;
-  background: red;
-}
-
 .project-illustration img {
-  height: 100%;
-  width: auto;
+  max-width: 500px;
+  height: auto;
+  width: 90vw;
+  margin: 0 auto;
 }
 
 /**********************************************
@@ -703,10 +714,9 @@ nav ul li a {
 
 .contact {
   display: flex;
-  height: 70.5rem;
+  min-height: 90vh;
   max-width: 100%;
   margin: auto;
-  flex-wrap: wrap;
   font-family: 'Lato', sans-serif;
   background-color: #ffe4e1;
 }
@@ -764,7 +774,6 @@ nav ul li a {
   background: none;
   color: #000;
 }
-
 
 .contact-box {
   display: flex;
@@ -862,10 +871,6 @@ footer p {
 }
 
 /* TOP */
-.index img {
-  width: 4rem;
-}
-
 #btn-top {
   display: none;
   position: fixed;
@@ -877,10 +882,14 @@ footer p {
   cursor: pointer;
   outline: none;
   border: none;
+  z-index: 999;
   background-color: transparent;
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-property: background-color, color;
+}
+.index img {
+  width: 4rem;
 }
 
 /**********************************************
