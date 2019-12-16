@@ -467,7 +467,7 @@ header .logo:focus, header .logo a:focus, header img:focus{
 .skill {
   max-width: 100%;
   margin: auto;
-  background-color: #ffe4e1;
+  background: #dfdad5;
   min-height: 100vh;
   display: flex;
 }
@@ -718,7 +718,7 @@ header .logo:focus, header .logo a:focus, header img:focus{
   max-width: 100%;
   margin: auto;
   font-family: 'Lato', sans-serif;
-  background-color: #ffe4e1;
+  background: #dfdad5;
 }
 
 .contact-content {
