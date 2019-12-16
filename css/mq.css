@@ -38,6 +38,7 @@
   .hero-text h2 {
       font-size: 3rem;
       line-height: 5rem;
+      margin-bottom: 45px;
   }
 
   .hero-text img {
@@ -49,6 +50,7 @@
   #icon-arrow {
       width: 4.5rem;
       height: auto;
+      bottom: 6.5rem;
   }
 
   .arrow {
