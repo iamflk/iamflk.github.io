@@ -2,7 +2,10 @@
             *** RESPONSIVE *** 
 **********************************************/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+    .banner{
+        max-width: 100vw;
+    }
   /* NAVIGATION */
 
   nav {
@@ -27,7 +30,7 @@
   }
 
   .nav-wrapper a {
-      font-size: 1rem;
+      font-size: 3rem;
       margin: auto 0.5rem;
   }
 
@@ -39,6 +42,7 @@
       font-size: 3rem;
       line-height: 5rem;
       margin-bottom: 45px;
+      font-weight: 300;
   }
 
   .hero-text img {
@@ -93,6 +97,7 @@
           font-size: 1.5rem;
           width: 32rem;
           line-height: 2.5rem;
+          font-weight: 300;
       }
       .box-social img{
           width: 3.5rem;
@@ -119,6 +124,7 @@
           font-size: 1.5rem;
           width: 7rem;
           margin: auto;
+          font-weight: 300;
       }
       .skill-front{
           align-items: center;
@@ -152,7 +158,6 @@
           width: 17rem;
       }
       /* PROJECT */
-
       .project-illustration img {
           margin-bottom: 5rem;
         }
@@ -164,6 +169,7 @@
         .project-content .desc {
           font-size: 1.5rem;
           line-height: 2rem;
+          font-weight: 300;
           width: 25rem;
           text-align: center;
           margin: auto;
@@ -173,34 +179,60 @@
         }
         .box-stack p {
           padding: 0.5rem 1rem;
-          margin: 1rem 1rem;
-          font-size: 1.5rem;
+          margin: auto 10px;
+          font-size: 1.3rem;
         }
         .box-link{
-          width: 25rem;
-          margin: 0.5rem auto;
+          width: 100%;
+          margin: 0 auto;
         }
         .box-link img{
             width: 3rem;
             height: 3rem;
+            margin: auto;
         }
         .box-link a {
-          font-size: 1.2rem;
-          padding: 0.5rem;
+          font-size: 1.15rem;
+          padding: 10px;
           text-align: center;
-          margin: 0.5rem 0.5rem;
+          margin: auto 10px;
         }
         .icon-merge{
-            left: 0.5rem;
+            left: 5px;
         }
         .icon-world{
             left: 0;
+            
         }
 
         /* CONTACT */
-        .contact{
-            display: none;
-        } 
+
+        .contact-header{
+            height: 33%;
+        }
+        .contact-header-title{
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .contact-header-intro{
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+        .contact-box{
+            width: 100%;
+            margin: 0;
+        }
+        .contact-coordinates h3{
+            font-size: 2rem;
+        }
+        .box-mail p, 
+        .box-location p {
+            font-weight: 300;
+        }
+        .box-location img, 
+        .box-mail img{
+            width: 30px;
+        }
         .contact-illustration{
             display: none;
         }
