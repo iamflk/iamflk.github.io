@@ -8,10 +8,12 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin:400,600,700&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mq.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
     <title>CapiCode</title>
 </head>
 
@@ -34,21 +36,25 @@
         </ul>
     </div>
     <section class="home">
-        <nav>
-            <header>
-                <div class="logo">
-                    <img src="img/capi.svg" alt="logo" id="logo-home"></img>
-                </div>
-                <ul class="nav-wrapper">
-                    <li><a href="#about" id="link-about">A Propos</a></li>
-                    <li><a href="#skill" id="link-skill">Compétences</a></li>
-                    <li><a href="#project" id="link-project">Réalisations</a></li>
-                    <li><a href="#contact" id="link-contact">Contact</a></li>
-                </ul>
-            </header>
-        </nav>
+        <div class="logo">
+            <a href="index.html" class="logo-home"><img src="img/capi.svg" alt="Logo"></a>
+        </div>
+            <div class="toggle-btn">
+                <span class="one"></span>
+                <span class="two"></span>
+            </div>
 
-        <div class="hero-text">
+            <div class="menu">
+                <div class="data">
+                    <ul>
+                        <li><a href="#about"class="borderLeft" id="link-about">A propos</a></li>
+                        <li><a href="#skill" class="borderLeft" id="link-skill">Compétences</a></li>
+                        <li><a href="#project" class="borderLeft" id="link-project">Réalisations</a></li>
+                        <li><a href="#contact" class="borderLeft" id="link-contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        <div class="hero-text" id="hero-text">
             <h1>Salut! <img src="img/hand.png" class="viber" alt="Hand"></h1>
             <h2>Bienvenue sur mon site web personnel <img src="img/globe.png" alt="Globe"></h2>
         </div>
@@ -102,7 +108,7 @@
             </div>
         </div>
     </section>
-   <section class="skill" id="skill">
+    <section class="skill" id="skill">
         <div class="skill-content">
             <div class="skill-box">
                 <div class="row">
@@ -203,7 +209,7 @@
             </div>
         </div>
     </section>
-     <section class="contact" id="contact">
+    <section class="contact" id="contact">
         <div class="contact-content">
             <div class="contact-header">
                 <div class="contact-header-title">
