@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "My first personal website open-source  👻",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CapiCode/capicode.git"
+  },
+  "author": "CapiCode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CapiCode/capicode/issues"
+  },
+  "homepage": "https://github.com/CapiCode/capicode#readme"
+}
