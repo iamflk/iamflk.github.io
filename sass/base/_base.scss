@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; //1 rem = 10px; 10px/16 = 62.5% / 0.625
+
+    @include respond(tab-land){ //width < 900
+        font-size: 56.25%; //1rem = 9px 9/16 = 56.25%
+    }
+
+    @include respond(tab-port){ //width < 600
+        font-size: 50%; //1rem = 8px 8/16 = 50%
+    }
+
+    // @include respond(phone){ 
+    //     font-size: 27%; 
+    // }
+
+    @include respond(big-desktop){
+        font-size: 75%; //1rem = 12 12/16 = 75% (0.75)
+    }
+}
+
+body {
+
+    @include respond(tab-port){
+        padding: 0;
+    }
+}
+
+/* RESPONSIVE */
+
+$bp-largest: 75em;     // 1200px
+$bp-large: 68.75em;    // 1100px
+$bp-medium: 56.25em;   // 900px
+$bp-small: 37.5em;     // 600px
+$bp-smallest: 31.25em; // 500px
