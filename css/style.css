@@ -15,88 +15,94 @@ body {
   height: 100vh;
 }
 
+.container{
+    width: 91vw;
+    margin: auto;
+}
+
 /**********************************************
             *** NAVIGATION ***
 **********************************************/
 
-.toggle-btn {
-  position: fixed;
-  margin: 1.4em;
-  padding: 1em;
-  width: 50px;
-  height: 35px;
-  top: 2rem;
-  right: 5rem;
-  z-index: 13;
-}
-
-span.one {
-  position: absolute;
-  width: 40px;
-  height: 2px;
-  background: #fff;
-}
-
-span.two {
-  position: absolute;
-  width: 40px;
-  height: 2px;
-  background: #fff;
-  margin-top: 12px;
-}
-
-.menu {
-  z-index: 12;
-  position: absolute;
-  background: #9c9895;
-  height: 100vh;
-  width: 100%;
-  top: -100%;
-}
-
-.data {
-  padding: 8em 0 0 2em;
-  text-align: center;
-}
-
-ul {
-  list-style: none;
-  z-index: 11;
-  margin-top: 90px;
-}
-
-li{
-  color: #31859bff;
-  font-size: 7rem;
-  margin-top: 40px;
-}
-
-a {
-  text-decoration: none;
-  color: #31859bff;
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+  width: 75%;
+  margin: 15px auto;
   font-family: 'Cabin', sans-serif;
 }
 
-.borderLeft {
+  .navigation__logo-box {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      height: 3.25rem;
+      font-size: 2.5rem;
+      font-weight: 900;
+  }
+
+  .navigation__logo {
+      color: #fff;
+        text-decoration: none;
+        font-size: 3rem;
+        font-weight: 700;
+  }
+
+  .navigation__list-box {
+      display: flex;
+      justify-content: flex-end;
+      z-index: 1000;
+      width: 60%;
+      font-size: 2.3rem;
+  }
+
+  .navigation__list {
+      list-style-type: none;
+      height: 100%;
+      width: 83.5%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .navigation__item {
+      display: inline-block;
+      padding: 1rem 2rem;
+      align-items: center;
+      position: relative;
+      flex-shrink: 1;
+      text-align: center;
+      text-transform: capitalize;
+  }
+
+  .navigation__link {
+      text-decoration: none;
+      color: #fff;
+      flex-shrink: 1;
+}
+
+.bord {
   display: inline-block;
   position: relative;
 
 }
 
-.borderLeft::after {
+.bord::after {
   content: '';
   position: absolute;
   width: 100%;
   transform: scaleX(0);
   height: 2.5px;
-  bottom: 0;
+  bottom: -5px;
   left: 0;
   background-color: #fff;
   transform-origin: bottom right;
   transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 }
 
-.borderLeft:hover::after {
+.bord:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
@@ -105,21 +111,6 @@ a {
 /**********************************************
             *** HOME SECTION *** - START
 **********************************************/
-
-.logo{
-  margin: 10px 45px;
-  height: 90px;
-  width: 90px;
-}
-
-.logo-home:focus{
-  display: none;
-}
-
-.logo img{
-  height: 100%;
-  width: 100%;
-}
 
 .home {
   height: 100vh;
@@ -148,7 +139,7 @@ a {
 }
 
 .hero-text h2 {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 6rem;
   line-height: 10rem;
   font-weight: 300;
@@ -163,13 +154,13 @@ a {
 
 #icon-arrow {
   color: black;
-  height: 90px;
-  width: 90px;
+  height: 55px;
+  width: 55px;
   position: absolute;
   left: 0;
   right: 0;
   margin: auto;
-  bottom: 25px;
+  bottom: 45px;
   font-size: 5rem;
   line-height: 8rem;
   cursor: pointer;
@@ -183,6 +174,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 #icon-arrow:focus{
   display: none;
@@ -238,7 +233,6 @@ a {
   background: rgba(255, 255, 255, 0.2);
   animation: animate 25s linear infinite;
   bottom: -150px;
-
 }
 
 .circles li:nth-child(1) {
@@ -247,7 +241,6 @@ a {
   height: 8rem;
   animation-delay: 0s;
 }
-
 
 .circles li:nth-child(2) {
   left: 10%;
@@ -379,11 +372,14 @@ a {
 .about-content h1 {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  max-width: 77%;
-  margin: 0 auto;
-  text-align: center;
-  font-size: 3.5rem;
+  max-width: 100%;
+  width: 100%;
+  height: 15rem;
+  margin: 14px auto;
+  text-align: left;
+  font-size: 4.5rem;
   color: #191c1f;
+  background: red;
 }
 
 .title-color {
@@ -397,9 +393,9 @@ a {
 .about-content p {
   max-width: 90%;
   font-family: 'Lato', sans-serif;
-  font-size: 2.2rem;
+  font-size: 2rem;
   line-height: 3.5rem;
-  text-align: center;
+  text-align: left;
   font-weight: 400;
   color: #191c1f;
   margin: 0 auto;
@@ -511,7 +507,7 @@ a {
 .skill {
   max-width: 100%;
   margin: auto;
-  background: #dfdad5;
+  /* background: #dfdad5; */
   min-height: 100vh;
   display: flex;
 }
@@ -760,7 +756,7 @@ a {
   max-width: 100%;
   margin: auto;
   font-family: 'Lato', sans-serif;
-  background: #dfdad5;
+  /* background: #dfdad5; */
 }
 
 .contact-content {
