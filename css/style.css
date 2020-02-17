@@ -9,6 +9,7 @@
 
 html {
   font-size: 62.5%;
+  font-family: 'Cabin', sans-serif;
 }
 
 body {
@@ -359,6 +360,7 @@ body {
   justify-content: center;
   margin: 0 auto;
   margin-top: 20px;
+  font-family: 'Cabin', sans-serif;
 }
 
 .about-content {
@@ -370,16 +372,14 @@ body {
 }
 
 .about-content h1 {
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   max-width: 100%;
-  width: 100%;
-  height: 15rem;
+  width: 90%;
+  height: 10rem;
   margin: 14px auto;
   text-align: left;
-  font-size: 4.5rem;
+  font-size: 4rem;
   color: #191c1f;
-  background: red;
 }
 
 .title-color {
@@ -392,10 +392,9 @@ body {
 
 .about-content p {
   max-width: 90%;
-  font-family: 'Lato', sans-serif;
   font-size: 2rem;
-  line-height: 3.5rem;
-  text-align: left;
+  line-height: 3.2rem;
+  text-align: justify;
   font-weight: 400;
   color: #191c1f;
   margin: 0 auto;
@@ -406,7 +405,6 @@ body {
   border-radius: 5px;
   padding: 0.1rem 0.3rem;
   background-color: #b9e4fd;
-
 }
 
 .box-social {
@@ -429,7 +427,6 @@ body {
 .box-social span {
   display: flex;
   justify-content: center;
-  font-family: 'Lato', sans-serif;
   position: relative;
 }
 
@@ -470,8 +467,6 @@ body {
   align-items: center;
 }
 
-
-
 .about-illustration img {
   width: 40vw;
   height: auto;
@@ -484,7 +479,6 @@ body {
 }
 
 .about-btn a {
-  font-family: 'Lato', sans-serif;
   border-radius: 2.5rem;
   border: none;
   text-decoration: none;
@@ -507,7 +501,6 @@ body {
 .skill {
   max-width: 100%;
   margin: auto;
-  /* background: #dfdad5; */
   min-height: 100vh;
   display: flex;
 }
@@ -525,22 +518,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 10.5rem 5rem;
+  margin: 6.5rem 5rem;
 }
 
 .skill-box h3 {
   font-size: 3rem;
   color: #191c1f;
-  font-family: "Open Sans", sans-serif;
   padding-bottom: 0.5rem;
-}
-
-.skill-box p {
-  display: flex;
-  justify-content: center;
-  font-family: 'Lato', sans-serif;
-  font-size: 2rem;
-  color: #191c1f;
+  margin-bottom: 1rem;
 }
 
 .row {
@@ -557,9 +542,13 @@ body {
 
 .skill-front img, .skill-back img {
   display: flex;
-  margin: auto;
+  margin: 0.5rem auto;
   padding-top: 0.7rem;
-  width: 5rem;
+  width: 5.5rem;
+}
+
+.skill-back img{
+  margin: 1rem auto;
 }
 
 .skill-back {
@@ -574,11 +563,13 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 20px auto;
 }
 
 .skill-framework {
   align-items: center;
   height: 29rem;
+  margin: 1rem auto;
   padding: 0 3.9rem;
 }
 
@@ -586,6 +577,7 @@ body {
   display: flex;
   margin: auto;
   padding-top: 0.7rem;
+  margin: 1rem auto;
   width: 5rem;
 }
 
@@ -596,7 +588,7 @@ body {
 
 .skill-tool {
   align-items: center;
-  height: 29rem;
+  margin: 1rem auto;
   padding: 0 7.25rem;
 }
 
