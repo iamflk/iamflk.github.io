@@ -45,7 +45,7 @@
 //     }, 1000);
 //   });
 
-  $("#link-about").click(function () {
+  $("#link-home").click(function () {
     $("html, body").animate({
       scrollTop: $("section.about").offset().top
     }, 1000);
@@ -132,16 +132,24 @@ var sr = ScrollReveal({
 });
 
 
+//section navigation
+sr.reveal('.navigation', {
+  delay: 500
+});
+
 // section hero
 
 sr.reveal('.hero-text h1', {
-  delay: 500
-});
-sr.reveal('.hero-text h2', {
   delay: 1000
 });
-sr.reveal('.hero-text img', {
+sr.reveal('.hero-text h2', {
   delay: 1500
+});
+sr.reveal('.icon-arrow', {
+  delay: 2000
+});
+sr.reveal('.arrow', {
+  delay: 2500
 });
 
 // section about
