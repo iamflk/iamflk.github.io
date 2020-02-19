@@ -9,7 +9,8 @@
 
 html {
   font-size: 62.5%;
-  font-family: 'Cabin', sans-serif;
+  /* font-family: 'Cabin', sans-serif; */
+  font-family: 'Nunito', sans-serif;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 }
 
 .container{
-    width: 91vw;
+    width: 80vw;
     margin: auto;
 }
 
@@ -30,9 +31,9 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 8rem;
-  width: 75%;
-  margin: 15px auto;
-  font-family: 'Cabin', sans-serif;
+  width: 90%;
+  margin: 35px auto;
+
 }
 
   .navigation__logo-box {
@@ -40,7 +41,6 @@ body {
       align-items: center;
       cursor: pointer;
       height: 3.25rem;
-      font-size: 2.5rem;
       font-weight: 900;
   }
 
@@ -55,17 +55,19 @@ body {
       display: flex;
       justify-content: flex-end;
       z-index: 1000;
-      width: 60%;
-      font-size: 2.3rem;
+      max-width: 100%;
+      font-weight: 400;
+      /* width: 43%; */
   }
 
   .navigation__list {
       list-style-type: none;
       height: 100%;
-      width: 83.5%;
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
+
   }
 
   .navigation__item {
@@ -81,6 +83,7 @@ body {
   .navigation__link {
       text-decoration: none;
       color: #fff;
+      font-size: 2.3rem;
       flex-shrink: 1;
 }
 
@@ -122,13 +125,15 @@ body {
 
 .hero-text {
   flex-grow: 1;
-  font-family: 'Cabin', sans-serif;
   position: relative;
   display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     z-index: 11;
+    max-width: 150rem;
+    margin: 0 auto;
+    background: green;
 }
 
 .hero-text h1 {
@@ -137,6 +142,7 @@ body {
   text-align: center;
   line-height: 8rem;
   color: #fff;
+  margin-top: -10rem;
 }
 
 .hero-text h2 {
@@ -360,7 +366,6 @@ body {
   justify-content: center;
   margin: 0 auto;
   margin-top: 20px;
-  font-family: 'Cabin', sans-serif;
 }
 
 .about-content {
@@ -638,7 +643,7 @@ body {
 .project-content h3,
 .desc,
 .box-stack p {
-  font-family: 'Lato', sans-serif;
+
 }
 
 .project-content h3 {
@@ -712,7 +717,7 @@ body {
 .btn-project {
   display: flex;
   justify-content: center;
-  font-family: 'Lato', sans-serif;
+
   border-radius: 2.5rem;
   border: none;
   text-decoration: none;
@@ -741,7 +746,7 @@ body {
   min-height: 94.35vh;
   max-width: 100%;
   margin: auto;
-  font-family: 'Lato', sans-serif;
+
   /* background: #dfdad5; */
 }
 
@@ -885,7 +890,6 @@ body {
 footer {
   display: flex;
   justify-content: center;
-  font-family: 'Lato', sans-serif;
   width: 100%;
   padding: 1.1rem;
   background-color: #31859bff;
