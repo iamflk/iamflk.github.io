@@ -175,6 +175,18 @@
         width: 4rem;
     }
 
+    #icon-arrow {
+        height: 35px;
+        width: 35px;
+        line-height: 8rem;
+    }
+
+    .arrow {
+        width: 2rem;
+        height: 2rem;
+        margin-top: 5px;
+    }
+
     .contact-illustration {
         display: none;
     }
@@ -325,41 +337,4 @@
         width: 2.2rem;
     }
 
-    #icon-arrow {
-        color: black;
-        height: 55px;
-        width: 55px;
-        position: absolute;
-        left: 0;
-        right: 0;
-        margin: auto;
-        bottom: 45px;
-        font-size: 5rem;
-        line-height: 8rem;
-        cursor: pointer;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 50%;
-        background: white;
-        box-shadow: 0 0 0 0 #fff;
-        z-index: 11;
-        animation: pulse 1.9s infinite;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-    }
-
-    #icon-arrow:focus {
-        display: none;
-    }
-
-    .arrow {
-        width: 4rem;
-        height: 4rem;
-        margin-top: 5px;
-    }
 }
