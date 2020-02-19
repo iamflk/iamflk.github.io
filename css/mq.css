@@ -5,7 +5,11 @@
 @media only screen and (min-width: 112.5em) {}
 
 @media only screen and (max-width: 75em) {
-    .container {}
+    .container {
+        /* margin: 0;
+        max-width: 100%;
+        width: 100%; */
+    }
 
     /**********************************************
             *** NAVIGATION ***
@@ -97,6 +101,51 @@
 
     .hero-text img {
         width: 4rem;
+    }
+
+    /**********************************************
+            *** ABOUT SECTION ***
+**********************************************/
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about__illustration img {
+        width: 50rem;
+    }
+
+    .about__content {
+        width: 100%;
+    }
+
+    .about__content h1 {
+        font-size: 3rem;
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    .about__content p {
+        font-size: 1.5rem;
+        width: 74%;
+        margin: 0 auto 1.5rem;
+        line-height: 2.5rem;
+        text-align: justify;
+        font-weight: 300;
+
+    }
+
+    .about__box-social img {
+        width: 3.5rem;
+    }
+
+    .about__btn {
+        margin: 1.5rem auto;
+    }
+
+    .about__btn a {
+        font-size: 1.5rem;
+        margin: 0.5rem;
     }
 
 
@@ -192,6 +241,54 @@
         display: none;
     }
 
+    /**********************************************
+            *** ABOUT SECTION ***
+**********************************************/
+
+
+    .about {
+        flex-direction: column;
+    }
+
+    .about__content {
+
+    }
+
+    .about__content h1 {
+        font-size: 2.5rem;
+    }
+
+    .about__content p {
+        font-size: 1.1rem;
+        width: 80%;
+        line-height: 2rem;
+    }
+
+    .about__box-social img {
+        width: 2.5rem;
+    }
+
+    .desc-linkedin, .desc-github{
+        font-size: 1rem;
+    }
+
+    .desc-linkedin{
+        bottom: -0.1rem;
+    }
+
+    .about__btn {
+        margin: 1.5rem auto;
+    }
+
+    .about__btn a {
+        font-size: 1rem;
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+
+    .about__illustration img {
+        width: 30rem;
+    }
 }
 
 @media only screen and (max-width: 37em) {
@@ -338,4 +435,33 @@
         width: 2.2rem;
     }
 
+    /**********************************************
+            *** ABOUT SECTION ***
+**********************************************/
+
+.about__content h1 {
+    font-size: 1.5rem;
+}
+
+.about__content p {
+    line-height: 1.8rem;
+    margin: 0 auto;
+  }
+
+  
+
+}
+
+@media only screen and (min-width: 10em) {
+.skill{
+    display: none;
+}
+
+.project{
+    display: none;
+}
+
+.contact{
+    display: none;
+}
 }

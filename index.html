@@ -7,13 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Cabin:300,400,600,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mq.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script> -->
     <title>CapiCode</title>
 </head>
 
@@ -22,6 +20,11 @@
 
         <div class="banner">
             <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
                 <li></li>
                 <li></li>
                 <li></li>
@@ -45,14 +48,10 @@
 
                 <div class="navigation__list-box">
                     <ul class="navigation__list">
-                        <li class="navigation__item"><a class="navigation__link bord" href="#about" id="link-about">A
-                                propos</a></li>
-                        <li class="navigation__item"><a class="navigation__link bord" href="#skill"
-                                id="link-skill">Compétences</a></li>
-                        <li class="navigation__item"><a class="navigation__link bord" href="#project"
-                                id="link-project">Projets</a></li>
-                        <li class="navigation__item"><a class="navigation__link bord" href="#contact"
-                                id="link-contact">Contact</a></li>
+                        <li class="navigation__item"><a class="navigation__link bord" href="#about" id="link-about">A propos</a></li>
+                        <li class="navigation__item"><a class="navigation__link bord" href="#skill" id="link-skill">Compétences</a></li>
+                        <li class="navigation__item"><a class="navigation__link bord" href="#project" id="link-project">Projets</a></li>
+                        <li class="navigation__item"><a class="navigation__link bord" href="#contact" id="link-contact">Contact</a></li>
                     </ul>
 
             </nav>
@@ -65,10 +64,10 @@
             </a>
         </section>
         <section class="about" id="about">
-            <div class="about-illustration">
+            <div class="about__illustration">
                 <img src="img/online.svg" alt="illustration">
             </div>
-            <div class="about-content">
+            <div class="about__content">
                 <div>
                     <h1>Je suis <span class="title-color">CapiCode</span>👻 Autodidacte en développement
                         <span class="border-row" id="row"></span></h1>
@@ -90,11 +89,10 @@
                         Ce parcours m'attire particulièrement car il offre des cours axés sur la <span
                             class="highlith">conception web</span> et <span class="highlith">mobile</span>.
                         J'adore <span class="highlith">apprendre</span> de mon côté, de façon à rester en <span
-                            class="highlith">veille permanente</span>, chose particulièrement
-                        importante dans le monde de l'informatique car tout évolue très rapidement !
+                            class="highlith">veille permanente</span>.
                     </p>
                 </div>
-                <div class="box-social">
+                <div class="about__box-social">
                     <div>
                         <a href="https://github.com/CapiCode" target="_blank">
                             <img src="img/github.svg" alt="" class="logo-animated "></a>
@@ -106,79 +104,13 @@
                         <span class="desc-linkedin">LinkedIn</span>
                     </div>
                 </div>
-                <div class="about-btn">
+                <div class="about__btn">
                     <a href="cv/CV_Giovanni_CHARLES-EDOUARD.pdf" target="_blank">Voir mon CV ⇢</a>
                     <a href="#" id="see-project">Consultez mes projets ⇢</a>
                 </div>
             </div>
         </section>
         <section class="skill" id="skill">
-            <!-- <div class="skill-content">
-                <div class="skill-box">
-                    <div class="row">
-                        <div class="skill-front">
-                            <div>
-                                <h3>📘 Front-End</h3>
-                            </div>
-                            <div>
-                                <img src="img/skill/html.svg" alt="Html">
-                                
-                            </div>
-                            <div>
-                                <img src="img/skill/css.svg" alt="Css">
-                                
-                            </div>
-                            <div>
-                                <img src="img/skill/javascript.svg" alt="Javascript">
-                                
-                            </div>
-                        </div>
-                        <div class="skill-back">
-                            <div>
-                                <h3>📗 Back-End</h3>
-                            </div>
-                            <div>
-                                <img src="img/skill/c_sharp.svg" alt="C#">
-                            </div>
-                            <div>
-                                <img src="img/skill/php.svg" alt="PHP">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row2">
-                        <div class="skill-framework">
-                            <div>
-                                <h3>⚗️ Framework</h3>
-                            </div>
-                            <div>
-                                <img src="img/skill/bulma.svg" alt="Bulma" class="icon-bulma">
-                                
-                            </div>
-                            <div>
-                                <img src="img/skill/xamarin.svg" alt="Xamarin">
-                               
-                            </div>
-                        </div>
-                        <div class="skill-tool">
-                            <div>
-                                <h3>🛠️ Outils</h3>
-                            </div>
-                            <div>
-                                <img src="img/skill/git.svg" alt="Git">
-                                
-                            </div>
-                            <div>
-                                <img src="img/skill/github.svg" alt="Github">
-                                
-                            </div>
-                            <div>
-                                <img src="img/skill/adobexd.svg" alt="Adobe XD">
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
             <div class="skill__content">
                 <div class="skill__box">
                         <div class="skill__box-tech">

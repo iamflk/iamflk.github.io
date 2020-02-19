@@ -38,14 +38,14 @@
 // });
 
 
-// $(function () {
-//   $("#logo-home").click(function () {
-//     $("html, body").animate({
-//       scrollTop: $("section.home").offset().top
-//     }, 1000);
-//   });
 
   $("#link-home").click(function () {
+    $("html, body").animate({
+      scrollTop: $(".navigation").offset().top
+    }, 1000);
+  });
+
+  $("#link-about").click(function () {
     $("html, body").animate({
       scrollTop: $("section.about").offset().top
     }, 1000);
