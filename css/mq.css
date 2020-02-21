@@ -47,9 +47,27 @@
         width: 4rem;
     }
 
+    /* ABOUT */
+
+    .about__btn a {
+        font-size: 1.5rem;
+        padding: 1.1rem 1.4rem;
+        margin-right: 1.5rem;
+    }
+
+    .about__btn a:nth-child(1) {
+        margin-left: 1.5rem;
+    }
+
+    .about__illustration {
+        height: 30%;
+        width: 50%;
+    }
+
     .contact-illustration {
         display: none;
     }
+
 }
 
 @media only screen and (max-width: 70em) {
@@ -58,6 +76,31 @@
         font-size: 3.5rem;
         line-height: 5rem;
     }
+
+    /* ABOUT */
+
+    .about__content{
+        height: 100%;
+    }
+
+    .about__content h1{
+        font-size: 2.5rem;
+    }
+    .about__btn a {
+        font-size: 1.3rem;
+        padding: 1.1rem 1.4rem;
+        margin-right: 1.5rem;
+    }
+
+    .about__btn a:nth-child(1) {
+        margin-left: 1.5rem;
+    }
+
+    .about__illustration {
+        height: 30%;
+    }
+
+    
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -111,12 +154,9 @@
         flex-direction: column;
     }
 
-    .about__illustration img {
-        width: 50rem;
-    }
-
     .about__content {
         width: 100%;
+        height: 55%;
     }
 
     .about__content h1 {
@@ -228,7 +268,7 @@
         height: 35px;
         width: 35px;
         line-height: 8rem;
-        top: 45rem;
+        top: 35rem;
     }
 
     .arrow {
@@ -241,6 +281,12 @@
         display: none;
     }
 
+    /* BTN TOP */
+          
+      .index img {
+        width: 2.5rem;
+      }
+
     /**********************************************
             *** ABOUT SECTION ***
 **********************************************/
@@ -250,9 +296,7 @@
         flex-direction: column;
     }
 
-    .about__content {
-
-    }
+    .about__content {}
 
     .about__content h1 {
         font-size: 2.5rem;
@@ -268,11 +312,12 @@
         width: 2.5rem;
     }
 
-    .desc-linkedin, .desc-github{
+    .desc-linkedin,
+    .desc-github {
         font-size: 1rem;
     }
 
-    .desc-linkedin{
+    .desc-linkedin {
         bottom: -0.1rem;
     }
 
@@ -306,6 +351,12 @@
     .hero-text img {
         width: 3rem;
     }
+
+    /* ABOUT */
+
+    .about__btn a:nth-child(1) {
+        margin-left: 0rem;
+    }
 }
 
 @media only screen and (max-width: 30em) {
@@ -337,6 +388,8 @@
     .hero-text img {
         width: 3rem;
     }
+
+    
 
 }
 
@@ -439,29 +492,56 @@
             *** ABOUT SECTION ***
 **********************************************/
 
-.about__content h1 {
-    font-size: 1.5rem;
-}
+    .about__content {
+        height: 50%;
+    }
 
-.about__content p {
-    line-height: 1.8rem;
-    margin: 0 auto;
-  }
+    .about__content h1 {
+        font-size: 1.6rem;
+    }
 
-  
+    .about__content p {
+        line-height: 1.8rem;
+        margin: 0 auto;
+    }
+
+    .about__box-social {
+        margin-top: 1rem;
+        max-width: 50%;
+    }
+
+    .desc-github {
+        bottom: -0.2rem;
+      }
+
+    .about__btn a {
+        font-size: 1rem;
+        padding: .7rem .7rem;
+        margin-right: 1.5rem;
+        background-color: #31859bff;
+    }
+
+    .about__btn a:nth-child(1) {
+        margin-left: 1.5rem;
+    }
+
+    .about__illustration {
+        height: 30%;
+    }
+
 
 }
 
 @media only screen and (min-width: 10em) {
-.skill{
+    .skill{
     display: none;
-}
+} 
 
-.project{
-    display: none;
-}
+    .project {
+        display: none;
+    }
 
-.contact{
-    display: none;
-}
+    .contact {
+        display: none;
+    }
 }

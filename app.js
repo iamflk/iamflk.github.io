@@ -204,7 +204,7 @@ sr.reveal('.contact-box', 2500);
 
 
 var options = {
-  strings: ["web"],
+  strings: ["👻"],
   typeSpeed: 100,
   backDelay: 5000,
   backSpeed: 120,
