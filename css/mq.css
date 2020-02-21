@@ -79,13 +79,14 @@
 
     /* ABOUT */
 
-    .about__content{
+    .about__content {
         height: 100%;
     }
 
-    .about__content h1{
+    .about__content h1 {
         font-size: 2.5rem;
     }
+
     .about__btn a {
         font-size: 1.3rem;
         padding: 1.1rem 1.4rem;
@@ -100,7 +101,7 @@
         height: 30%;
     }
 
-    
+
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -188,9 +189,22 @@
         margin: 0.5rem;
     }
 
+    /**********************************************
+            *** FOOTER ***
+**********************************************/
+
+    footer p {
+        font-size: 1.5rem;
+    }
 
     .contact-illustration {
         display: none;
+    }
+
+    /* BTN TOP */
+
+    .index img {
+        width: 3.2rem;
     }
 }
 
@@ -281,11 +295,19 @@
         display: none;
     }
 
+    /**********************************************
+            *** FOOTER ***
+**********************************************/
+
+    footer p {
+        font-size: 1.4rem;
+    }
+
     /* BTN TOP */
-          
-      .index img {
+
+    .index img {
         width: 2.5rem;
-      }
+    }
 
     /**********************************************
             *** ABOUT SECTION ***
@@ -389,7 +411,7 @@
         width: 3rem;
     }
 
-    
+
 
 }
 
@@ -512,7 +534,7 @@
 
     .desc-github {
         bottom: -0.2rem;
-      }
+    }
 
     .about__btn a {
         font-size: 1rem;
@@ -533,9 +555,9 @@
 }
 
 @media only screen and (min-width: 10em) {
-    .skill{
-    display: none;
-} 
+    .skill {
+        display: none;
+    }
 
     .project {
         display: none;
