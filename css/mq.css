@@ -190,6 +190,27 @@
     }
 
     /**********************************************
+            *** SKILLS ***
+**********************************************/
+
+
+    .skill__content-title {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .heading__primary {
+        font-size: 3rem;
+    }
+
+    .skill__content--stack {
+        font-size: 1.5rem;
+    }
+
+
+
+    /**********************************************
             *** FOOTER ***
 **********************************************/
 
@@ -291,9 +312,26 @@
         margin-top: 5px;
     }
 
+    /**********************************************
+            *** SKILLS ***
+**********************************************/
+
+
+    .heading__primary {
+        font-size: 2.5rem;
+
+    }
+
+    .skill__content--box {}
+
+    .skill__content--stack {
+        font-size: 1.3rem;
+    }
+
     .contact-illustration {
         display: none;
     }
+
 
     /**********************************************
             *** FOOTER ***
@@ -374,6 +412,76 @@
         width: 3rem;
     }
 
+    /* SKILLS */
+
+    .skill__content {
+        /* width: 40rem; */
+
+    }
+
+    .skill__content--box {
+        width: 100%;
+    }
+
+    .skill__content--stack {
+        font-size: 1.3rem;
+    }
+
+    .skill__content--stack:nth-child(1) {
+        top: 5rem;
+        left: 20rem;
+    }
+
+    .skill__content--stack:nth-child(2) {
+        top: 20rem;
+        left: 40rem;
+    }
+
+    .skill__content--stack:nth-child(3) {
+        top: 12rem;
+        left: 25rem;
+    }
+
+    .skill__content--stack:nth-child(4) {
+        top: 20rem;
+        left: 15rem;
+    }
+
+    .skill__content--stack:nth-child(5) {
+        top: 15rem;
+        left: 5rem;
+    }
+
+    .skill__content--stack:nth-child(6) {
+        top: 17rem;
+        left: 30rem;
+    }
+
+    .skill__content--stack:nth-child(7) {
+        top: 2rem;
+        left: 35rem;
+    }
+
+    .skill__content--stack:nth-child(8) {
+        top: 15rem;
+        left: 18rem;
+    }
+
+    .skill__content--stack:nth-child(9) {
+        top: 3.5rem;
+        left: 5rem;
+    }
+
+    .skill__content--stack:nth-child(10) {
+        top: 9rem;
+        left: 9rem;
+    }
+
+    .skill__content--stack:nth-child(11) {
+        top: 10rem;
+        left: 32rem;
+    }
+
     /* ABOUT */
 
     .about__btn a:nth-child(1) {
@@ -411,6 +519,75 @@
         width: 3rem;
     }
 
+    /* SKILLS */
+
+    .skill__content {
+        /* width: 40rem; */
+
+    }
+
+    .skill__content--box {
+        width: 100%;
+    }
+
+    .skill__content--stack {
+        font-size: 1.3rem;
+    }
+
+    .skill__content--stack:nth-child(1) {
+        top: 4rem;
+        left: 15rem;
+    }
+
+    .skill__content--stack:nth-child(2) {
+        top: 19rem;
+        left: 22rem;
+    }
+
+    .skill__content--stack:nth-child(3) {
+        top: 12rem;
+        left: 18rem;
+    }
+
+    .skill__content--stack:nth-child(4) {
+        top: 18rem;
+        left: 13rem;
+    }
+
+    .skill__content--stack:nth-child(5) {
+        top: 15rem;
+        left: 5rem;
+    }
+
+    .skill__content--stack:nth-child(6) {
+        top: 17rem;
+        left: 30rem;
+    }
+
+    .skill__content--stack:nth-child(7) {
+        top: 2rem;
+        left: 27rem;
+    }
+
+    .skill__content--stack:nth-child(8) {
+        top: 15rem;
+        left: 22rem;
+    }
+
+    .skill__content--stack:nth-child(9) {
+        top: 3.5rem;
+        left: 3rem;
+    }
+
+    .skill__content--stack:nth-child(10) {
+        top: 9.5rem;
+        left: 7rem;
+    }
+
+    .skill__content--stack:nth-child(11) {
+        top: 8rem;
+        left: 24rem;
+    }
 
 
 }
@@ -551,13 +728,67 @@
         height: 30%;
     }
 
+    .skill__content--stack:nth-child(1) {
+        top: 4rem;
+        left: 11rem;
+    }
+
+    .skill__content--stack:nth-child(2) {
+        top: 19rem;
+        left: 17rem;
+    }
+
+    .skill__content--stack:nth-child(3) {
+        top: 13rem;
+        left: 14rem;
+    }
+
+    .skill__content--stack:nth-child(4) {
+        top: 18rem;
+        left: 9rem;
+    }
+
+    .skill__content--stack:nth-child(5) {
+        top: 15rem;
+        left: 3rem;
+    }
+
+    .skill__content--stack:nth-child(6) {
+        top: 17rem;
+        left: 30rem;
+    }
+
+    .skill__content--stack:nth-child(7) {
+        top: 2rem;
+        left: 21rem;
+    }
+
+    .skill__content--stack:nth-child(8) {
+        top: 15rem;
+        left: 22rem;
+    }
+
+    .skill__content--stack:nth-child(9) {
+        top: 3.5rem;
+        left: 3rem;
+    }
+
+    .skill__content--stack:nth-child(10) {
+        top: 9.5rem;
+        left: 5rem;
+    }
+
+    .skill__content--stack:nth-child(11) {
+        top: 9rem;
+        left: 19rem;
+    }
 
 }
 
 @media only screen and (min-width: 10em) {
-    .skill {
+    /* .skill {
         display: none;
-    }
+    } */
 
     .project {
         display: none;
