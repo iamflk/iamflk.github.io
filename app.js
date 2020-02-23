@@ -145,7 +145,7 @@ sr.reveal('.skill-tool', {
 
 // section project
 sr.reveal('.project-portfolio', {
-  delay: 500,
+  delay: 400,
   origin: 'top',
   distance: '50px',
   easing: 'ease-in'

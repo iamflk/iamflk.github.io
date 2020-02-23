@@ -5,11 +5,6 @@
 @media only screen and (min-width: 112.5em) {}
 
 @media only screen and (max-width: 75em) {
-    .container {
-        /* margin: 0;
-        max-width: 100%;
-        width: 100%; */
-    }
 
     /**********************************************
             *** NAVIGATION ***
@@ -67,7 +62,6 @@
     .contact-illustration {
         display: none;
     }
-
 }
 
 @media only screen and (max-width: 70em) {
@@ -100,22 +94,13 @@
     .about__illustration {
         height: 30%;
     }
-
-
 }
 
 @media only screen and (max-width: 56.25em) {
-    .container {
-        margin: 0;
-        max-width: 100%;
-        width: 100%;
-    }
 
     /**********************************************
             *** NAVIGATION ***
 **********************************************/
-
-    .navigation {}
 
     .navigation__logo {
         font-size: 2.5rem;
@@ -173,7 +158,6 @@
         line-height: 2.5rem;
         text-align: justify;
         font-weight: 300;
-
     }
 
     .about__box-social img {
@@ -193,7 +177,6 @@
             *** SKILLS ***
 **********************************************/
 
-
     .skill__content-title {
         display: flex;
         justify-content: center;
@@ -208,7 +191,76 @@
         font-size: 1.5rem;
     }
 
+    /**********************************************
+            *** PROJECT ***
+**********************************************/
 
+    .project-box {
+        margin: 0 auto;
+        max-width: 95%;
+        height: 100%;
+    }
+
+    .project-portfolio {
+        flex-wrap: wrap;
+    }
+
+    .project-content {
+        margin-top: 4rem;
+    }
+
+    .project-content h3 {
+        font-size: 3rem;
+    }
+
+    .project-content .desc {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin: .3rem 5.2rem;
+    }
+
+    .box-stack {
+        align-items: center;
+        height: 2rem;
+        max-width: 100%;
+        margin: 1rem 5rem;
+        padding: 1.4rem 0;
+    }
+
+    .box-stack p {
+        margin: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .highlith-stack {
+        padding: 0.2rem 0.3rem;
+    }
+
+    .box-link {
+        height: 4rem;
+        margin-left: 3rem;
+    }
+
+    .box-link img {
+        height: 4rem;
+        width: 4rem;
+        position: relative;
+    }
+
+    .box-link a {
+        padding: 1rem 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    .btn-project {
+        border-radius: 2.5rem;
+    }
+
+    .project-illustration img {
+        max-width: 100%;
+        height: 45vh;
+        margin: 0 auto;
+    }
 
     /**********************************************
             *** FOOTER ***
@@ -259,8 +311,6 @@
 }
 
 @media only screen and (max-width: 37.5em) {
-
-    .container {}
 
     /**********************************************
             *** NAVIGATION ***
@@ -313,56 +363,19 @@
     }
 
     /**********************************************
-            *** SKILLS ***
-**********************************************/
-
-
-    .heading__primary {
-        font-size: 2rem;
-    }
-
-    .skill__content--box {}
-
-    .skill__content--stack {
-        font-size: 1.3rem;
-    }
-
-    .contact-illustration {
-        display: none;
-    }
-
-
-    /**********************************************
-            *** FOOTER ***
-**********************************************/
-
-    footer p {
-        font-size: 1.4rem;
-    }
-
-    /* BTN TOP */
-
-    .index img {
-        width: 2.5rem;
-    }
-
-    /**********************************************
             *** ABOUT SECTION ***
 **********************************************/
-
 
     .about {
         flex-direction: column;
     }
-
-    .about__content {}
 
     .about__content h1 {
         font-size: 2.5rem;
     }
 
     .about__content p {
-        font-size: 1.1rem;
+        font-size: 1.3rem;
         width: 80%;
         line-height: 2rem;
     }
@@ -394,10 +407,35 @@
         width: 30rem;
     }
 
-    /* SKILLS */
+    /**********************************************
+            *** SKILLS ***
+**********************************************/
 
-    .heading-primary{
-        font-size: 2.5rem;
+
+    .heading__primary {
+        font-size: 2.5em;
+    }
+
+    .skill__content--stack {
+        font-size: 1.3rem;
+    }
+
+    .contact-illustration {
+        display: none;
+    }
+
+    /**********************************************
+            *** FOOTER ***
+**********************************************/
+
+    footer p {
+        font-size: 1.4rem;
+    }
+
+    /* BTN TOP */
+
+    .index img {
+        width: 2.5rem;
     }
 }
 
@@ -417,12 +455,13 @@
         width: 3rem;
     }
 
-    /* SKILLS */
+    /* ABOUT */
 
-    .skill__content {
-        /* width: 40rem; */
-
+    .about__btn a:nth-child(1) {
+        margin-left: 0rem;
     }
+
+    /* SKILLS */
 
     .skill__content--box {
         width: 100%;
@@ -487,10 +526,67 @@
         left: 32rem;
     }
 
-    /* ABOUT */
+    /**********************************************
+            *** PROJECT ***
+**********************************************/
 
-    .about__btn a:nth-child(1) {
-        margin-left: 0rem;
+    .project {
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    .project-box {
+        margin: 0 auto;
+        max-width: 95%;
+        height: 100%;
+    }
+
+    .project-portfolio {
+        flex-wrap: wrap;
+    }
+
+    .project-content {
+        margin-top: 4rem;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+    .project-content h3 {
+        font-size: 3rem;
+    }
+
+    .project-content .desc {
+        font-size: 1.3rem;
+        line-height: 2rem;
+        margin: .3rem 5.2rem;
+    }
+
+    .box-stack {
+        align-items: center;
+        height: 2rem;
+        max-width: 100%;
+        margin: 1rem 5rem;
+        padding: 1.4rem 0;
+    }
+
+    .box-stack p {
+        font-size: 1.3rem;
+    }
+
+    .box-link img {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .box-link a {
+        padding: .8rem 1.5rem;
+        font-size: 1.3rem;
+    }
+
+    .project-illustration img {
+        max-width: 100%;
+        height: 45vh;
+        margin: 0 auto;
     }
 }
 
@@ -525,11 +621,6 @@
     }
 
     /* SKILLS */
-
-    .skill__content {
-        /* width: 40rem; */
-
-    }
 
     .skill__content--box {
         width: 100%;
@@ -594,7 +685,46 @@
         left: 24rem;
     }
 
+    /* PROJECTS */
 
+    .project-content h3{
+        margin: 0;
+        text-align: center;
+    }
+
+    .project-content .desc {
+        margin: .5rem auto;
+        text-align: center;
+    }
+
+    .box-stack {
+        margin: 1rem auto;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+    .box-link{
+        margin: 0 auto;
+    }
+    .box-link img {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .icon-merge {
+        position: absolute;
+        left: .5rem;
+      }
+      
+      .icon-world {
+        position: absolute;
+        left: 0rem;
+      }
+
+    .box-link a {
+        margin: 0 1.5rem ;
+        padding: .7rem 1rem;
+        font-size: 1.3rem;
+    }
 }
 
 @media only screen and (max-width: 26.5625em) {
@@ -628,6 +758,47 @@
     .hero-text img {
         width: 2.5rem;
     }
+
+    /* PROJECTS */
+
+    .project-content h3{
+        margin: 0;
+        text-align: center;
+    }
+
+    .project-content .desc {
+        margin: .5rem auto;
+        text-align: center;
+    }
+
+    .box-stack {
+        margin: 1rem auto;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+    .box-link{
+        margin: 0;
+    }
+    .box-link img {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .icon-merge {
+        position: absolute;
+        left: .5rem;
+      }
+      
+      .icon-world {
+        position: absolute;
+        left: 0rem;
+      }
+
+    .box-link a {
+        margin: 0 1.5rem ;
+        padding: .7rem 1rem;
+        font-size: 1.3rem;
+    }
 }
 
 @media only screen and (max-width: 23.4375em) {
@@ -658,6 +829,47 @@
 
     .hero-text img {
         width: 2.5rem;
+    }
+
+    /* PROJECTS */
+
+    .project-content h3{
+        margin: 0;
+        text-align: center;
+    }
+
+    .project-content .desc {
+        margin: .5rem auto;
+        text-align: center;
+    }
+
+    .box-stack {
+        margin: 1rem auto;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+    .box-link{
+        margin: 0 auto;
+    }
+    .box-link img {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .icon-merge {
+        position: absolute;
+        left: .5rem;
+      }
+      
+      .icon-world {
+        position: absolute;
+        left: 0rem;
+      }
+
+    .box-link a {
+        margin: 0 1rem ;
+        padding: .7rem .2rem;
+        font-size: 1.3rem;
     }
 }
 
@@ -789,13 +1001,19 @@
         left: 19rem;
     }
 
+    /* PROJECTS */
+
+    .box-link{
+        width: 100%;
+    }
+    .box-link a {
+        margin: 0 0rem ;
+        padding: .7rem 0rem;
+        font-size: 1.3rem;
+    }
 }
 
 @media only screen and (min-width: 10em) {
-
-    .project {
-        display: none;
-    }
 
     .contact {
         display: none;
