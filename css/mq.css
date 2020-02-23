@@ -888,8 +888,8 @@
 
     .box-link a {
         margin: 0 1rem ;
-        padding: .7rem .2rem;
-        font-size: 1.3rem;
+        padding: .7rem .5rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -1028,8 +1028,8 @@
     }
     .box-link a {
         margin: 0 0rem ;
-        padding: .7rem 0rem;
-        font-size: 1.3rem;
+        padding: .7rem .5rem;
+        font-size: 1.1rem;
     }
 }
 
