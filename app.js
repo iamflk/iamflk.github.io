@@ -144,12 +144,12 @@ sr.reveal('.skill-tool', {
 
 
 // section project
-sr.reveal('.project-portfolio', {
-  delay: 400,
-  origin: 'top',
-  distance: '50px',
-  easing: 'ease-in'
-});
+// sr.reveal('.project-portfolio', {
+//   delay: 400,
+//   origin: 'top',
+//   distance: '50px',
+//   easing: 'ease-in'
+// });
 
 // section contact
 
