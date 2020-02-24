@@ -843,8 +843,6 @@ main {
   min-height: 94.35vh;
   max-width: 100%;
   margin: auto;
-
-  /* background: #dfdad5; */
 }
 
 .contact-content {
@@ -916,11 +914,9 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .contact-coordinates h3 {
-  text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-size: 2.5rem;
   color: #31859bff;

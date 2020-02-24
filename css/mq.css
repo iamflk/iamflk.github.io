@@ -256,14 +256,55 @@
         border-radius: 2.5rem;
     }
 
-    .project-illustration{
+    .project-illustration {
         max-width: 70%;
         margin-right: 12.5rem;
     }
+
     .project-illustration img {
         max-width: 100%;
         height: 45vh;
         margin: 0 auto;
+    }
+
+    /**********************************************
+            *** CONTACT ***
+**********************************************/
+
+    .contact-header-title {
+        font-size: 2.2rem;
+    }
+
+    .contact-header-intro {
+        font-size: 1.5rem;
+    }
+
+    .contact-button {
+        padding: 16px 36px;
+    }
+
+    .contact-button a {
+        font-size: 1.5rem;
+    }
+
+    .contact-coordinates h3 {
+        font-size: 2.2rem;
+    }
+
+    .box-mail img {
+        height: 3rem;
+    }
+
+    .box-mail p {
+        font-size: 1.5rem;
+    }
+
+    .box-location img {
+        height: 3rem;
+    }
+
+    .box-location p {
+        font-size: 1.5rem;
     }
 
     /**********************************************
@@ -312,6 +353,13 @@
         line-height: 3rem;
         width: 100%;
     }
+
+    /* CONTACT */
+
+    .contact-box {
+        width: 50%;
+    }
+
 }
 
 @media only screen and (max-width: 37.5em) {
@@ -426,14 +474,71 @@
 
 
 
-    .project-illustration{
+    .project-illustration {
         max-width: 100%;
         margin-left: 5rem;
     }
 
-    .project-illustration img{
+    .project-illustration img {
         width: 100%;
     }
+
+    
+/**********************************************
+            *** CONTACT ***
+**********************************************/
+
+.contact {
+    display: flex;
+    min-height: 94.35vh;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  
+  .contact-header-title {
+    font-size: 2rem;
+  }
+
+  .contact-header-intro {
+    font-size: 1.3rem;
+    line-height: 20px;
+  }
+  
+  .contact-button {
+    padding: 15px 15px;
+  }
+  
+  .contact-button a {
+    font-size: 1.3rem;
+  }
+  
+  .contact-box {
+    width: 50%;
+  }
+  
+  .contact-coordinates h3 {
+    font-size: 2rem;
+  }
+
+  .box-mail img{
+    height: 2.7rem;
+  }
+  
+  .box-mail p {
+    width: 16rem;
+    font-size: 1.3rem;
+  }
+  
+  .box-location img {
+    left: 1rem;
+    height: 2.7rem;
+  }
+  
+  .box-location p {
+    width: 16rem;
+    font-size: 1.3rem;
+  }
 
     .contact-illustration {
         display: none;
@@ -603,6 +708,7 @@
         width: 45vw;
         margin: 0 auto;
     }
+
     .project-illustration img {
         width: 100%;
         height: 45vh;
@@ -707,7 +813,7 @@
 
     /* PROJECTS */
 
-    .project-content h3{
+    .project-content h3 {
         margin: 0;
         text-align: center;
     }
@@ -722,9 +828,11 @@
         overflow: hidden;
         flex-shrink: 0;
     }
-    .box-link{
+
+    .box-link {
         margin: 0 auto;
     }
+
     .box-link img {
         height: 3rem;
         width: 3rem;
@@ -733,18 +841,24 @@
     .icon-merge {
         position: absolute;
         left: .5rem;
-      }
-      
-      .icon-world {
+    }
+
+    .icon-world {
         position: absolute;
         left: 0rem;
-      }
+    }
 
     .box-link a {
-        margin: 0 1.5rem ;
+        margin: 0 1.5rem;
         padding: .7rem 1rem;
         font-size: 1.3rem;
     }
+
+    /* CONTACT */
+
+    .contact-box {
+        width: 55%;
+      }
 }
 
 @media only screen and (max-width: 26.5625em) {
@@ -781,7 +895,7 @@
 
     /* PROJECTS */
 
-    .project-content h3{
+    .project-content h3 {
         margin: 0;
         text-align: center;
     }
@@ -796,9 +910,11 @@
         overflow: hidden;
         flex-shrink: 0;
     }
-    .box-link{
+
+    .box-link {
         margin: 0;
     }
+
     .box-link img {
         height: 3rem;
         width: 3rem;
@@ -807,18 +923,24 @@
     .icon-merge {
         position: absolute;
         left: .5rem;
-      }
-      
-      .icon-world {
+    }
+
+    .icon-world {
         position: absolute;
         left: 0rem;
-      }
+    }
 
     .box-link a {
-        margin: 0 1.5rem ;
+        margin: 0 1.5rem;
         padding: .7rem 1rem;
         font-size: 1.3rem;
     }
+
+    /* CONTACT */
+
+    .contact-box {
+        width: 70%;
+      }
 }
 
 @media only screen and (max-width: 23.4375em) {
@@ -853,7 +975,7 @@
 
     /* PROJECTS */
 
-    .project-content h3{
+    .project-content h3 {
         margin: 0;
         text-align: center;
     }
@@ -868,9 +990,11 @@
         overflow: hidden;
         flex-shrink: 0;
     }
-    .box-link{
+
+    .box-link {
         margin: 0 auto;
     }
+
     .box-link img {
         height: 3rem;
         width: 3rem;
@@ -879,18 +1003,24 @@
     .icon-merge {
         position: absolute;
         left: .5rem;
-      }
-      
-      .icon-world {
+    }
+
+    .icon-world {
         position: absolute;
         left: 0rem;
-      }
+    }
 
     .box-link a {
-        margin: 0 1rem ;
+        margin: 0 1rem;
         padding: .7rem .5rem;
         font-size: 1.1rem;
     }
+
+    /* CONTACT */
+
+    .contact-box {
+        width: 75%;
+      }
 }
 
 
@@ -898,16 +1028,15 @@
     .navigation {}
 
     .navigation__logo {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .navigation__item {
-        padding: 1rem .5rem;
+        padding: 1rem .3rem;
     }
 
     .navigation__link {
         font-size: .95rem;
-        font-weight: 300;
     }
 
     .hero-text h1 {
@@ -1023,19 +1152,19 @@
 
     /* PROJECTS */
 
-    .box-link{
+    .box-link {
         width: 100%;
     }
+
     .box-link a {
-        margin: 0 0rem ;
+        margin: 0 0rem;
         padding: .7rem .5rem;
         font-size: 1.1rem;
     }
-}
 
-@media only screen and (min-width: 10em) {
+    /* CONTACT */
 
-    /* .contact {
-        display: none;
-    } */
+    .contact-box {
+        width: 85%;
+      }
 }
