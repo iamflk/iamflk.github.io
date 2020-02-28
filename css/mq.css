@@ -195,31 +195,31 @@
             *** PROJECT ***
 **********************************************/
 
-    .project-box {
+    .project__box {
         margin: 0 auto;
         max-width: 95%;
         height: 100%;
     }
 
-    .project-portfolio {
+    .project__portfolio {
         flex-wrap: wrap;
     }
 
-    .project-content {
+    .project__content {
         margin-top: 4rem;
     }
 
-    .project-content h3 {
+    .project__content h3 {
         font-size: 3rem;
     }
 
-    .project-content .desc {
+    .project__content .desc {
         font-size: 1.5rem;
         line-height: 2rem;
         margin: .3rem 5.2rem;
     }
 
-    .box-stack {
+    .project__box--stack {
         align-items: center;
         height: 2rem;
         max-width: 100%;
@@ -227,7 +227,7 @@
         padding: 1.4rem 0;
     }
 
-    .box-stack p {
+    .project__box--stack p {
         margin: 0.5rem;
         font-size: 1.5rem;
     }
@@ -236,18 +236,18 @@
         padding: 0.2rem 0.3rem;
     }
 
-    .box-link {
+    .project__box--link {
         height: 4rem;
         margin-left: 3rem;
     }
 
-    .box-link img {
+    .project__box--link img {
         height: 4rem;
         width: 4rem;
         position: relative;
     }
 
-    .box-link a {
+    .project__box--link a {
         padding: 1rem 1.5rem;
         font-size: 1.5rem;
     }
@@ -256,12 +256,12 @@
         border-radius: 2.5rem;
     }
 
-    .project-illustration {
+    .project__illustration {
         max-width: 70%;
         margin-right: 12.5rem;
     }
 
-    .project-illustration img {
+    .project__illustration img {
         max-width: 100%;
         height: 45vh;
         margin: 0 auto;
@@ -474,12 +474,12 @@
 
 
 
-    .project-illustration {
+    .project__illustration {
         max-width: 100%;
         margin-left: 5rem;
     }
 
-    .project-illustration img {
+    .project__illustration img {
         width: 100%;
     }
 
@@ -655,33 +655,33 @@
         flex-shrink: 0;
     }
 
-    .project-box {
+    .project__box {
         margin: 0 auto;
         max-width: 95%;
         height: 100%;
     }
 
-    .project-portfolio {
+    .project__portfolio {
         flex-wrap: wrap;
     }
 
-    .project-content {
+    .project__content {
         margin-top: 4rem;
         overflow: hidden;
         flex-shrink: 0;
     }
 
-    .project-content h3 {
+    .project__content h3 {
         font-size: 3rem;
     }
 
-    .project-content .desc {
+    .project__content .desc {
         font-size: 1.3rem;
         line-height: 2rem;
         margin: .3rem 5.2rem;
     }
 
-    .box-stack {
+    .project__box--stack {
         align-items: center;
         height: 2rem;
         max-width: 100%;
@@ -689,27 +689,27 @@
         padding: 1.4rem 0;
     }
 
-    .box-stack p {
+    .project__box--stack p {
         font-size: 1.3rem;
     }
 
-    .box-link img {
+    .project__box--link img {
         height: 3rem;
         width: 3rem;
     }
 
-    .box-link a {
+    .project__box--link a {
         padding: .8rem 1.5rem;
         font-size: 1.3rem;
     }
 
-    .project-illustration {
+    .project__illustration {
         height: 45vh;
         width: 45vw;
         margin: 0 auto;
     }
 
-    .project-illustration img {
+    .project__illustration img {
         width: 100%;
         height: 45vh;
         margin: 0 auto;
@@ -813,27 +813,27 @@
 
     /* PROJECTS */
 
-    .project-content h3 {
+    .project__content h3 {
         margin: 0;
         text-align: center;
     }
 
-    .project-content .desc {
+    .project__content .desc {
         margin: .5rem auto;
         text-align: center;
     }
 
-    .box-stack {
+    .project__box--stack {
         margin: 1rem auto;
         overflow: hidden;
         flex-shrink: 0;
     }
 
-    .box-link {
+    .project__box--link {
         margin: 0 auto;
     }
 
-    .box-link img {
+    .project__box--link img {
         height: 3rem;
         width: 3rem;
     }
@@ -848,7 +848,7 @@
         left: 0rem;
     }
 
-    .box-link a {
+    .project__box--link a {
         margin: 0 1.5rem;
         padding: .7rem 1rem;
         font-size: 1.3rem;
@@ -895,27 +895,27 @@
 
     /* PROJECTS */
 
-    .project-content h3 {
+    .project__content h3 {
         margin: 0;
         text-align: center;
     }
 
-    .project-content .desc {
+    .project__content .desc {
         margin: .5rem auto;
         text-align: center;
     }
 
-    .box-stack {
+    .project__box--stack {
         margin: 1rem auto;
         overflow: hidden;
         flex-shrink: 0;
     }
 
-    .box-link {
+    .project__box--link {
         margin: 0;
     }
 
-    .box-link img {
+    .project__box--link img {
         height: 3rem;
         width: 3rem;
     }
@@ -930,7 +930,7 @@
         left: 0rem;
     }
 
-    .box-link a {
+    .project__box--link a {
         margin: 0 1.5rem;
         padding: .7rem 1rem;
         font-size: 1.3rem;
@@ -975,27 +975,27 @@
 
     /* PROJECTS */
 
-    .project-content h3 {
+    .project__content h3 {
         margin: 0;
         text-align: center;
     }
 
-    .project-content .desc {
+    .project__content .desc {
         margin: .5rem auto;
         text-align: center;
     }
 
-    .box-stack {
+    .project__box--stack {
         margin: 1rem auto;
         overflow: hidden;
         flex-shrink: 0;
     }
 
-    .box-link {
+    .project__box--link {
         margin: 0 auto;
     }
 
-    .box-link img {
+    .project__box--link img {
         height: 3rem;
         width: 3rem;
     }
@@ -1010,7 +1010,7 @@
         left: 0rem;
     }
 
-    .box-link a {
+    .project__box--link a {
         margin: 0 1rem;
         padding: .7rem .5rem;
         font-size: 1.1rem;
