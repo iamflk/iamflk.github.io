@@ -2,13 +2,9 @@
             *** RESPONSIVE *** 
 **********************************************/
 
-@media only screen and (min-width: 112.5em) {}
-
 @media only screen and (max-width: 75em) {
 
-    /**********************************************
-            *** NAVIGATION ***
-**********************************************/
+    /* NAVIGATION */
 
     .navigation {}
 
@@ -25,9 +21,7 @@
         font-weight: 300;
     }
 
-    /**********************************************
-            *** HOME SECTION *** - START
-**********************************************/
+    /* HOME SECTION */
 
     .hero-text h1 {
         font-size: 8rem;
@@ -42,7 +36,7 @@
         width: 4rem;
     }
 
-    /* ABOUT */
+    /* ABOUT SECTION */
 
     .about__btn a {
         font-size: 1.5rem;
@@ -59,7 +53,7 @@
         width: 50%;
     }
 
-    .contact-illustration {
+    .contact__illustration {
         display: none;
     }
 }
@@ -71,7 +65,7 @@
         line-height: 5rem;
     }
 
-    /* ABOUT */
+    /* ABOUT SECTION */
 
     .about__content {
         height: 100%;
@@ -98,9 +92,7 @@
 
 @media only screen and (max-width: 56.25em) {
 
-    /**********************************************
-            *** NAVIGATION ***
-**********************************************/
+    /* NAVIGATION */
 
     .navigation__logo {
         font-size: 2.5rem;
@@ -115,9 +107,8 @@
         font-weight: 300;
     }
 
-    /**********************************************
-            *** HOME SECTION *** - START
-**********************************************/
+    /* HOME SECTION */
+
     .hero-text h1 {
         font-size: 7rem;
         line-height: 8rem;
@@ -132,9 +123,7 @@
         width: 4rem;
     }
 
-    /**********************************************
-            *** ABOUT SECTION ***
-**********************************************/
+    /* ABOUT SECTION */
 
     .about {
         flex-direction: column;
@@ -173,9 +162,7 @@
         margin: 0.5rem;
     }
 
-    /**********************************************
-            *** SKILLS ***
-**********************************************/
+    /* SKILL SECTION */
 
     .skill__content-title {
         display: flex;
@@ -191,9 +178,7 @@
         font-size: 1.5rem;
     }
 
-    /**********************************************
-            *** PROJECT ***
-**********************************************/
+    /* PROJECT SECTION */
 
     .project__box {
         margin: 0 auto;
@@ -267,9 +252,7 @@
         margin: 0 auto;
     }
 
-    /**********************************************
-            *** CONTACT ***
-**********************************************/
+    /* CONTACT SECTION */
 
     .contact-header-title {
         font-size: 2.2rem;
@@ -307,15 +290,13 @@
         font-size: 1.5rem;
     }
 
-    /**********************************************
-            *** FOOTER ***
-**********************************************/
+    /* FOOTER */
 
     footer p {
         font-size: 1.5rem;
     }
 
-    .contact-illustration {
+    .contact__illustration {
         display: none;
     }
 
@@ -328,9 +309,7 @@
 
 @media only screen and (max-width: 50em) {
 
-    /**********************************************
-            *** HOME SECTION *** - START
-**********************************************/
+    /* HOME SECTION */
     .hero-text h1 {
         font-size: 6.5rem;
         line-height: 8rem;
@@ -354,7 +333,7 @@
         width: 100%;
     }
 
-    /* CONTACT */
+    /* CONTACT SECTION */
 
     .contact-box {
         width: 50%;
@@ -364,9 +343,8 @@
 
 @media only screen and (max-width: 37.5em) {
 
-    /**********************************************
-            *** NAVIGATION ***
-**********************************************/
+    /* NAVIGATION */
+
     .navigation {
         margin: 5px auto;
     }
@@ -384,9 +362,8 @@
         font-weight: 300;
     }
 
-    /**********************************************
-            *** HOME SECTION *** - START
-**********************************************/
+    /* HOME SECTION */
+
     .hero-text h1 {
         font-size: 5rem;
     }
@@ -414,9 +391,7 @@
         margin-top: 5px;
     }
 
-    /**********************************************
-            *** ABOUT SECTION ***
-**********************************************/
+    /* ABOUT SECTION */
 
     .about {
         flex-direction: column;
@@ -459,9 +434,7 @@
         width: 30rem;
     }
 
-    /**********************************************
-            *** SKILLS ***
-**********************************************/
+    /* SKILL SECTION */
 
 
     .heading__primary {
@@ -472,8 +445,6 @@
         font-size: 1.3rem;
     }
 
-
-
     .project__illustration {
         max-width: 100%;
         margin-left: 5rem;
@@ -483,70 +454,66 @@
         width: 100%;
     }
 
-    
-/**********************************************
-            *** CONTACT ***
-**********************************************/
 
-.contact {
-    display: flex;
-    min-height: 94.35vh;
-    max-width: 100%;
-    margin: auto;
-  }
-  
-  
-  .contact-header-title {
-    font-size: 2rem;
-  }
+    /* CONTACT SECTION */
 
-  .contact-header-intro {
-    font-size: 1.3rem;
-    line-height: 20px;
-  }
-  
-  .contact-button {
-    padding: 15px 15px;
-  }
-  
-  .contact-button a {
-    font-size: 1.3rem;
-  }
-  
-  .contact-box {
-    width: 50%;
-  }
-  
-  .contact-coordinates h3 {
-    font-size: 2rem;
-  }
+    .contact {
+        display: flex;
+        min-height: 94.35vh;
+        max-width: 100%;
+        margin: auto;
+    }
 
-  .box-mail img{
-    height: 2.7rem;
-  }
-  
-  .box-mail p {
-    width: 16rem;
-    font-size: 1.3rem;
-  }
-  
-  .box-location img {
-    left: 1rem;
-    height: 2.7rem;
-  }
-  
-  .box-location p {
-    width: 16rem;
-    font-size: 1.3rem;
-  }
 
-    .contact-illustration {
+    .contact-header-title {
+        font-size: 2rem;
+    }
+
+    .contact-header-intro {
+        font-size: 1.3rem;
+        line-height: 20px;
+    }
+
+    .contact-button {
+        padding: 15px 15px;
+    }
+
+    .contact-button a {
+        font-size: 1.3rem;
+    }
+
+    .contact-box {
+        width: 50%;
+    }
+
+    .contact-coordinates h3 {
+        font-size: 2rem;
+    }
+
+    .box-mail img {
+        height: 2.7rem;
+    }
+
+    .box-mail p {
+        width: 16rem;
+        font-size: 1.3rem;
+    }
+
+    .box-location img {
+        left: 1rem;
+        height: 2.7rem;
+    }
+
+    .box-location p {
+        width: 16rem;
+        font-size: 1.3rem;
+    }
+
+    .contact__illustration {
         display: none;
     }
 
-    /**********************************************
-            *** FOOTER ***
-**********************************************/
+    /* FOOTER */
 
     footer p {
         font-size: 1.4rem;
@@ -575,13 +542,13 @@
         width: 3rem;
     }
 
-    /* ABOUT */
+    /* ABOUT SECTION */
 
     .about__btn a:nth-child(1) {
         margin-left: 0rem;
     }
 
-    /* SKILLS */
+    /* SKILL SECTION */
 
     .skill__content--box {
         width: 100%;
@@ -646,9 +613,7 @@
         left: 32rem;
     }
 
-    /**********************************************
-            *** PROJECT ***
-**********************************************/
+    /* PROJECT SECTION */
 
     .project {
         overflow: hidden;
@@ -717,7 +682,6 @@
 }
 
 @media only screen and (max-width: 30em) {
-    .navigation {}
 
     .navigation__logo {
         font-size: 2rem;
@@ -746,7 +710,7 @@
         width: 3rem;
     }
 
-    /* SKILLS */
+    /* SKILL SECTION */
 
     .skill__content--box {
         width: 100%;
@@ -811,7 +775,7 @@
         left: 24rem;
     }
 
-    /* PROJECTS */
+    /* PROJECT SECTION */
 
     .project__content h3 {
         margin: 0;
@@ -854,17 +818,14 @@
         font-size: 1.3rem;
     }
 
-    /* CONTACT */
+    /* CONTACT SECTION */
 
     .contact-box {
         width: 55%;
-      }
+    }
 }
 
 @media only screen and (max-width: 26.5625em) {
-    .container {}
-
-    .navigation {}
 
     .navigation__logo {
         font-size: 1.4rem;
@@ -893,7 +854,7 @@
         width: 2.5rem;
     }
 
-    /* PROJECTS */
+    /* PROJECT SECTION */
 
     .project__content h3 {
         margin: 0;
@@ -936,15 +897,14 @@
         font-size: 1.3rem;
     }
 
-    /* CONTACT */
+    /* CONTACT SECTION */
 
     .contact-box {
         width: 70%;
-      }
+    }
 }
 
 @media only screen and (max-width: 23.4375em) {
-    .navigation {}
 
     .navigation__logo {
         font-size: 1.4rem;
@@ -973,7 +933,7 @@
         width: 2.5rem;
     }
 
-    /* PROJECTS */
+    /* PROJECT SECTION */
 
     .project__content h3 {
         margin: 0;
@@ -1016,16 +976,15 @@
         font-size: 1.1rem;
     }
 
-    /* CONTACT */
+    /* CONTACT SECTION */
 
     .contact-box {
         width: 75%;
-      }
+    }
 }
 
 
 @media only screen and (max-width: 20em) {
-    .navigation {}
 
     .navigation__logo {
         font-size: 1.2rem;
@@ -1053,9 +1012,7 @@
         width: 2.2rem;
     }
 
-    /**********************************************
-            *** ABOUT SECTION ***
-**********************************************/
+   /* ABOUT SECTION */
 
     .about__content {
         height: 50%;
@@ -1094,7 +1051,7 @@
         height: 30%;
     }
 
-    /* SKILL */
+    /* SKILL SECTION */
     .skill__content--stack:nth-child(1) {
         top: 4rem;
         left: 11rem;
@@ -1150,21 +1107,21 @@
         left: 19rem;
     }
 
-    /* PROJECTS */
+    /* PROJECT SECTION */
 
-    .box-link {
+    .project__box--link {
         width: 100%;
     }
 
-    .box-link a {
+    .project__box--link a {
         margin: 0 0rem;
         padding: .7rem .5rem;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
-    /* CONTACT */
+    /* CONTACT SECTION */
 
     .contact-box {
         width: 85%;
-      }
+    }
 }
