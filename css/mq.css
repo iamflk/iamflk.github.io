@@ -679,6 +679,11 @@
         height: 45vh;
         margin: 0 auto;
     }
+
+    /* CONTACT SECTION */
+    .contact__illustration {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 30em) {
@@ -823,6 +828,10 @@
     .contact-box {
         width: 55%;
     }
+
+    .contact__illustration {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 26.5625em) {
@@ -902,6 +911,10 @@
     .contact-box {
         width: 70%;
     }
+
+    .contact__illustration {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 23.4375em) {
@@ -980,6 +993,10 @@
 
     .contact-box {
         width: 75%;
+    }
+
+    .contact__illustration {
+        display: none;
     }
 }
 
@@ -1123,5 +1140,9 @@
 
     .contact-box {
         width: 85%;
+    }
+
+    .contact__illustration {
+        display: none;
     }
 }
