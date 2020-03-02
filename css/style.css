@@ -962,14 +962,14 @@ main {
   font-size: 2rem;
 }
 
-.contact-illustration {
+.contact__illustration {
   position: relative;
   height: 70.5rem;
   width: 68.5rem;
   float: right;
 }
 
-.contact-illustration img {
+.contact__illustration img {
   position: absolute;
   width: 50rem;
   top: 18.5rem;
