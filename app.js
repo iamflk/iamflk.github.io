@@ -1,3 +1,5 @@
+//LINK NAV SCROLL
+
   $("#link-home").click(function () {
     $("html, body").animate({
       scrollTop: $(".navigation").offset().top
@@ -35,8 +37,8 @@
     }, 1000);
   });
 
-
-
+  
+// BUTTON SCROLL
 const backToTopButton = document.querySelector("#btn-top");
 
 window.addEventListener("scroll", scrollFunction);
@@ -59,6 +61,7 @@ function scrollFunction() {
   }
 }
 
+//BUTTON SCROLL BOTTOM
 backToTopButton.addEventListener("click", smoothScrollBackToTop);
 
 function smoothScrollBackToTop() {
@@ -92,24 +95,24 @@ var sr = ScrollReveal({
 
 
 //section navigation
-sr.reveal('.navigation', {
-  delay: 500
-});
+// sr.reveal('.navigation', {
+//   delay: 500
+// });
 
 // section hero
 
-sr.reveal('.hero-text h1', {
-  delay: 1000
-});
-sr.reveal('.hero-text h2', {
-  delay: 1500
-});
-sr.reveal('.icon-arrow', {
-  delay: 2000
-});
-sr.reveal('.arrow', {
-  delay: 2500
-});
+// sr.reveal('.hero-text h1', {
+//   delay: 1000
+// });
+// sr.reveal('.hero-text h2', {
+//   delay: 1500
+// });
+// sr.reveal('.icon-arrow', {
+//   delay: 2000
+// });
+// sr.reveal('.arrow', {
+//   delay: 500
+// });
 
 // section about
 
@@ -142,17 +145,6 @@ sr.reveal('.skill-tool', {
   distance: '50px'
 });
 
-
-// section project
-// sr.reveal('.project-portfolio', {
-//   delay: 400,
-//   origin: 'top',
-//   distance: '50px',
-//   easing: 'ease-in'
-// });
-
-// section contact
-
 sr.reveal('.contact-header-title h3', {
   delay: 500
 });
@@ -170,3 +162,12 @@ var options = {
   loop: true
 };
 var Typed = new Typed("#row", options);
+
+
+
+// let skillBox = document.querySelector('.skill__content--box');
+// let skillStack = document.querySelector('p');
+
+// skillStack.addEventListener('click', () => {
+//   skillBox.style.backgroundColor = "green";
+// });

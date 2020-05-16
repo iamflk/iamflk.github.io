@@ -832,6 +832,10 @@
     .contact__illustration {
         display: none;
     }
+
+    .contact-button {
+        padding: 10px 20px;
+    }
 }
 
 @media only screen and (max-width: 26.5625em) {
@@ -998,6 +1002,14 @@
     .contact__illustration {
         display: none;
     }
+
+    .contact__illustration {
+        display: none;
+    }
+
+    .contact-button {
+        padding: 7px 15px;
+    }
 }
 
 
@@ -1127,7 +1139,7 @@
     /* PROJECT SECTION */
 
     .project__box--link {
-        width: 100%;
+        margin: 0 auto;
     }
 
     .project__box--link a {
