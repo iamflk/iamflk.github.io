@@ -1,3 +1,8 @@
+window.addEventListener('scroll', function(){
+  let navigation = document.querySelector('.navigation');
+  navigation.classList.toggle('sticky', window.scrollY > 0);
+});
+
 //LINK NAV SCROLL
 
   $("#link-home").click(function () {
