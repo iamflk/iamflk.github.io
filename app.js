@@ -1,7 +1,11 @@
 window.addEventListener('scroll', function(){
-  let navigation = document.querySelector('.navigation');
-  navigation.classList.toggle('sticky', window.scrollY > 0);
+  let navigation = document.querySelector('nav');
+  let link = document.querySelector('.navigation__items a');
+  // link.classList.remove('bord');
+  navigation.classList.toggle('navigation__scroll', window.scrollY > 0);
 });
+
+
 
 //LINK NAV SCROLL
 

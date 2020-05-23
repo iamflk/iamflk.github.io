@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Bahiana&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mq.css">
@@ -24,7 +25,7 @@
 </head>
 
 <body>
-    <main>
+    <!-- <main> -->
         <div class="banner">
             <ul class="circles">
                 <li></li>
@@ -48,7 +49,19 @@
             </ul>
         </div>
         <section class="home">
-            <nav class="navigation">
+            <nav>
+                <div class="navigation">
+                    <h2 class="fade">CapiCode</h2>
+                    <div class="navigation__items">
+                        <a href="#skills" class="bord fadet">A propos</a>
+                        <a href="#skills" class="bord fadet">Compétences</a>
+                        <a href="#portfolio" class="bord fadet">Projets</a>
+                        <a href="#hire" class="bord fadet">Contact</a>
+                        <!-- <a class="toggle-nav"><i class="fa fa-bars"></i></a> -->
+                    </div>
+                </div>
+            </nav>
+            <!-- <nav class="navigation">
                 <div class="navigation__logo-box">
                     <a class="navigation__logo fade" href="index.html" id="link-home">CapiCode</a>
                 </div>
@@ -65,14 +78,12 @@
                         <li class="navigation__item"><a class="navigation__link bord fade2" href="#contact"
                                 id="link-contact">Contact</a></li>
                     </ul>
-            </nav>
+            </nav> -->
             <div class="hero-text animated" id="hero-text">
-                <h1>Salut! <img src="img/hand.png" class="viber" alt="Hand"></h1>
-                <h2>Bienvenue sur mon portfolio<img src="img/globe.png" alt="Globe"></h2>
+                <h1>Bienvenue sur mon portfolio<img src="img/hand.png" class="viber" alt="Hand"></h1>
             </div>
-            <div class="hero-icon animated">
-                <a href="#" id="icon-arrow" class="icon-arrow animated">
-                    <img src="img/arrow_bottom.svg" alt="Bottom" class="arrow">
+            <div class="hero-icon appearingArrow">
+                    <span class="mouseScroll" id="arrow"></span>
                 </a>
             </div>
 
@@ -233,7 +244,7 @@
                     <div class="box-mail">
                         <div><img src="img/contact/email.svg" alt=""></div>
                         <div>
-                            <p>prodcapicode@gmail.com</p>
+                            <p>contactcapicode@gmail.com</p>
                         </div>
                     </div>
                     <div class="box-location">
