@@ -5,8 +5,6 @@ window.addEventListener('scroll', function(){
   navigation.classList.toggle('navigation__scroll', window.scrollY > 0);
 });
 
-
-
 //LINK NAV SCROLL
 
   $("#link-home").click(function () {
@@ -35,7 +33,7 @@ window.addEventListener('scroll', function(){
       scrollTop: $("section.contact").offset().top
     }, 1000);
   });
-  $("#icon-arrow").click(function () {
+  $("#arrow").click(function () {
     $("html, body").animate({
       scrollTop: $("section.about").offset().top
     }, 1000);
@@ -103,28 +101,6 @@ var sr = ScrollReveal({
 });
 
 
-//section navigation
-// sr.reveal('.navigation', {
-//   delay: 500
-// });
-
-// section hero
-
-// sr.reveal('.hero-text h1', {
-//   delay: 1000
-// });
-// sr.reveal('.hero-text h2', {
-//   delay: 1500
-// });
-// sr.reveal('.icon-arrow', {
-//   delay: 2000
-// });
-// sr.reveal('.arrow', {
-//   delay: 500
-// });
-
-// section about
-
 sr.reveal('.about-content', {
   delay: 500
 });
@@ -174,9 +150,4 @@ var Typed = new Typed("#row", options);
 
 
 
-// let skillBox = document.querySelector('.skill__content--box');
-// let skillStack = document.querySelector('p');
 
-// skillStack.addEventListener('click', () => {
-//   skillBox.style.backgroundColor = "green";
-// });

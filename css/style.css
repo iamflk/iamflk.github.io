@@ -152,8 +152,6 @@ nav {
           *** HERO SECTION *** - START
 **********************************************/
 
-
-
 .hero-text {
   display: flex;
   justify-content: center;
@@ -176,7 +174,7 @@ nav {
 }
 
 .hero-text img {
-  width: 4rem;
+  width: 6rem;
   margin-left: .5rem;
   cursor: pointer;
 }
