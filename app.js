@@ -9,7 +9,7 @@ window.addEventListener('scroll', function(){
 
   $("#link-home").click(function () {
     $("html, body").animate({
-      scrollTop: $(".navigation").offset().top
+      scrollTop: $(".home").offset().top
     }, 1000);
   });
 
@@ -30,7 +30,7 @@ window.addEventListener('scroll', function(){
   });
   $("#link-contact").click(function () {
     $("html, body").animate({
-      scrollTop: $("section.contact").offset().top
+      scrollTop: $("footer").offset().top
     }, 1000);
   });
   $("#arrow").click(function () {
@@ -95,49 +95,6 @@ function easeInOutCubic(t, b, c, d) {
   return c / 2 * (t * t * t + 2) + b;
 };
 
-var sr = ScrollReveal({
-  duration: 1500,
-  reset: false
-});
-
-
-sr.reveal('.about-content', {
-  delay: 500
-});
-sr.reveal('.about-illustration img', 2000);
-sr.reveal('.intro-feature', 500);
-
-//section skill
-sr.reveal('.skill-illustration img', 500);
-sr.reveal('.skill-front', {
-  delay: 1500,
-  origin: 'left',
-  distance: '50px'
-});
-sr.reveal('.skill-back', {
-  delay: 2000,
-  origin: 'right',
-  distance: '50px'
-});
-sr.reveal('.skill-framework', {
-  delay: 2500,
-  origin: 'left',
-  distance: '50px'
-});
-sr.reveal('.skill-tool', {
-  delay: 3000,
-  origin: 'right',
-  distance: '50px'
-});
-
-sr.reveal('.contact-header-title h3', {
-  delay: 500
-});
-sr.reveal('.contact-header-intro p', 1000);
-sr.reveal('.contact-button a', 1500);
-sr.reveal('.contact-illustration', 2000)
-sr.reveal('.contact-box', 2500);
-
 
 var options = {
   strings: ["👻"],
@@ -149,5 +106,9 @@ var options = {
 var Typed = new Typed("#row", options);
 
 
+// let skillBox = document.querySelector('.skill__content--box');
+// let skillStack = document.querySelector('p');
 
-
+// skillStack.addEventListener('click', () => {
+//   skillBox.style.backgroundColor = "green";
+// });

@@ -20,254 +20,243 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mq.css">
+    <!-- <link rel="stylesheet" href="css/mq.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
-    <!-- <main> -->
-        <div class="banner">
-            <ul class="circles">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+    <div class="banner">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <section class="home">
+        <nav>
+            <div class="navigation">
+                <a href="#home" class="fade logo" id="link-home">CapiCode</a>
+                <div class="navigation__items">
+                    <a href="#about" class="bord fadet" id="link-about">A propos</a>
+                    <a href="#skill" class="bord fadet" id="link-skill">Compétences</a>
+                    <a href="#projects" class="bord fadet" id="link-project">Projets</a>
+                    <a href="#contact" class="bord fadet" id="link-contact">Contact</a>
+                    <!-- <a class="toggle-nav"><i class="fa fa-bars"></i></a> -->
+                </div>
+            </div>
+        </nav>
+        <div class="hero-text animated" id="hero-text">
+            <h1>Bienvenue sur mon portfolio<img src="img/hand.png" class="viber" alt="Hand"></h1>
         </div>
-        <section class="home">
-            <nav>
-                <div class="navigation">
-                    <h2 class="fade">CapiCode</h2>
-                    <div class="navigation__items">
-                        <a href="#about" class="bord fadet" id="link-about">A propos</a>
-                        <a href="#skill" class="bord fadet" id="link-skill">Compétences</a>
-                        <a href="#projects" class="bord fadet" id="link-project">Projets</a>
-                        <a href="#contact" class="bord fadet" id="link-contact">Contact</a>
-                        <!-- <a class="toggle-nav"><i class="fa fa-bars"></i></a> -->
-                    </div>
-                </div>
-            </nav>
-            <!-- <nav class="navigation">
-                <div class="navigation__logo-box">
-                    <a class="navigation__logo fade" href="index.html" id="link-home">CapiCode</a>
-                </div>
+        <div class="hero-icon appearingArrow">
+            <a href="#link-about" id="arrow"><span></span>Cliquez pour défiler</a>
+        </div>
 
-                <div class="navigation__list-box">
-                    <ul class="navigation__list">
-                        <li class="navigation__item"><a class="navigation__link bord fade2" href="#about"
-                                id="link-about">A
-                                propos</a></li>
-                        <li class="navigation__item"><a class="navigation__link bord fade2" href="#skill"
-                                id="link-skill">Compétences</a></li>
-                        <li class="navigation__item"><a class="navigation__link bord fade2" href="#project"
-                                id="link-project">Projets</a></li>
-                        <li class="navigation__item"><a class="navigation__link bord fade2" href="#contact"
-                                id="link-contact">Contact</a></li>
-                    </ul>
-            </nav> -->
-            <div class="hero-text animated" id="hero-text">
-                <h1>Bienvenue sur mon portfolio<img src="img/hand.png" class="viber" alt="Hand"></h1>
+    </section>
+    <section class="about" id="about">
+        <div class="about__illustration">
+            <img src="img/online.svg" alt="illustration">
+        </div>
+        <div class="about__content">
+            <div>
+                <h1>Je suis <span class="title-color">CapiCode</span>
+                    <span class="" id="row"></span></h1>
             </div>
-            <div class="hero-icon appearingArrow">
-                    <span class="mouseScroll" id="arrow"></span>
-                </a>
+            <div>
+                <p>
+                    Actuellement étudiant en formation de <span class="highlith">Technicien
+                        Développeur</span> axé sur la <span class="highlith">conception web design</span> et
+                    <span class="highlith">intégration de sites web</span>.
+                    Etant assoiffé de connaissances et de nouvelles technologies de
+                    manière générale, je passe la majorité partie de mon temps libre à décupler mes compétences via des
+                    projets personnel et collaboratifs.
+                    Tombé par hasard dans <span class="highlith">l'univers du code</span>, j'ai commencé par créer
+                    des morceaux de codes par curiosité,
+                    aujourd'hui je réalise avec passion de <span class="highlith">fines créations</span> pour donner
+                    vie à mes idées.
+                    J'adore <span class="highlith">apprendre</span> de mon côté, de façon à rester en <span
+                        class="highlith">veille permanente</span>.
+                </p>
             </div>
-
-        </section>
-        <section class="about" id="about">
-            <div class="about__illustration">
-                <img src="img/online.svg" alt="illustration">
-            </div>
-            <div class="about__content">
+            <div class="about__box-social">
                 <div>
-                    <h1>Je suis <span class="title-color">CapiCode</span>
-                        <span class="" id="row"></span></h1>
+                    <a href="https://github.com/CapiCode" target="_blank">
+                        <img src="img/github.svg" alt="" class="logo-animated "></a>
+                    <span class="desc-github">Github</span>
                 </div>
                 <div>
-                    <p>
-                        Actuellement étudiant en formation de <span class="highlith">Technicien
-                            Développeur</span> spécialisé dans la <span class="highlith">conception web design</span> et
-                        <span class="highlith">intégration de sites web</span>.
-                        Etant assoiffé de connaissances et de nouvelles technologies de
-                        manière générale, je passe la majorité partie de mon temps libre à décupler mes compétences
-                        ainsi qu'à lire des articles, blogs.
-                        Tombé par hasard dans <span class="highlith">l'univers du code</span>, j'ai commencé par créer
-                        des morceaux de codes par curiosité,
-                        aujourd'hui je réalise avec passion de <span class="highlith">fines créations</span> pour donner
-                        vie à mes idées.
-                        J'adore <span class="highlith">apprendre</span> de mon côté, de façon à rester en <span
-                            class="highlith">veille permanente</span>.
-                    </p>
+                    <a href="https://www.linkedin.com/in/giovanni-charles-edouard-a15337179" target="_blank">
+                        <img src="img/linkedin.svg" alt="" class="logo-animated "></a>
+                    <span class="desc-linkedin">LinkedIn</span>
                 </div>
-                <div class="about__box-social">
+            </div>
+            <div class="about__btn">
+                <a href="cv/CV_Giovanni_CHARLES-EDOUARD.pdf" target="_blank">Voir mon CV ⇢</a>
+                <a href="#" id="see-project">Consultez mes projets ⇢</a>
+            </div>
+        </div>
+    </section>
+    <section class="skill" id="skill">
+        <div class="skill__content">
+            <h3 class="heading__primary">💻 Technologies & Outils</h3>
+            <div class="skill__content--box">
+                <p class="skill__content--stack">HTML</p>
+                <p class="skill__content--stack">CSS</p>
+                <p class="skill__content--stack">JS</p>
+                <p class="skill__content--stack">C#</p>
+                <p class="skill__content--stack">PHP</p>
+                <p class="skill__content--stack">SQL</p>
+                <p class="skill__content--stack">Bulma</p>
+                <p class="skill__content--stack">Git</p>
+                <p class="skill__content--stack">Github</p>
+                <p class="skill__content--stack">Adobe XD</p>
+                <p class="skill__content--stack">Xamarin</p>
+                <p class="skill__content--stack">SCSS</p>
+                <p class="skill__content--stack">Wordpress</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" id="project">
+        <div class="project__portfolio">
+            <div class="project__illustration">
+                <img src="img/project/chat.JPG" alt="">
+            </div>
+            <div class="project__content">
+                <h3>Chat</h3>
+                <p class="desc">Chat permet de discuter en ligne avec des utilisateurs via divers salons.
+
+                </p>
+                <div class="project__box--stack">
+                    <p class="highlith-stack">HTML</p>
+                    <p class="highlith-stack">CSS</p>
+                    <p class="highlith-stack">Javascript</p>
+                    <p class="highlith-stack">PHP</p>
+                </div>
+                <div class="project__box--link">
+                    <img src="img/project/loading.png" class="icon-merge logo-animated " alt="Source">
+                    <a href="#project" class="btn-project">En cours</a>
+                </div>
+            </div>
+        </div>
+        <div class="project__portfolio">
+            <div class="project__illustration">
+                <img src="img/project/funnyrecipes-min.PNG" alt="">
+            </div>
+            <div class="project__content">
+                <h3>Drôle de recettes</h3>
+                <p class="desc">Conception en cours d'une interface permettant d'élaborer et de stocker des recettes
+                    de cuisines.
+                    Gestion utilisateurs, CRUD.
+                </p>
+                <div class="project__box--stack">
+                    <p class="highlith-stack">HTML</p>
+                    <p class="highlith-stack">CSS</p>
+                    <p class="highlith-stack">Javascript</p>
+                    <p class="highlith-stack">PHP</p>
+                </div>
+                <div class="project__box--link">
+                    <img src="img/project/loading.png" class="icon-merge logo-animated " alt="Source">
+                    <a href="#project" class="btn-project">En cours</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project__portfolio">
+            <div class="project__illustration">
+                <img src="img/project/portfolio-min.png" alt="">
+            </div>
+            <div class="project__content">
+                <h3>Portfolio</h3>
+                <p class="desc">Ce premier projet est un portfolio réalisé pour mettre en
+                    valeur mes
+                    compétences ainsi que l'étendu de mes réalisations.
+                    Celui-ci sera en constante évolution.
+                    L'interface exploite principalement le standard CSS3 (Flexbox), les îcones
+                    (Icon8) et la librairie (jQuery).
+                </p>
+                <div class="project__box--stack">
+                    <p class="highlith-stack">HTML</p>
+                    <p class="highlith-stack">CSS</p>
+                    <p class="highlith-stack">Javascript</p>
+                </div>
+                <div class="project__box--link">
+                    <img src="img/project/merge.png" class="icon-merge logo-animated " alt="Source">
+                    <a href="https://github.com/CapiCode/capicode.github.io" class="btn-project" target="_blank">Voir la
+                        Source ⇢</a>
+                    <img src="img/project/world.png" class="icon-world logo-animated " alt="Website">
+                    <a href="https://capicode.github.io/" class="btn-project">Visiter ⇢</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <div class="contact-header">
+                <div class="contact-header-title">
+                    <h3>Une information ? Une question ?</h3>
+                </div>
+                <div class="contact-header-intro">
+                    <p>Vous pouvez me contacter pour tout renseignements ou simplement pour discuter !</p>
+                </div>
+                <div class="contact-button">
+                    <a href="mailto:devcapicode@gmail.com">Contact ⇢</a>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div class="contact-coordinates">
+                    <h3>Coordonnées</h3>
+                </div>
+                <div class="box-github">
                     <div>
                         <a href="https://github.com/CapiCode" target="_blank">
-                            <img src="img/github.svg" alt="" class="logo-animated "></a>
-                        <span class="desc-github">Github</span>
+                            <img src="img/contact/github.svg" alt="">
+                        </a>
+
                     </div>
+                </div>
+                <div class="box-linkedin">
                     <div>
                         <a href="https://www.linkedin.com/in/giovanni-charles-edouard-a15337179" target="_blank">
-                            <img src="img/linkedin.svg" alt="" class="logo-animated "></a>
-                        <span class="desc-linkedin">LinkedIn</span>
-                    </div>
-                </div>
-                <div class="about__btn">
-                    <a href="cv/CV_Giovanni_CHARLES-EDOUARD.pdf" target="_blank">Voir mon CV ⇢</a>
-                    <a href="#" id="see-project">Consultez mes projets ⇢</a>
-                </div>
-            </div>
-        </section>
-        <section class="skill" id="skill">
-            <div class="skill__content">
-                <h3 class="heading__primary">💻 Technologies & Outils</h3>
-                <div class="skill__content--box">
-                    <p class="skill__content--stack">HTML</p>
-                    <p class="skill__content--stack">CSS</p>
-                    <p class="skill__content--stack">JS</p>
-                    <p class="skill__content--stack">C#</p>
-                    <p class="skill__content--stack">PHP</p>
-                    <p class="skill__content--stack">SQL</p>
-                    <p class="skill__content--stack">Bulma</p>
-                    <p class="skill__content--stack">Git</p>
-                    <p class="skill__content--stack">Github</p>
-                    <p class="skill__content--stack">Adobe XD</p>
-                    <p class="skill__content--stack">Xamarin</p>
-                </div>
-            </div>
-        </section>
+                            <img src="img/contact/linkedin.svg" alt="">
+                        </a>
 
-        <section class="project" id="project">
-            <div class="project__portfolio">
-                <div class="project__illustration">
-                    <img src="img/project/shareplat-min.PNG" alt="">
-                </div>
-                <div class="project__content">
-                    <h3>Plateforme</h3>
-                    <p class="desc">Plateforme de ressources en collaboration.
-                        Destiné aux élèves de ma promotion actuelle, celle-ci a pour but de transmettre et de partager
-                        des connaissances et ressources facilitant l'apprentissage du web.
-                    </p>
-                    <div class="project__box--stack">
-                        <p class="highlith-stack">HTML</p>
-                        <p class="highlith-stack">CSS</p>
-                        <p class="highlith-stack">Javascript</p>
-                        <p class="highlith-stack">PHP</p>
                     </div>
-                    <div class="project__box--link">
-                        <img src="img/project/loading.png" class="icon-merge logo-animated " alt="Source">
-                        <a href="#project" class="btn-project">En cours</a>
+                </div>
+                <div class="box-mail">
+                    <div><img src="img/contact/email.svg" alt=""></div>
+                    <div>
+                        <p>devcapicode@gmail.com</p>
                     </div>
                 </div>
             </div>
-            <div class="project__portfolio">
-                <div class="project__illustration">
-                    <img src="img/project/funnyrecipes-min.PNG" alt="">
-                </div>
-                <div class="project__content">
-                    <h3>Drôle de recettes</h3>
-                    <p class="desc">Conception en cours d'une interface permettant d'élaborer et de stocker des recettes
-                        de cuisines.
-                        Gestion utilisateurs, CRUD.
-                    </p>
-                    <div class="project__box--stack">
-                        <p class="highlith-stack">HTML</p>
-                        <p class="highlith-stack">CSS</p>
-                        <p class="highlith-stack">Javascript</p>
-                        <p class="highlith-stack">PHP</p>
-                    </div>
-                    <div class="project__box--link">
-                        <img src="img/project/loading.png" class="icon-merge logo-animated " alt="Source">
-                        <a href="#project" class="btn-project">En cours</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project__portfolio">
-                <div class="project__illustration">
-                    <img src="img/project/portfolio-min.png" alt="">
-                </div>
-                <div class="project__content">
-                    <h3>Portfolio</h3>
-                    <p class="desc">Ce premier projet est un portfolio réalisé pour mettre en
-                        valeur mes
-                        compétences ainsi que l'étendu de mes réalisations.
-                        Celui-ci sera en constante évolution.
-                        L'interface exploite principalement le standard CSS3 (Flexbox), les îcones
-                        (Icon8) et les librairies (jQuery, Scrollreveal).
-                    </p>
-                    <div class="project__box--stack">
-                        <p class="highlith-stack">HTML</p>
-                        <p class="highlith-stack">CSS</p>
-                        <p class="highlith-stack">Javascript</p>
-                    </div>
-                    <div class="project__box--link">
-                        <img src="img/project/merge.png" class="icon-merge logo-animated " alt="Source">
-                        <a href="https://github.com/CapiCode/capicode.github.io" class="btn-project"
-                            target="_blank">Voir la Source ⇢</a>
-                        <img src="img/project/world.png" class="icon-world logo-animated " alt="Website">
-                        <a href="https://capicode.github.io/" class="btn-project">Visiter ⇢</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="contact" id="contact">
-            <div class="contact-content">
-                <div class="contact-header">
-                    <div class="contact-header-title">
-                        <h3>Une information ? Une question ?</h3>
-                    </div>
-                    <div class="contact-header-intro">
-                        <p>Vous pouvez me contacter pour tout renseignements ou simplement pour discuter !</p>
-                    </div>
-                    <div class="contact-button">
-                        <a href="mailto:prodcapicode@gmail.com">Contact ⇢</a>
-                    </div>
-                </div>
-                <div class="contact-box">
-                    <div class="contact-coordinates">
-                        <h3>Coordonnées</h3>
-                    </div>
-                    <div class="box-mail">
-                        <div><img src="img/contact/email.svg" alt=""></div>
-                        <div>
-                            <p>contactcapicode@gmail.com</p>
-                        </div>
-                    </div>
-                    <div class="box-location">
-                        <div><img src="img/contact/location.svg" alt=""></div>
-                        <div>
-                            <p>57000 - Metz</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="contact__illustration">
-                <img src="img/contact/as.svg" alt="">
-            </div>
-        </section>
-        <button id="btn-top">
-            <div class="index"><img src="img/index.png" class="fas fa-angle-double-up logo-animated"></img></div>
-        </button>
-    </main>
+        </div>
+        <div class="contact__illustration">
+            <img src="img/contact/as.svg" alt="">
+        </div>
+    </section>
+    <button id="btn-top">
+        <div class="index"><img src="img/index.png" class="fas fa-angle-double-up logo-animated"></img></div>
+    </button>
     <footer>
-        <p>© 2019 | capicode.github.io 👻</p>
+        <p>Tous droits réservés | © 2020 | CapiCode 👻</p>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
-    <script src="libs/scrollreveal/dist/scrollreveal.js"></script>
     <script src="app.js"></script>
 </body>
 
