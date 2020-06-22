@@ -103,8 +103,18 @@
     }
 
     .contact__illustration {
-        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70.5rem;
+        width: 68.5rem;
     }
+
+    .contact__illustration img {
+        margin-top: 15rem;
+        width: 70%;
+    }
+
 }
 
 @media only screen and (max-width: 70em) {
@@ -145,12 +155,10 @@
     }
 
     .about__content h1 {
-        font-size: 3.5rem; 
+        font-size: 3.5rem;
     }
 
-    .about__content p {
-        
-      }
+    .about__content p {}
 
     .about__btn a {
         font-size: 1.3rem;
@@ -166,15 +174,15 @@
         height: 30%;
     }
 
-        /* SKILL SECTION */
+    /* SKILL SECTION */
 
-        .skill__content--box {
-            display: flex;
-            height: 22rem;
-            min-width: 54rem;
-            /* width: 100%; */
-            position: relative;
-          }
+    .skill__content--box {
+        display: flex;
+        height: 22rem;
+        min-width: 54rem;
+        /* width: 100%; */
+        position: relative;
+    }
 
     .contact-button {
         padding: 10px 30px;
@@ -280,7 +288,7 @@
         height: 22rem;
         min-width: 47rem;
         position: relative;
-      }
+    }
 
     .heading__primary {
         font-size: 4rem;
@@ -295,21 +303,21 @@
         position: absolute;
         top: 4.2rem;
         left: 4.5rem;
-      }
+    }
 
     .skill__content--stack:nth-child(2) {
         font-family: 'Bahiana', sans-serif;
         position: absolute;
         top: 18rem;
         left: 41rem;
-      }
+    }
 
     .skill__content--stack:nth-child(11) {
         font-family: 'Lato', sans-serif;
         position: absolute;
         top: 9rem;
         left: 37rem;
-      }
+    }
 
     /* PROJECT SECTION */
 
@@ -403,34 +411,10 @@
         font-size: 1.5rem;
     }
 
-    .contact-coordinates h3 {
-        font-size: 2.2rem;
-    }
-
-    .box-mail img {
-        height: 3rem;
-    }
-
-    .box-mail p {
-        font-size: 1.5rem;
-    }
-
-    .box-location img {
-        height: 3rem;
-    }
-
-    .box-location p {
-        font-size: 1.5rem;
-    }
-
     /* FOOTER */
 
     footer p {
         font-size: 1.5rem;
-    }
-
-    .contact__illustration {
-        display: none;
     }
 
     /* BTN TOP */
@@ -501,6 +485,7 @@
         border-left: 7px solid #fff;
         border-bottom: 7px solid #fff;
     }
+
     /* ANOUT SECTION */
 
     .about {
@@ -509,7 +494,7 @@
 
     .about__content p {
         line-height: 2.2rem;
-      }
+    }
 
     .about__illustration {
         position: relative;
@@ -518,8 +503,52 @@
         align-items: center;
         margin: 10rem 2rem 0;
         max-width: 450rem;
-      }
+    }
 
+    /* CONTACT SECTION */
+
+    .contact {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 40rem;
+    }
+
+    .contact div:nth-child(1){
+        order: 1;
+    }
+
+    .contact-header div:nth-child(1){
+        order: -1;
+    }
+
+    .contact__illustration {
+        height: 20rem;
+        margin: 2rem 2rem 0;
+    }
+
+    .contact__illustration img {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 16rem;
+        max-width: 100%;
+      }
+      
+      .contact-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 20rem;
+        max-width: 90%;
+        margin-top: 0rem;
+      }
 }
 
 @media only screen and (max-width: 44em) {
@@ -583,9 +612,48 @@
 
     /* CONTACT SECTION */
 
-    .contact-box {
-        width: 50%;
+    .contact {
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 40rem;
     }
+
+    .contact div:nth-child(1){
+        order: 1;
+    }
+
+    .contact-header div:nth-child(1){
+        order: -1;
+    }
+
+    .contact__illustration {
+        height: 20rem;
+        margin: 2rem 2rem 0;
+    }
+
+    .contact__illustration img {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 16rem;
+        max-width: 100%;
+      }
+      
+      .contact-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 20rem;
+        max-width: 90%;
+        margin-top: 0rem;
+      }
 
 }
 
@@ -703,13 +771,13 @@
         height: 22rem;
         min-width: 45rem;
         position: relative;
-      }
+    }
 
     .skill__content--stack {
         font-size: 1.3rem;
     }
 
-    
+
 
     /* PROJECTS SECTION /*
 
@@ -750,35 +818,16 @@
         font-size: 1.3rem;
     }
 
-    .contact-box {
-        width: 50%;
-    }
-
-    .contact-coordinates h3 {
-        font-size: 2rem;
-    }
-
-    .box-mail img {
-        height: 2.7rem;
-    }
-
-    .box-mail p {
-        width: 16rem;
-        font-size: 1.3rem;
-    }
-
-    .box-location img {
-        left: 1rem;
-        height: 2.7rem;
-    }
-
-    .box-location p {
-        width: 16rem;
-        font-size: 1.3rem;
-    }
-
     .contact__illustration {
-        display: none;
+        height: 20rem;
+        margin: 2rem 2rem 0;
+        width: auto;
+    }
+
+    .contact__illustration img {
+        margin: 0;
+        width: 100%;
+        height: 100%;
     }
 
     /* FOOTER */
@@ -817,7 +866,7 @@
         height: 22rem;
         min-width: 45rem;
         position: relative;
-      }
+    }
 
     .skill__content--stack {
         font-size: 1.5rem;
@@ -947,7 +996,7 @@
 
     /* CONTACT SECTION */
     .contact__illustration {
-        display: none;
+        
     }
 }
 
@@ -1026,7 +1075,7 @@
     /* ABOUT SECTION */
     .about__content h1 {
         margin-top: 8rem;
-      }
+    }
 
     /* SKILL SECTION */
 
@@ -1035,7 +1084,7 @@
         height: 22rem;
         min-width: 40rem;
         position: relative;
-      }
+    }
 
 
     .skill__content--stack {
@@ -1100,12 +1149,12 @@
     .skill__content--stack:nth-child(12) {
         top: 2.5rem;
         left: 15.5rem;
-      }
-      
-      .skill__content--stack:nth-child(13) {
+    }
+
+    .skill__content--stack:nth-child(13) {
         top: 6rem;
         left: 22rem;
-      }
+    }
 
     /* PROJECTS SESSION */
 
@@ -1152,17 +1201,12 @@
 
     /* CONTACT SECTION */
 
-    .contact-box {
-        width: 55%;
-    }
-
-    .contact__illustration {
-        display: none;
-    }
-
     .contact-button {
         padding: 10px 20px;
     }
+                .contact__illustration {
+                    
+                }
 }
 
 @media only screen and (max-width: 26.5625em) {
@@ -1213,87 +1257,88 @@
         width: 2.5rem;
     }
 
-        /* SKILL SECTION */
+    /* SKILL SECTION */
 
-        .heading__primary{
-            font-size: 2.3rem;
-          }
-        .skill__content--box {
-            display: flex;
-            height: 22rem;
-            min-width: 30rem;
-            position: relative;
+    .heading__primary {
+        font-size: 2.3rem;
+    }
 
-          }
-    
-        .skill__content--stack {
-            font-size: 1.5rem;
-        }
-    
-        .skill__content--stack:nth-child(1) {
-            top: 1rem;
-            left: 1rem;
-        }
-    
-        .skill__content--stack:nth-child(2) {
-            top: 20rem;
-            left: 18rem;
-        }
-    
-        .skill__content--stack:nth-child(3) {
-            top: 10rem;
-            left: 17rem;
-        }
-    
-        .skill__content--stack:nth-child(4) {
-            top: 20rem;
-            left: 10rem;
-        }
-    
-        .skill__content--stack:nth-child(5) {
-            top: 17rem;
-            left: 2.5rem;
-        }
-    
-        .skill__content--stack:nth-child(6) {
-            top: 15rem;
-            left: 22rem;
-        }
-    
-        .skill__content--stack:nth-child(7) {
-            top: 2rem;
-            left: 22rem;
-        }
-    
-        .skill__content--stack:nth-child(8) {
-            top: 15rem;
-            left: 15rem;
-        }
-    
-        .skill__content--stack:nth-child(9) {
-            top: 5rem;
-            left: 5rem;
-        }
-    
-        .skill__content--stack:nth-child(10) {
-            top: 11rem;
-            left: 6rem;
-        }
-    
-        .skill__content--stack:nth-child(11) {
-            top: 10rem;
-            left: 22rem;
-        }
-    
-        .skill__content--stack:nth-child(12) {
-            top: 2.5rem;
-            left: 12rem;
-          }
-          
-          .skill__content--stack:nth-child(13) {
-            top: 6rem;
-            left: 18rem;
-          }
+    .skill__content--box {
+        display: flex;
+        height: 22rem;
+        min-width: 30rem;
+        position: relative;
+
+    }
+
+    .skill__content--stack {
+        font-size: 1.5rem;
+    }
+
+    .skill__content--stack:nth-child(1) {
+        top: 1rem;
+        left: 1rem;
+    }
+
+    .skill__content--stack:nth-child(2) {
+        top: 20rem;
+        left: 18rem;
+    }
+
+    .skill__content--stack:nth-child(3) {
+        top: 10rem;
+        left: 17rem;
+    }
+
+    .skill__content--stack:nth-child(4) {
+        top: 20rem;
+        left: 10rem;
+    }
+
+    .skill__content--stack:nth-child(5) {
+        top: 17rem;
+        left: 2.5rem;
+    }
+
+    .skill__content--stack:nth-child(6) {
+        top: 15rem;
+        left: 22rem;
+    }
+
+    .skill__content--stack:nth-child(7) {
+        top: 2rem;
+        left: 22rem;
+    }
+
+    .skill__content--stack:nth-child(8) {
+        top: 15rem;
+        left: 15rem;
+    }
+
+    .skill__content--stack:nth-child(9) {
+        top: 5rem;
+        left: 5rem;
+    }
+
+    .skill__content--stack:nth-child(10) {
+        top: 11rem;
+        left: 6rem;
+    }
+
+    .skill__content--stack:nth-child(11) {
+        top: 10rem;
+        left: 22rem;
+    }
+
+    .skill__content--stack:nth-child(12) {
+        top: 2.5rem;
+        left: 12rem;
+    }
+
+    .skill__content--stack:nth-child(13) {
+        top: 6rem;
+        left: 18rem;
+    }
 
     /* PROJECT SECTION */
 
@@ -1340,12 +1385,8 @@
 
     /* CONTACT SECTION */
 
-    .contact-box {
-        width: 70%;
-    }
-
     .contact__illustration {
-        display: none;
+        
     }
 }
 
@@ -1416,17 +1457,17 @@
     .about__content h1 {
         margin-top: 12rem;
         font-size: 1.6rem;
-      }
+    }
 
-      /* SKILL SECTION */
+    /* SKILL SECTION */
 
-      .heading__primary{
+    .heading__primary {
         font-size: 2.3rem;
-      }
+    }
 
-      /* SKILL SECTION */
+    /* SKILL SECTION */
 
-      .skill__content--stack:nth-child(1) {
+    .skill__content--stack:nth-child(1) {
         top: 1rem;
         left: 1rem;
     }
@@ -1484,12 +1525,12 @@
     .skill__content--stack:nth-child(12) {
         top: 2.5rem;
         left: 12rem;
-      }
-      
-      .skill__content--stack:nth-child(13) {
+    }
+
+    .skill__content--stack:nth-child(13) {
         top: 6rem;
         left: 18rem;
-      }
+    }
 
     /* PROJECT SECTION */
 
@@ -1536,16 +1577,8 @@
 
     /* CONTACT SECTION */
 
-    .contact-box {
-        width: 75%;
-    }
-
     .contact__illustration {
-        display: none;
-    }
-
-    .contact__illustration {
-        display: none;
+        
     }
 
     .contact-button {
@@ -1556,40 +1589,40 @@
 
 @media only screen and (max-width: 20em) {
 
-     /* NAVIGATION */
+    /* NAVIGATION */
 
-     nav {}
+    nav {}
 
-     .navigation {
-         padding: 0px 0px;
-     }
- 
-     .navigation .logo {
-         font-size: 1.2rem;
-         padding: 60px 0 5px 0;
-     }
- 
-     .navigation__items {
-         display: flex;
-     }
- 
-     .navigation__items a {
-         margin: 0 5px;
-         font-size: .8rem;
-     }
- 
-     .navigation__items a:hover {
-         margin-top: -3px;
-     }
- 
-     .navigation__scroll .logo {
-         font-size: 1.2rem;
-         padding: 20px 0;
-     }
- 
-     .navigation__scroll .navigation__items a {
-         font-size: .8rem;
-     }
+    .navigation {
+        padding: 0px 0px;
+    }
+
+    .navigation .logo {
+        font-size: 1.2rem;
+        padding: 60px 0 5px 0;
+    }
+
+    .navigation__items {
+        display: flex;
+    }
+
+    .navigation__items a {
+        margin: 0 5px;
+        font-size: .8rem;
+    }
+
+    .navigation__items a:hover {
+        margin-top: -3px;
+    }
+
+    .navigation__scroll .logo {
+        font-size: 1.2rem;
+        padding: 20px 0;
+    }
+
+    .navigation__scroll .navigation__items a {
+        font-size: .8rem;
+    }
 
     /* .navigation__logo {
         font-size: 1.2rem;
@@ -1712,12 +1745,12 @@
     .skill__content--stack:nth-child(12) {
         top: 2.5rem;
         left: 12rem;
-      }
-      
-      .skill__content--stack:nth-child(13) {
+    }
+
+    .skill__content--stack:nth-child(13) {
         top: 6rem;
         left: 18rem;
-      }
+    }
 
     /* PROJECT SECTION */
 
@@ -1733,12 +1766,8 @@
 
     /* CONTACT SECTION */
 
-    .contact-box {
-        width: 85%;
-    }
-
     .contact__illustration {
-        display: none;
+        
     }
 
     /* FOOTER */
@@ -1746,5 +1775,5 @@
     footer p {
         color: var(--color-white);
         font-size: 1.2rem;
-      }
+    }
 }

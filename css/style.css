@@ -1007,6 +1007,7 @@ nav {
 
 .contact {
   display: flex;
+  align-items: center;
   min-height: 94.35vh;
   max-width: 100%;
   margin: auto;
@@ -1020,6 +1021,7 @@ nav {
   height: 70.5rem;
   max-width: 100%;
 }
+
 
 .contact-header {
   display: flex;
@@ -1068,17 +1070,15 @@ nav {
 }
 
 .contact__illustration {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 70.5rem;
   width: 68.5rem;
-  float: right;
 }
 
 .contact__illustration img {
-  position: absolute;
-  width: 50rem;
-  top: 18.5rem;
-  left: 10rem;
+  width: 70%;
 }
 
 /**********************************************
