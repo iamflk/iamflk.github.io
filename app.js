@@ -107,16 +107,16 @@ var Typed = new Typed("#row", options);
 
 /* SKILLS */
 
-const parent = document.querySelector('.skill__overlay');
-const enfant = document.querySelector('.skill__content--stack');
+// const parent = document.querySelector('.skill__overlay');
+// const enfant = document.querySelector('.skill__content--stack');
 
-parent.addEventListener('mouseenter', () => {
-  parent.style.backgroundColor = 'white';
-  enfant.classList.add('animated-skill')
-  enfant.classList.add('scale')
-});
+// parent.addEventListener('mouseenter', () => {
+//   // parent.style.backgroundColor = 'white';
+//   enfant.classList.add('animated-skill')
+//   enfant.classList.add('scale')
+// });
 
-parent.addEventListener('mouseleave', () => {
-  enfant.classList.remove('animated-skill')
-  enfant.classList.remove('scale')
-});
+// parent.addEventListener('mouseleave', () => {
+//   enfant.classList.remove('animated-skill')
+//   enfant.classList.remove('scale')
+// });
