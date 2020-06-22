@@ -105,10 +105,18 @@ var options = {
 };
 var Typed = new Typed("#row", options);
 
+/* SKILLS */
 
-// let skillBox = document.querySelector('.skill__content--box');
-// let skillStack = document.querySelector('p');
+const parent = document.querySelector('.skill__overlay');
+const enfant = document.querySelector('.skill__content--stack');
 
-// skillStack.addEventListener('click', () => {
-//   skillBox.style.backgroundColor = "green";
-// });
+parent.addEventListener('mouseenter', () => {
+  parent.style.backgroundColor = 'white';
+  enfant.classList.add('animated-skill')
+  enfant.classList.add('scale')
+});
+
+parent.addEventListener('mouseleave', () => {
+  enfant.classList.remove('animated-skill')
+  enfant.classList.remove('scale')
+});
