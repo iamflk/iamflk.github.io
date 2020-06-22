@@ -702,19 +702,6 @@
         width: 4rem;
     }
 
-    #icon-arrow {
-        height: 35px;
-        width: 35px;
-        line-height: 8rem;
-        top: 35rem;
-    }
-
-    .arrow {
-        width: 2rem;
-        height: 2rem;
-        margin-top: 5px;
-    }
-
     /* ABOUT SECTION */
 
     .about {
@@ -1042,7 +1029,7 @@
     .hero-text h1 {
         font-size: 3.5rem;
         line-height: 4.5rem;
-        margin-bottom: 8.5rem;
+        margin-bottom: 10rem;
     }
 
     .hero-text img {
