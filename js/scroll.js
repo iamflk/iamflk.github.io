@@ -7,6 +7,9 @@ window.addEventListener('scroll', function(){
   
   // SCROLL LINK NAV
   
+  // document.querySelector('#link-home').addEventListener('click', () =>{
+  //   document.querySelector('html, body').classList.add('animate')
+  // })
     $("#link-home").click(function () {
       $("html, body").animate({
         scrollTop: $(".home").offset().top

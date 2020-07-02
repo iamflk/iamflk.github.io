@@ -582,20 +582,27 @@ nav {
 }
 
 .about__btn a {
-  border-radius: 2.5rem;
-  border: none;
   font-size: 1.55rem;
   text-decoration: none;
   padding: 1rem 2rem;
   margin: 1rem;
   color: var(--color-white);
   background: var(--color-secondary);
+  border-radius: 2.5rem;
+  transition: all .6s;
+  -webkit-transition: all .6s;
+  -moz-transition: all .6s;
+  -ms-transition: all .6s;
+  -o-transition: all .6s;
 }
 
-/* .about__btn a:hover {
-  transition: background-color 0.4s;
-  background: var(--color-primary-light);
-} */
+.about__btn a:hover {
+  transform: translateY(-4px);
+  -webkit-transform: translateY(-4px);
+  -moz-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  -o-transform: translateY(-4px);
+}
 
 .about__btn a:nth-child(1) {
   margin-left: 6rem;
@@ -708,8 +715,8 @@ nav {
   font-family: 'Text Me One', sans-serif;
   font-size: 1.8rem;
   position: absolute;
-  /* top: 1rem;
-  left: 27rem; */
+  top: 1rem;
+  left: 27rem;
 }
 
 .skill__content--stack:nth-child(2) {
@@ -1051,13 +1058,13 @@ nav {
 .contact-button {
   padding: 10px 30px;
   border-radius: 61px;
-  box-shadow: inset 0 0 0 2px #d4d6d8;
+  box-shadow: inset 0 0 0 2px var(--color-secondary);
   transition: 300ms box-shadow cubic-bezier(0.4, 0, 0.6, 1), 300ms background-color cubic-bezier(0.4, 0, 0.6, 1), 300ms color cubic-bezier(0.4, 0, 0.6, 1);
   color: #31859bff;
 }
 
 .contact-button:hover {
-  box-shadow: inset 0 0 0 4px #d4d6d8;
+  box-shadow: inset 0 0 0 4px var(--color-secondary);
   ;
 }
 
@@ -1168,12 +1175,12 @@ footer p {
 
 .fade {
   opacity: 0;
-  animation: fade-in-right ease 2s forwards;
-  -webkit-animation: fade-in-right ease 2s forwards;
+  animation: fade-in-right ease .5s forwards;
+  -webkit-animation: fade-in-right ease .5s forwards;
 }
 
 .fade {
-  animation-delay: 2s;
+  animation-delay: .5s;
 }
 
 .fadet {
@@ -1185,7 +1192,7 @@ footer p {
   transform-origin: left;
   animation: grow-left cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s forwards;
   -webkit-animation: grow-left cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s forwards;
-  animation-delay: 2.3s;
+  animation-delay: .8s;
 }
 
 
@@ -1194,7 +1201,7 @@ footer p {
   animation: moveInBottom .5s ease-out .75s;
   -webkit-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
-  animation-delay: 2.6s;
+  animation-delay: 1s;
 }
 
 @keyframes moveInBottom {
@@ -1219,7 +1226,7 @@ footer p {
   animation: appearing .5s ease-out .75s;
   -webkit-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
-  animation-delay: 2.8s;
+  animation-delay: 1.1s;
 }
 
 @keyframes appearing {
@@ -1355,7 +1362,7 @@ footer p {
   position: relative;
   border-radius: 4px;
   background: var(--color-white);
-  -webkit-animation: scrollWheel 2s infinite;
+  animation: scrollWheel 2s infinite;
   animation-duration: .7s;
   animation-iteration-count: infinite;
   box-sizing: border-box;
@@ -1406,7 +1413,9 @@ footer p {
   opacity: 0;
   -webkit-transition: top 0s ease .35s, opacity .35s ease;
   -moz-transition: top 0s ease .35s, opacity .35s ease;
-  transition: top 0s ease .35s, opacity .35s ease
+  transition: top 0s ease .35s, opacity .35s ease;
+  -ms-transition: top 0s ease .35s, opacity .35s ease;
+  -o-transition: top 0s ease .35s, opacity .35s ease;
 }
 
 .loading #preloader {
