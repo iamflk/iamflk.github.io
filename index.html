@@ -27,7 +27,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
-<body class="loading">
+<body>
     <div class="banner">
         <ul class="circles">
             <li></li>
@@ -77,7 +77,7 @@
         </div>
         <div class="about__content">
             <div>
-                <h1>Je suis <span class="title-color">CapiCode</span>
+                <h1>Je suis <span class="high">CapiCode</span>
                     <span class="" id="row"></span></h1>
             </div>
             <div>
@@ -98,14 +98,17 @@
             </div>
             <div class="about__box-social">
                 <div>
-                    <a href="https://github.com/CapiCode" target="_blank">
-                        <img src="img/github.svg" alt="" class="logo-animated "></a>
-                    <span class="desc-github">Github</span>
+                    <a href="https://github.com/CapiCode" target="_blank" class="logo-animated">
+                        <img src="img/github.svg" alt="">
+                        <span class="desc-github">Github</span>
+                    </a>
                 </div>
                 <div>
-                    <a href="https://www.linkedin.com/in/giovanni-charles-edouard-a15337179" target="_blank">
-                        <img src="img/linkedin.svg" alt="" class="logo-animated "></a>
-                    <span class="desc-linkedin">LinkedIn</span>
+                    <a href="https://www.linkedin.com/in/giovanni-charles-edouard-a15337179" target="_blank"
+                        class="logo-animated">
+                        <img src="img/linkedin.svg" alt="">
+                        <span class="desc-linkedin">LinkedIn</span>
+                    </a>
                 </div>
             </div>
             <div class="about__btn">
@@ -144,9 +147,7 @@
             </div>
             <div class="project__content">
                 <h3>Chat</h3>
-                <p class="desc">Chat permet de discuter en ligne avec des utilisateurs via divers salons.
-
-                </p>
+                <p class="desc">Chat permet de discuter en ligne avec des utilisateurs via divers salons.</p>
                 <div class="project__box--stack">
                     <p class="highlith-stack">HTML</p>
                     <p class="highlith-stack">CSS</p>
@@ -154,8 +155,10 @@
                     <p class="highlith-stack">PHP</p>
                 </div>
                 <div class="project__box--link">
-                    <img src="img/project/loading.png" class="icon-merge logo-animated " alt="Source">
-                    <a href="#project" class="btn-project">En cours</a>
+                    <a href="#">
+                        <img src="img/project/load.svg" class="icon-merge" alt="Source">
+                        <span>En cours ⇢</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -176,8 +179,10 @@
                     <p class="highlith-stack">PHP</p>
                 </div>
                 <div class="project__box--link">
-                    <img src="img/project/loading.png" class="icon-merge logo-animated " alt="Source">
-                    <a href="#project" class="btn-project">En cours</a>
+                    <a href="#">
+                        <img src="img/project/load.svg" class="icon-merge" alt="Source">
+                        <span>En cours ⇢</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -201,11 +206,10 @@
                     <p class="highlith-stack">Javascript</p>
                 </div>
                 <div class="project__box--link">
-                    <img src="img/project/merge.png" class="icon-merge logo-animated " alt="Source">
-                    <a href="https://github.com/CapiCode/capicode.github.io" class="btn-project" target="_blank">Voir la
-                        Source ⇢</a>
-                    <img src="img/project/world.png" class="icon-world logo-animated " alt="Website">
-                    <a href="https://capicode.github.io/" class="btn-project">Visiter ⇢</a>
+                    <a href="https://github.com/CapiCode/capicode.github.io" target="_blank">
+                        <img src="img/project/merge.svg" class="icon-merge" alt="Source">
+                        <span>Voir la Source ⇢</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -232,18 +236,12 @@
         <div class="index"><img src="img/index.png" class="fas fa-angle-double-up logo-animated"></img></div>
     </button>
     <footer>
-        <p>Tous droits réservés | © 2020 | CapiCode 👻</p>
+        <p>Tous droits réservés | © <span id="year"></span> | CapiCode 👻</p>
     </footer>
 
-    <!-- <div id="overlay"></div>
-    <div id="preloader">
-        <img src="img/loadreb.svg" alt="">
-    </div> -->
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
-    <!-- <script defer src="js/app.js"></script> -->
     <script defer src="js/scroll.js"></script>
-    <!-- <script defer src="js/load.js"></script> -->
+    <script defer src="js/year.js"></script>
     <script defer src="js/typewriter.js"></script>
 </body>
 
