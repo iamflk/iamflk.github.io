@@ -579,19 +579,6 @@ nav {
   color: var(--color-white);
   background: var(--color-secondary);
   border-radius: 2.5rem;
-  transition: all .6s;
-  -webkit-transition: all .6s;
-  -moz-transition: all .6s;
-  -ms-transition: all .6s;
-  -o-transition: all .6s;
-}
-
-.about__btn a:hover {
-  transform: translateY(-4px);
-  -webkit-transform: translateY(-4px);
-  -moz-transform: translateY(-4px);
-  -ms-transform: translateY(-4px);
-  -o-transform: translateY(-4px);
 }
 
 .about__btn a:nth-child(1) {
