@@ -1727,6 +1727,17 @@
 
     /* PROJECT SECTION */
 
+    .project__box--stack{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .project__box--stack p{
+        text-align: center;
+        font-size: .85rem;
+    }
+
     .project__box--link {
         margin: 0 auto;
     }
