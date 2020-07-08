@@ -12,19 +12,9 @@
     <meta property="og:title" content="CapiCode - Portfolio">
     <title>CapiCode</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Cabin:300,400,600,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?sfamily=Press+Start+2P&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Hi+Melody&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Atomic+Age&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Text+Me+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Bahiana&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mq.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -56,10 +46,10 @@
                 <a href="#home" class="fade logo" id="link-home">
                     < CapiCode /></a>
                 <div class="navigation__items">
-                    <a href="#about" class="bord fadet" id="link-about">A propos</a>
-                    <a href="#skill" class="bord fadet" id="link-skill">Compétences</a>
-                    <a href="#projects" class="bord fadet" id="link-project">Projets</a>
-                    <a href="#contact" class="bord fadet" id="link-contact">Contact</a>
+                    <a href="#about"    data-target="about" class="bord fadet" id="link-about">A propos</a>
+                    <a href="#skill"    data-target="skill" class="bord fadet" id="link-skill">Compétences</a>
+                    <a href="#project" data-target="project" class="bord fadet" id="link-project">Projets</a>
+                    <a href="#"         data-target="contact" class="bord fadet btn-scroll-into" id="link-contact">Contact</a>
                 </div>
             </div>
         </nav>
@@ -236,7 +226,7 @@
         <div class="index"><img src="img/index.png" class="fas fa-angle-double-up btn-animate"></img></div>
     </button>
     <footer>
-        <p>Tous droits réservés | © <span id="year"></span> | CapiCode 👻</p>
+        <p>CapiCode 👻 <span id="year"></span></p>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
