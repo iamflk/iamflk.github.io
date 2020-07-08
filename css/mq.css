@@ -180,7 +180,6 @@
         display: flex;
         height: 22rem;
         min-width: 54rem;
-        /* width: 100%; */
         position: relative;
     }
 
@@ -188,8 +187,6 @@
         padding: 10px 30px;
         border-radius: 61px;
     }
-
-
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -235,10 +232,6 @@
     }
 
     /* ABOUT SECTION */
-
-    .about {
-        /* flex-direction: column; */
-    }
 
     .about__content {
         width: 100%;
@@ -421,8 +414,6 @@
 
     /* NAVICATION */
 
-    nav {}
-
     .navigation {
         padding: 0px 30px;
     }
@@ -450,6 +441,7 @@
     }
 
     /* HOME SECTION */
+
     .hero-text h1 {
         font-size: 3.5rem;
         line-height: 8rem;
@@ -479,7 +471,7 @@
         border-bottom: 7px solid #fff;
     }
 
-    /* ANOUT SECTION */
+    /* ABOUT SECTION */
 
     .about {
         flex-direction: column;

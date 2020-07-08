@@ -7,14 +7,16 @@ window.addEventListener('scroll', function(){
   
   // SCROLL LINK NAV
   
-  // document.querySelector('#link-home').addEventListener('click', () =>{
-  //   document.querySelector('html, body').classList.add('animate')
-  // })
-    $("#link-home").click(function () {
-      $("html, body").animate({
-        scrollTop: $(".home").offset().top
-      }, 1000);
-    });
+  
+  $("#link-home").click(function () {
+    $("html, body").animate({
+      scrollTop: $(".home").offset().top
+    }, 1000);
+  });
+  
+  document.querySelector('#link-home').addEventListener('click', () =>{
+    document.querySelector('html, body').classList.add('animate')
+  })
   
     $("#link-about").click(function () {
       $("html, body").animate({
@@ -46,9 +48,6 @@ window.addEventListener('scroll', function(){
         scrollTop: $("section.project").offset().top
       }, 1000);
     });
-  
-
-    // SCROLL BUTTON
 
     // BUTTON SCROLL TOP
 const backToTopButton = document.querySelector("#btn-top");
