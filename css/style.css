@@ -1005,7 +1005,7 @@ footer {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 1.7rem;
+  padding: 1rem;
   background: var(--color-primary);
 }
 
