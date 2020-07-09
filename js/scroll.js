@@ -12,9 +12,11 @@ window.addEventListener('scroll', function(){
   })
 
   const links = document.querySelectorAll(".navigation__items a");
+  const arrowBottom = document.querySelector('#arrow');
 
 for (const link of links) {
   link.addEventListener("click", clickHandler);
+  arrowBottom.addEventListener("click", clickHandler);
 }
 
 function clickHandler(e) {
