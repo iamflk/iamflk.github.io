@@ -67,9 +67,6 @@ main {
   margin: auto;
 }
 
-
-
-
 /**********************************************
               *** HOME ***
 **********************************************/
@@ -209,7 +206,6 @@ nav {
   cursor: pointer;
 }
 
-
 .hero-icon {
   height: 10rem;
 }
@@ -268,7 +264,6 @@ nav {
     opacity: 0;
   }
 }
-
 
 /**********************************************
             *** HOME SECTION *** - END
@@ -514,8 +509,8 @@ nav {
 
 .about__content p {
   max-width: 100%;
-  font-size: 1.7rem;
-  line-height: 2.5rem;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
   letter-spacing: .02rem;
   text-align: justify;
   margin: 0 5rem;
@@ -961,7 +956,7 @@ nav {
 
 .contact-header-intro {
   font-size: 1.8rem;
-  line-height: 25px;
+  line-height: 2.8rem;
   text-align: center;
   width: 80%;
   margin-bottom: 15px;
