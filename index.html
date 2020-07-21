@@ -20,45 +20,23 @@
 </head>
 
 <body>
-    <div class="banner">
-        <ul class="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
     <section class="home">
         <nav>
             <div class="navigation">
                 <a href="#home" class="fade logo" id="link-home">< CapiCode /></a>
                 <div class="navigation__items">
-                    <a href="#about"    class="bord fadet">A propos</a>
-                    <a href="#skill"    class="bord fadet">Compétences</a>
-                    <a href="#project"  class="bord fadet">Projets</a>
-                    <a href="#contact"  class="bord fadet">Contact</a>
+                    <a href="#about"    class="fadet">A propos</a>
+                    <a href="#skill"    class="fadet">Compétences</a>
+                    <a href="#project"  class="fadet">Projets</a>
+                    <a href="#footer"   class="fadet">Contact</a>
                 </div>
             </div>
         </nav>
         <div class="hero-text animated" id="hero-text">
-            <h1>Bienvenue<img src="img/hand.png" class="viber" alt="Icône de main"></h1>
+            <h1><span>Salut ! Je suis <span class="hilight-title">Giovanni</span>,</span><span class="intro-end">un étudiant autodidacte<img src="img/hand.png" class="viber" alt="Icône de main"></span></h1>
         </div>
         <div class="hero-icon appearingArrow">
-            <a href="#about" id="arrow"><span></span></a>
+            <a href="#about" id="arrow-about"><span></span></a>
         </div>
     </section>
     <section class="about" id="about">
@@ -66,44 +44,41 @@
             <img src="img/online.svg" alt="illustration Section A propos">
         </div>
         <div class="about__content">
-            <div>
-                <h1>Je suis <span class="high">CapiCode</span>
-                    <span id="row"></span>👻</h1>
-            </div>
+                <h1>👻A Propos de moi <span id="row"></span></h1>
             <div>
                 <p>
-                    Tombé par hasard dans <span class="highlith">l'univers du code</span>, j'ai commencé par créer
+                    Tombé par hasard dans l'univers du code, j'ai commencé par créer
                     des morceaux de codes par curiosité,
-                    aujourd'hui je réalise avec passion de <span class="highlith">petites créations</span> pour donner
+                    aujourd'hui je réalise avec passion de petites créations pour donner
                     vie à mes idées.
-                    Actuellement, je suis en formation de <span class="highlith">Technicien
-                        Développeur</span> axé sur le <span class="highlith">développement web, mobile</span> et la
-                    <span class="highlith">gestion de projets</span>.
-                    Passionné par le web, j'aime régulièrement <span class="highlith">apprendre</span> de nouvelles choses, de façon à rester en <span
-                        class="highlith">veille permanente</span>.
+                    Actuellement, je suis en formation deTechnicien
+                        Développeur axé sur le développement web, mobile et la
+                    gestion de projets.
+                    Passionné par le web, j'aime régulièrement apprendre de nouvelles choses, de façon à rester en veille permanente.
                     
                 </p>
             </div>
             <div class="about__box-social">
                 <div>
                     <a href="https://github.com/CapiCode" target="_blank" class="logo-animated">
-                        <img src="img/github.svg" alt="Icône Github">
-                        <span class="desc-github">Github</span>
+                        <img src="img/github2.png" alt="Icône Github">
                     </a>
                 </div>
                 <div>
                     <a href="https://www.linkedin.com/in/giovanni-charles-edouard-a15337179" target="_blank"
                         class="logo-animated">
-                        <img src="img/linkedin.svg" alt="Icône LinkedIn ">
-                        <span class="desc-linkedin">LinkedIn</span>
+                        <img src="img/linkedin.png" alt="Icône LinkedIn">
                     </a>
                 </div>
             </div>
             <div class="about__btn">
                 <a href="cv/CV_Giovanni_CHARLES-EDOUARD.pdf" target="_blank">Voir mon CV ⇢</a>
-                <a href="#" id="see-project">Consultez mes projets ⇢</a>
+                <a href="#project" id="see-project">Consultez mes projets ⇢</a>
             </div>
             
+        </div>
+        <div class="about-icon appearingArrow">
+            <a href="#skill" id="arrow-skill"><span></span></a>
         </div>
     </section>
     <section class="skill" id="skill">
@@ -127,6 +102,9 @@
                 </div>
             </div>
         </div>
+        <div class="hero-icon appearingArrow">
+            <a href="#project" id="arrow-project"><span></span></a>
+        </div>
     </section>
 
     <section class="project" id="project">
@@ -145,7 +123,7 @@
                 </div>
                 <div class="project__box--link">
                     <a href="#project">
-                        <img src="img/project/load.svg" class="icon-merge" alt="Source">
+                        <img src="img/project/loading.png" class="icon-merge" alt="Source">
                         <span>En cours ⇢</span>
                     </a>
                 </div>
@@ -169,7 +147,7 @@
                 </div>
                 <div class="project__box--link">
                     <a href="#project">
-                        <img src="img/project/load.svg" class="icon-merge" alt="Source">
+                        <img src="img/project/loading.png" class="icon-merge" alt="Source">
                         <span>En cours ⇢</span>
                     </a>
                 </div>
@@ -194,11 +172,14 @@
                 </div>
                 <div class="project__box--link">
                     <a href="https://github.com/CapiCode/capicode.github.io" target="_blank">
-                        <img src="img/project/merge.svg" class="icon-merge" alt="Source">
+                        <img src="img/project/source.png" class="icon-merge" alt="Source">
                         <span>Voir la Source ⇢</span>
                     </a>
                 </div>
             </div>
+        </div>
+        <div class="project-icon appearingArrow">
+            <a href="#contact" id="arrow-contact"><span></span></a>
         </div>
     </section>
     <section class="contact" id="contact">
@@ -222,13 +203,14 @@
     <button id="btn-top">
         <div class="index"><img src="img/index.png" class="fas fa-angle-double-up btn-animate" alt="Icône Doigt levé"></img></div>
     </button>
-    <footer>
-        <p>CapiCode 👻 <span id="year"></span></p>
+    <footer id="footer">
+        <p>CapiCode 🧪 <span id="year"></span></p>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
     <script defer src="js/scroll.js"></script>
     <script defer src="js/year.js"></script>
+    <script defer src="js/link.js"></script>
 </body>
 
 </html>

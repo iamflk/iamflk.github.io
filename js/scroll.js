@@ -12,11 +12,19 @@ window.addEventListener('scroll', function(){
   })
 
   const links = document.querySelectorAll(".navigation__items a");
-  const arrowBottom = document.querySelector('#arrow');
+  const arrowAbout = document.querySelector('#arrow-about');
+  const arrowSkill = document.querySelector('#arrow-skill');
+  const arrowProject = document.querySelector('#arrow-project');
+  const arrowContact = document.querySelector('#arrow-contact');
+  const seeProject = document.querySelector('#see-project');
 
 for (const link of links) {
   link.addEventListener("click", clickHandler);
-  arrowBottom.addEventListener("click", clickHandler);
+  arrowAbout.addEventListener("click", clickHandler);
+  arrowSkill.addEventListener("click", clickHandler);
+  arrowProject.addEventListener("click", clickHandler);
+  arrowContact.addEventListener("click", clickHandler);
+  seeProject.addEventListener("click", clickHandler);
 }
 
 function clickHandler(e) {
