@@ -204,15 +204,15 @@ nav {
   width: 60%;
 }
 
-.hero-text span{
+.hero-text span {
   display: inline-block;
 }
 
-.intro-end{
+.intro-end {
   position: relative;
 }
 
-.intro-end::after{
+.intro-end::after {
   content: '';
   height: .5rem;
   right: 5.8rem;
@@ -222,7 +222,7 @@ nav {
   background: var(--color-secondary);
 }
 
-.hilight-title{
+.hilight-title {
   font-weight: bold;
   color: var(--color-secondary);
 }
@@ -282,7 +282,7 @@ nav {
   z-index: 999;
 }
 
-@-webkit-keyframes pulse {
+@keyframes pulse {
   0% {
     -webkit-transform: rotate(-45deg) translate(0, 0);
     opacity: 0;
@@ -332,7 +332,7 @@ nav {
   color: var(--color-white-second);
 }
 
-.about__content h1::after{
+.about__content h1::after {
   content: '';
   height: .3rem;
   left: .5rem;
@@ -534,7 +534,7 @@ nav {
   color: var(--color-white-second);
 }
 
-.skill__content h3::after{
+.skill__content h3::after {
   content: '';
   height: .3rem;
   left: .5rem;
@@ -787,7 +787,7 @@ nav {
 
 .project__box--link img {
   height: 3rem;
-  width:  3rem;
+  width: 3rem;
 }
 
 .project__box--link span {
@@ -950,16 +950,67 @@ nav {
 footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  padding: 1rem;
+  height: 15vh;
   background: var(--color-primary);
 }
 
-footer p {
-  font-size: 2.1rem;
-  padding: 1rem .8rem;
+.footer__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50%;
+  width: 90%;
+}
+
+
+.footer__title h3 {
+  font-size: 2.5rem;
   color: var(--color-white);
-  background: var(--color-grey-dark);
+}
+
+
+.footer__contact {
+  padding: 2rem 1rem;
+}
+
+.footer__contact p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.footer__contact h4,
+.footer__platform h4 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: var(--color-white);
+}
+
+footer p {
+  color: var(--color-white);
+}
+
+.footer__platform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.footer__platform a{
+  outline: none;
+}
+
+.footer__platform img{
+  margin: .5rem .5rem 0;
+  width: 25px;
+  height: 100%;
+}
+
+.year{
+  font-size: 2.5rem;
+  color: var(--color-white);
 }
 
 /**********************************************
@@ -1276,5 +1327,3 @@ footer p {
     transform: translateY(0);
   }
 }
-
-
