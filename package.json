@@ -4,7 +4,8 @@
   "description": "My first personal website open-source  👻",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "all-shields-cli": "all-shields-generate"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/CapiCode/capicode/issues"
   },
-  "homepage": "https://github.com/CapiCode/capicode#readme"
+  "homepage": "https://github.com/CapiCode/capicode#readme",
+  "devDependencies": {}
 }
