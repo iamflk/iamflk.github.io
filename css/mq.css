@@ -635,8 +635,8 @@
 
     /* SKILL SECTION */
 
-    .skill__content h3::after {
-        top: 4.5rem;
+    .skill__content-title h3::after {
+        top: 5rem;
         width: 4.5rem;
     }
 
@@ -773,7 +773,7 @@
 
     /* SKILL SECTION */
 
-    .skill__content h3::after {
+    .skill__content-title h3::after {
         top: 4.5rem;
         width: 4.5rem;
     }
