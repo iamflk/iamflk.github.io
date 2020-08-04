@@ -1664,6 +1664,10 @@
 
     /* PROJECT SECTION */
 
+    .project__content {
+        padding: 0 .5rem;
+    }
+
     .project__content h3 {
         margin: 0;
         text-align: center;
@@ -1675,9 +1679,12 @@
     }
 
     .project__box--stack {
+        justify-content: center;
+        align-items: center;
         margin: 1rem auto;
         overflow: hidden;
         flex-shrink: 0;
+        width: 100%;
     }
 
     .project__box--link {
@@ -1694,10 +1701,6 @@
         padding: .7rem 1rem;
         font-size: 1.3rem;
     }
-
-    /* CONTACT SECTION */
-
-    .contact__illustration {}
 
     /* SECTION FOOTER */
 
