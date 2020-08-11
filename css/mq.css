@@ -52,7 +52,6 @@
 
     .navigation__items a:hover {
         border: none;
-        margin-top: -3px;
     }
 
     /* HOME SECTION */
@@ -209,7 +208,6 @@
     }
 
     .navigation__items a:hover {
-        margin-top: -3px;
     }
 
     .navigation__scroll .logo {
@@ -301,7 +299,6 @@
     }
 
     .navigation__items a:hover {
-        margin-top: -3px;
     }
 
     .navigation__scroll .logo {
@@ -557,10 +554,6 @@
         font-size: 2rem;
     }
 
-    .navigation__items a:hover {
-        margin-top: -3px;
-    }
-
     .navigation__scroll .logo {
         padding: 20px 0;
     }
@@ -717,10 +710,6 @@
         font-size: 1.7rem;
     }
 
-    .navigation__items a:hover {
-        margin-top: -3px;
-    }
-
     .navigation__scroll .logo {
         padding: 20px 0;
     }
@@ -854,10 +843,6 @@
     .navigation__items a {
         margin: 0 5px;
         font-size: 1.3rem;
-    }
-
-    .navigation__items a:hover {
-        margin-top: -3px;
     }
 
     .navigation__scroll .logo {
@@ -1249,10 +1234,6 @@
         font-size: 1rem;
     }
 
-    .navigation__items a:hover {
-        margin-top: -3px;
-    }
-
     .navigation__scroll .logo {
         padding: 20px 0;
     }
@@ -1530,10 +1511,6 @@
         font-size: 1rem;
     }
 
-    .navigation__items a:hover {
-        margin-top: -3px;
-    }
-
     .navigation__scroll .logo {
         font-size: 1.5rem;
         padding: 20px 0;
@@ -1756,10 +1733,6 @@
         font-size: 1rem;
     }
 
-    .navigation__items a:hover {
-        margin-top: -3px;
-    }
-
     .navigation__scroll .logo {
         font-size: 1.2rem;
         padding: 20px 0;
@@ -1968,10 +1941,6 @@
     .navigation__items a {
         margin: 0 5px;
         font-size: .8rem;
-    }
-
-    .navigation__items a:hover {
-        margin-top: -3px;
     }
 
     .navigation__scroll .logo {
