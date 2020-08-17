@@ -708,6 +708,8 @@
     .navigation__items a {
         margin: 0 5px;
         font-size: 1.7rem;
+        outline-style: none;
+        outline: none;
     }
 
     .navigation__scroll .logo {
@@ -716,6 +718,8 @@
 
     .navigation__scroll .navigation__items a {
         font-size: 1.7rem;
+        outline-style: none;
+        outline: none;
     }
 
     /* HOME SECTION */
