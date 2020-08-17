@@ -807,6 +807,17 @@ nav {
 .project__illustration {
   height: 25rem;
   flex: 40% 1;
+  opacity: 0.8;
+  transition: opacity .4s ease-out;
+  -webkit-transition: opacity .4s ease-out;
+  -moz-transition: opacity .4s ease-out;
+  -ms-transition: opacity .4s ease-out;
+  -o-transition: opacity .4s ease-out;
+}
+
+.project__illustration:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .project__illustration img {
