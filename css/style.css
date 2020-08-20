@@ -587,10 +587,10 @@ nav {
 
 .skill__content--stack:nth-child(1) {
   font-family: 'Text Me One', sans-serif;
-  font-size: 1.8rem;
+  font-size: 2rem;
   position: absolute;
   top: 1rem;
-  left: 27rem;
+  left: 20rem;
 }
 
 .skill__content--stack:nth-child(2) {
@@ -603,8 +603,8 @@ nav {
 .skill__content--stack:nth-child(3) {
   font-family: 'Bahiana', sans-serif;
   position: absolute;
-  top: 12rem;
-  left: 30rem;
+  top: 11rem;
+  left: 32rem;
 }
 
 .skill__content--stack:nth-child(4) {
@@ -666,15 +666,8 @@ nav {
 .skill__content--stack:nth-child(12) {
   font-family: 'Lato', sans-serif;
   position: absolute;
-  top: 2.5rem;
-  left: 15.5rem;
-}
-
-.skill__content--stack:nth-child(13) {
-  font-family: 'Major Mono Display', sans-serif;
-  position: absolute;
-  top: 6rem;
-  left: 22rem;
+  top: 5rem;
+  left: 23rem;
 }
 
 @keyframes heartbeat {
