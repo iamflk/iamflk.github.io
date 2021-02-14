@@ -9,6 +9,6 @@
 
 ## 🌐 A propos
 
-Ce portfolio open-source a pour but de mettre en valeur mes compétences ainsi que l'ensemble de mes projets [capicode.fr](https://iamflk.github.io/).
+Ce portfolio open-source a pour but de mettre en valeur mes compétences ainsi que l'ensemble de mes projets [iamflk.github.io](https://iamflk.github.io/).
 
 
