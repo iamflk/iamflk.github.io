@@ -589,13 +589,13 @@ nav {
   font-size: 2rem;
   position: absolute;
   top: 1rem;
-  left: 20rem;
+  left: 27rem;
 }
 
 .skill__content--stack:nth-child(2) {
   font-family: "Bahiana", sans-serif;
   position: absolute;
-  top: 18rem;
+  top: 20rem;
   left: 45rem;
 }
 
@@ -624,7 +624,7 @@ nav {
   font-family: "Major Mono Display", sans-serif;
   position: absolute;
   top: 17rem;
-  left: 31rem;
+  left: 77rem;
 }
 
 .skill__content--stack:nth-child(7) {
@@ -651,7 +651,7 @@ nav {
 .skill__content--stack:nth-child(10) {
   font-family: "Atomic Age", sans-serif;
   position: absolute;
-  top: 9rem;
+  top: 10.1rem;
   left: 8rem;
 }
 
@@ -663,10 +663,16 @@ nav {
 }
 
 .skill__content--stack:nth-child(12) {
-  font-family: "Lato", sans-serif;
+  font-family: "Major Mono Display", sans-serif;
   position: absolute;
   top: 5rem;
-  left: 23rem;
+  left: 27.8rem;
+}
+.skill__content--stack:nth-child(13) {
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  top: 5.6rem;
+  left: 12.6rem;
 }
 
 @keyframes heartbeat {
